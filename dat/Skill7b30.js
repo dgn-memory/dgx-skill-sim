@@ -234,72 +234,72 @@
 }]);
 	
 	fighter.skill[8] = new Skill("./img_p/war/frosthammer.webp","ACTIVE","<font color='#8e6aac'>Icecold Heart</font>","10",[8,7],[{id:7,lv:2},{id:9,lv:1}],[{
-		level:7,sp:10,mp:10,power:"50.0%+300",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 5 enemy targets with a ice hammer to damage and cast Lv 2 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 50% chance. "		
+	level:7,sp:10,mp:10,power:"50.0%+300",casttime:0,cooltime:2,duration:undefined,
+		description:"โจมตีศัตรูสูงสุด 5 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 2 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 50% "		
 	},{
 		level:10,sp:10,mp:13,power:"56.0%+325",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 7 enemy targets with a ice hammer to damage and cast Lv 2 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 55% chance. "			
+		description:"โจมตีศัตรูสูงสุด 7 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 2 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 55% "			
 	},{
 		level:13,sp:10,mp:16,power:"62.0%+350",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 9 enemy targets with a ice hammer to damage and cast Lv 2 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 60% chance. "			
+		description:"โจมตีศัตรูสูงสุด 9 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 2 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 60% "			
 	},{
 		level:16,sp:10,mp:19,power:"68.0%+375",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 9 enemy targets with a ice hammer to damage and cast Lv 2 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 65% chance. "			
+		description:"โจมตีศัตรูสูงสุด 9 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 2 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 65% "			
 	},{
 		level:19,sp:10,mp:22,power:"75.0%+400",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 13 enemy targets with a ice hammer to damage and cast Lv 2 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 70% chance. "			
+		description:"โจมตีศัตรูสูงสุด 13 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 2 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 70% "			
 	},{
 		level:"CARD",sp:10,mp:25,power:"80.0%+425 ",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 14 enemy targets with a ice hammer to damage and cast Lv 3 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 75% chance. "			
+		description:"โจมตีศัตรูสูงสุด 14 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 3 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 75% "			
 	},{
 		level:"CARD",sp:10,mp:28,power:"85.0%+450",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 15 enemy targets with a ice hammer to damage and cast Lv 4 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 80% chance. "			
+		description:"โจมตีศัตรูสูงสุด 15 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 4 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 80% "			
 	},{
 		level:"CARD",sp:10,mp:31,power:"90.0%+475 ",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 16 enemy targets with a ice hammer to damage and cast Lv 5 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 85% chance. "			
+		description:"โจมตีศัตรูสูงสุด 16 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 5 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 85% "			
 	},{
 		level:"CARD",sp:10,mp:34,power:"95.0%+500",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 17 enemy targets with a ice hammer to damage and cast Lv 6 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 90% chance. "			
+		description:"โจมตีศัตรูสูงสุด 17 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 6 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 90% "			
 	},{
 		level:"CARD",sp:10,mp:37,power:"100.0%+525",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 18 enemy targets with a ice hammer to damage and cast Lv 7 Ice Freezing effect - Victims movement speed, attack speed, Physical and Magical Defense Powers are decreased - with 95% chance. "			
+		description:"โจมตีศัตรูสูงสุด 18 เป้าหมายด้วยค้อนน้ำแข็ง สร้างความเสียหายและใช้เอฟเฟกต์ Ice Freezing เลเวล 7 - ความเร็วในการเคลื่อนที่, ความเร็วโจมตี, พลังป้องกันกายภาพและเวทมนตร์ของเป้าหมายจะลดลง - มีโอกาส 95% "			
 	}]);
 	
 	fighter.skill[9] = new Skill("./img_p/war/hammercrash.webp","ACTIVE","<font color='#8e6aac'>Hammer Crush</font>","10",[5,6],[],[{
 		level:5,sp:10,mp:10,power:"30.0%+200",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 50% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 50% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:8,sp:10,mp:10,power:"35.0%+230",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 55% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 55% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:11,sp:10,mp:10,power:"40.0%+260",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 60% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 60% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:14,sp:10,mp:10,power:"45.0%+290",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 65% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 65% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:17,sp:10,mp:10,power:"50.0%+320",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 70% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 70% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:"CARD",sp:10,mp:10,power:"55.0%+350",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 75% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 75% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:"CARD",sp:10,mp:10,power:"60.0%+380",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 80% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 80% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:"CARD",sp:10,mp:10,power:"65.0%+410",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 85% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 85% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:"CARD",sp:10,mp:10,power:"70.0%+440 ",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 90% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 90% ที่จะทำให้ศัตรูมึนงง "		
 	},{
 		level:"CARD",sp:10,mp:10,power:"75.0%+470",casttime:0,cooltime:2,duration:undefined,
-		description:"Smash enemies with a giant hammer with a 95% chance to stun enemies. "		
+		description:"ทุบศัตรูด้วยค้อนยักษ์ มีโอกาส 95% ที่จะทำให้ศัตรูมึนงง "		
 	}]);
 	
 	fighter.skill[10] = new Skill("./img_p/war/KnightsPower.webp","ACTIVE","<font color='#8e6aac'>Warrior's Bonds</font>","1",[5,8],[],[{
 		level:7,sp:5,mp:30,power:undefined,casttime:0,cooltime:3,duration:600,
-		description:"Increases the whole party's Physical Defense by 20%."
+		description:"เพิ่มพลังป้องกันกายภาพของปาร์ตี้ทั้งหมด 20% "
 	}]);	
 
 //Warrior - Knight - Paladin - Dragoon
@@ -311,347 +311,347 @@
 	
 	knight.skill[0] = new Skill("./img_p/kni/airsmackdown.webp","ACTIVE","<font color='#8e6aac'>Aerial Smackdown</font>","10",[2,0],[],[{
 		level:20,sp:20,mp:15,power:"50.0%+100",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 5 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 5 ตัว "		
 	},{
 		level:22,sp:20,mp:20,power:"55.0%+150",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 6 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 6 ตัว "		
 	},{
 		level:24,sp:20,mp:25,power:"60.0%+200",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 7 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 7 ตัว "		
 	},{
 		level:26,sp:20,mp:30,power:"65.0%+250",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 8 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 8 ตัว "		
 	},{
 		level:28,sp:20,mp:35,power:"70.0%+300",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 9 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 9 ตัว "		
 	},{
 		level:"CARD",sp:20,mp:40,power:"75.0%+350",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 10 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 10 ตัว "		
 	},{
 		level:"CARD",sp:20,mp:45,power:"80.0%+400",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 11 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 11 ตัว "		
 	},{
 		level:"CARD",sp:20,mp:50,power:"85.0%+450",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 12 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 12 ตัว "		
 	},{
 		level:"CARD",sp:20,mp:55,power:"90.0%+500",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 13 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 13 ตัว "		
 	},{
 		level:"CARD",sp:20,mp:60,power:"95.0%+550",casttime:0,cooltime:3,duration:undefined,
-		description:"From mid-air, dash into the ground launching 14 enemies into the air "		
+		description:"พุ่งจากกลางอากาศลงสู่พื้นดิน เพื่อกระแทกศัตรูให้ลอยขึ้นไปในอากาศจำนวน 14 ตัว "		
 	}]);
 	
 	knight.skill[1] = new Skill("./img_p/kni/shouldertackle.webp","ACTIVE","<font color='#8e6aac'>Shoulder Tackle</font>","10",[2,2],[{id:0,lv:1}],[{
 		level:20,sp:15,mp:12,power:"85.0%+200",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 5 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 5 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:23,sp:15,mp:14,power:"90.0%+215",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 6 enemies knocking them down or into the air "
+		description:"พุ่งเข้าหาศัตรู 6 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "
 	},{
 		level:26,sp:15,mp:16,power:"95.0%+230",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 7 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 7 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:29,sp:15,mp:18,power:"100.0%+245",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 8 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 8 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:32,sp:15,mp:20,power:"105.0%+260",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 9 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 9 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:"CARD",sp:15,mp:22,power:"110.0%+275 ",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 10 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 10 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:"CARD",sp:15,mp:24,power:"115.0%+300",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 11 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 11 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:"CARD",sp:15,mp:26,power:"120.0%+315 ",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 12 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 12 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:"CARD",sp:15,mp:28,power:"125.0%+330",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 13 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 13 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	},{
 		level:"CARD",sp:15,mp:30,power:"130.0%+345",casttime:0,cooltime:4,duration:undefined,
-		description:"Charge at 14 enemies knocking them down or into the air "	
+		description:"พุ่งเข้าหาศัตรู 14 ตัว ทำให้พวกเขาล้มลงหรือลอยขึ้นไปในอากาศ "	
 	}]);
 	
 	knight.skill[2] = new Skill("./img_p/kni/brushjab.webp","ACTIVE","<font color='#8e6aac'>Spear Jab</font>","10",[2,4],[{id:1,lv:1}],[{
 		level:22,sp:20,mp:40,power:"50.0%+180",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 6 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 6 ตัวล้มลง "		
 	},{
 		level:25,sp:20,mp:43,power:"60.0%+200",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 7 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 7 ตัวล้มลง "		
 	},{
 		level:28,sp:20,mp:46,power:"70.0%+220",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 8 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 8 ตัวล้มลง "		
 	},{
 		level:31,sp:20,mp:49,power:"80.0%+240",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 9 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 9 ตัวล้มลง "		
 	},{	
 		level:34,sp:20,mp:52,power:"90.0%+260",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 10 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 10 ตัวล้มลง "		
 	},{	
 		level:"CARD",sp:20,mp:55,power:"95.0%+280",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 11 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 11 ตัวล้มลง "		
 	},{	
 		level:"CARD",sp:20,mp:58,power:"100.0%+300 ",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 12 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 12 ตัวล้มลง "		
 	},{	
 		level:"CARD",sp:20,mp:61,power:"105.0%+320 	",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 13 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 13 ตัวล้มลง "		
 	},{	
 		level:"CARD",sp:20,mp:64,power:"110.0%+340",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 14 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 14 ตัวล้มลง "		
 	},{	
 		level:"CARD",sp:20,mp:67,power:"115.0%+360 	",casttime:0,cooltime:5,duration:undefined,
-		description:"A 5 combo attack with a broom that knocks 15 enemies down. "		
+		description:"การโจมตีแบบ 5 คอมโบด้วยไม้กวาดที่ทำให้ศัตรู 15 ตัวล้มลง "		
 	}]);
 	
 	knight.skill[3] = new Skill("./img_p/kni/daibutupress.webp","ACTIVE","<font color='#8e6aac'>Pressure</font>","10",[2,6],[{id:2,lv:2}],[{
 		level:27,sp:15,mp:70,power:"100.0%+140",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 8 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 8 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:30,sp:15,mp:75,power:"110.0%+180",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 9 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 9 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:33,sp:15,mp:80,power:"120.0%+220",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 10 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 10 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:36,sp:15,mp:85,power:"130.0%+260",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 11 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 11 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:39,sp:15,mp:90,power:"140.0%+300",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 12 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 12 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:"CARD",sp:15,mp:95,power:"150.0%+340",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 13 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 13 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:"CARD",sp:15,mp:100,power:"160.0%+380",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 14 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 14 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:"CARD",sp:15,mp:105,power:"170.0%+420",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 15 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 15 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:"CARD",sp:15,mp:110,power:"180.0%+460",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 16 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 16 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	},{
 		level:"CARD",sp:15,mp:115,power:"190.0%+500 ",casttime:0,cooltime:7,duration:undefined,
-		description:"Drops a heavy weight on a group of 17 enemies and launches them into the air. "		
+		description:"ปล่อยน้ำหนักมหาศาลลงบนกลุ่มศัตรู 17 ตัว และทำให้พวกเขาลอยขึ้นไปในอากาศ "		
 	}]);
 	
 	knight.skill[4] = new Skill("./img_p/kni/spinbear.webp","ACTIVE","<font color='#8e6aac'>Spin it Bear!</font>","10",[2,8],[{id:3,lv:1}],[{
 		level:32,sp:15,mp:65,power:"50.0%",casttime:0,cooltime:15,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 2 enemy targets with 1.1 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 2 เป้าหมาย โดยมีพลังโจมตี 1.1 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:33,sp:15,mp:85,power:"70.0%",casttime:0,cooltime:12,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 3 enemy targets with 1.1 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 3 เป้าหมาย โดยมีพลังโจมตี 1.1 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:35,sp:15,mp:105,power:"90.0%",casttime:0,cooltime:9,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 3 enemy targets with 1.2 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 3 เป้าหมาย โดยมีพลังโจมตี 1.2 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:37,sp:15,mp:115,power:"110.0%",casttime:0,cooltime:7,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 3 enemy targets with 1.2 times of attack power per each hit. "	
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 3 เป้าหมาย โดยมีพลังโจมตี 1.2 เท่าต่อการโจมตีแต่ละครั้ง "	
 	},{
 		level:40,sp:15,mp:125,power:"130.0%",casttime:0,cooltime:5,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 4 enemy targets with 1.3 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 4 เป้าหมาย โดยมีพลังโจมตี 1.3 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:"CARD",sp:15,mp:135,power:"135.0%",casttime:0,cooltime:5,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 5 enemy targets with 1.3 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 5 เป้าหมาย โดยมีพลังโจมตี 1.3 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:"CARD",sp:15,mp:145,power:"140.0%",casttime:0,cooltime:5,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 6 enemy targets with 1.3 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 6 เป้าหมาย โดยมีพลังโจมตี 1.3 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:"CARD",sp:15,mp:155,power:"145.0%",casttime:0,cooltime:5,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 7 enemy targets with 1.3 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 7 เป้าหมาย โดยมีพลังโจมตี 1.3 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:"CARD",sp:15,mp:165,power:"155.0%",casttime:0,cooltime:5,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 8 enemy targets with 1.3 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 8 เป้าหมาย โดยมีพลังโจมตี 1.3 เท่าต่อการโจมตีแต่ละครั้ง "		
 	},{
 		level:"CARD",sp:15,mp:175,power:"165.0%",casttime:0,cooltime:5,duration:undefined,
-		description:"Summon spirit of Bear to cast spinning attack on max 9 enemy targets with 1.3 times of attack power per each hit. "		
+		description:"เรียกวิญญาณหมีออกมาเพื่อโจมตีแบบหมุนรอบตัวศัตรูสูงสุด 9 เป้าหมาย โดยมีพลังโจมตี 1.3 เท่าต่อการโจมตีแต่ละครั้ง "		
 	}]);
 	
 	knight.skill[5] = new Skill("./img_p/kni/shieldmastery.webp","PASSIVE","<font color='#8e6aac'>Shield Mastery</font>","10",[5,0],[],[{
 		level:20,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 2% and increase Physical Defense by +50. "			
+		description:"เพิ่มอัตราการ Block 2% และเพิ่มพลังป้องกันกายภาพ +50 "			
 	},{
 		level:23,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 4% and increase Physical Defense by +80. "			
+		description:"เพิ่มอัตราการ Block 4% และเพิ่มพลังป้องกันกายภาพ +80 "			
 	},{
 		level:26,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 6% and increase Physical Defense by +110. "			
+		description:"เพิ่มอัตราการ Block 6% และเพิ่มพลังป้องกันกายภาพ +110 "			
 	},{
 		level:29,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 8% and increase Physical Defense by +140. "			
+		description:"เพิ่มอัตราการ Block 8% และเพิ่มพลังป้องกันกายภาพ +140 "			
 	},{
 		level:32,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 11% and increase Physical Defense by +170. "			
+		description:"เพิ่มอัตราการ Block 11% และเพิ่มพลังป้องกันกายภาพ +170 "			
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 15% and increase Physical Defense by +200. "			
+		description:"เพิ่มอัตราการ Block 15% และเพิ่มพลังป้องกันกายภาพ +200 "			
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 17% and increase Physical Defense by +230. "			
+		description:"เพิ่มอัตราการ Block 17% และเพิ่มพลังป้องกันกายภาพ +230 "			
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 19% and increase Physical Defense by +260. "			
+		description:"เพิ่มอัตราการ Block 19% และเพิ่มพลังป้องกันกายภาพ +260 "			
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 22% and increase Physical Defense by +290. "			
+		description:"เพิ่มอัตราการ Block 22% และเพิ่มพลังป้องกันกายภาพ +290 "			
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increase blocking rate by 25% and increase Physical Defense by +320. "			
+		description:"เพิ่มอัตราการ Block 25% และเพิ่มพลังป้องกันกายภาพ +320 "		
 
 	}]);
 	
 	knight.skill[6] = new Skill("./img_p/kni/parry.webp","ACTIVE","<font color='#8e6aac'>Parry</font>","10",[5,2],[{id:5,lv:1}],[{
 		level:22,sp:15,mp:30,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 5% increase to current blocking rate. "				
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 5% "
 	},{
 		level:25,sp:15,mp:35,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 8% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 8% "
 	},{
 		level:28,sp:15,mp:40,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 11% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 11% "
 	},{
 		level:31,sp:15,mp:45,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 14% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 14% "
 	},{
 		level:34,sp:15,mp:50,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 17% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 17% "
 	},{
 		level:"CARD",sp:15,mp:55,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 19% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 19% "
 	},{
 		level:"CARD",sp:15,mp:60,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 20% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 20% "
 	},{
 		level:"CARD",sp:15,mp:65,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 21% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 21% "
 	},{
 		level:"CARD",sp:15,mp:70,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 22% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 22% "
 	},{
 		level:"CARD",sp:15,mp:75,power:undefined,casttime:0,cooltime:30,duration:30,
-		description:"Learn blocking rate to block enemy\'s attack with sword and make it neutralized. Add 23% increase to current blocking rate. "		
+		description:"เรียนรู้อัตราการบล็อกเพื่อป้องกันการโจมตีของศัตรูด้วยดาบ เพิ่มอัตราการบล็อกปัจจุบันขึ้น 23% "
 	}]);
 	
 	knight.skill[7] = new Skill("./img_p/kni/stonehead.webp","ACTIVE","<font color='#8e6aac'>Increased Defense</font>","5",[5,4],[{id:6,lv:1}],[{
 		level:24,sp:15,mp:150,power:undefined,casttime:0.5,cooltime:30,duration:900,
-		description:"Increase size of head to give up style but increase Physical Defense by +60."		
+		description:"ขยายขนาดศีรษะเพื่อให้ดูไม่สวย แต่เพิ่มพลังป้องกันกายภาพ +60 "
 	},{
 		level:27,sp:15,mp:170,power:undefined,casttime:0.5,cooltime:30,duration:900,
-		description:"Increase size of head to give up style but increase Physical Defense by +90."		
+		description:"ขยายขนาดศีรษะเพื่อให้ดูไม่สวย แต่เพิ่มพลังป้องกันกายภาพ +90 "
 	},{
 		level:30,sp:15,mp:190,power:undefined,casttime:0.5,cooltime:30,duration:900,
-		description:"Increase size of head to give up style but increase Physical Defense by +120."		
+		description:"ขยายขนาดศีรษะเพื่อให้ดูไม่สวย แต่เพิ่มพลังป้องกันกายภาพ +120 "
 	},{
 		level:33,sp:15,mp:210,power:undefined,casttime:0.5,cooltime:30,duration:900,
-		description:"Increase size of head to give up style but increase Physical Defense by +150."		
+		description:"ขยายขนาดศีรษะเพื่อให้ดูไม่สวย แต่เพิ่มพลังป้องกันกายภาพ +150 "
 	},{
 		level:36,sp:15,mp:230,power:undefined,casttime:0.5,cooltime:30,duration:900,
-		description:"Increase size of head to give up style but increase Physical Defense by +180."		
+		description:"ขยายขนาดศีรษะเพื่อให้ดูไม่สวย แต่เพิ่มพลังป้องกันกายภาพ +180 "
 	}]);
 	
 	knight.skill[8] = new Skill("./img_p/kni/giantgrows.webp","ACTIVE","<font color='#8e6aac'>Giant Growth</font>","10",[5,6],[{id:7,lv:1}],[{
 		level:26,sp:10,mp:200,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +500 to Max HP."		
+		description:"เพิ่ม Max HP +500 "
 	},{
 		level:29,sp:10,mp:250,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +900 to Max HP."		
+		description:"เพิ่ม Max HP +900 "
 	},{
 		level:32,sp:10,mp:300,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +1300 to Max HP."		
+		description:"เพิ่ม Max HP +1300 "
 	},{
 		level:35,sp:10,mp:350,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +1700 to Max HP."		
+		description:"เพิ่ม Max HP +1700 "
 	},{
 		level:38,sp:10,mp:400,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +2100 to Max HP."
+		description:"เพิ่ม Max HP +2100 "
 	},{
 		level:"CARD",sp:10,mp:450,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +2400 to Max HP."		
+		description:"เพิ่ม Max HP +2400 "
 	},{
 		level:"CARD",sp:10,mp:500,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +2700 to Max HP."		
+		description:"เพิ่ม Max HP +2700 "
 	},{
 		level:"CARD",sp:10,mp:550,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +3000 to Max HP."		
+		description:"เพิ่ม Max HP +3000 "
 	},{
 		level:"CARD",sp:10,mp:600,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +3300 to Max HP."		
+		description:"เพิ่ม Max HP +3300 "
 	},{
 		level:"CARD",sp:10,mp:650,power:undefined,casttime:2.0,cooltime:10,duration:900,
-		description:"Add +3600 to Max HP."				
+		description:"เพิ่ม Max HP +3600 "
 	}]);
 	
 	knight.skill[9] = new Skill("./img_p/kni/bodyactivetion.webp","PASSIVE","<font color='#8e6aac'>Body Activation</font>","10",[5,8],[{id:8,lv:1}],[{
 		level:27,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 8%."	
+		description:"เพิ่ม Max HP ถาวร 8% "
 	},{
 		level:30,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 12%."	
+		description:"เพิ่ม Max HP ถาวร 12% "
 	},{
 		level:33,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 16%."	
+		description:"เพิ่ม Max HP ถาวร 16% "
 	},{
 		level:36,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 20%."	
+		description:"เพิ่ม Max HP ถาวร 20% "
 	},{
 		level:39,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 24%."	
+		description:"เพิ่ม Max HP ถาวร 24% "
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 26%."	
+		description:"เพิ่ม Max HP ถาวร 26% "
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 28%."	
+		description:"เพิ่ม Max HP ถาวร 28% "
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 30%."	
+		description:"เพิ่ม Max HP ถาวร 30% "
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 32%."	
+		description:"เพิ่ม Max HP ถาวร 32% "
 	},{
 		level:"CARD",sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Permanently increase Max HP by 34%."	
+		description:"เพิ่ม Max HP ถาวร 34% "
 	}]);
 	
 	knight.skill[10] = new Skill("./img_p/kni/airbrow.webp","ACTIVE","<font color='#8e6aac'>Aerial Blow</font>","1",[8,0],[],[{
 		level:20,sp:15,mp:10,power:"80.0%+100",casttime:0,cooltime:3,duration:undefined,
-		description:"After an air combo attack, a toy hammer is pulled out and attacks enemies and knocks them on the ground. For mid-air use only"			
+		description:"หลังจากโจมตีแบบคอมโบกลางอากาศ จะดึงค้อนของเล่นออกมาโจมตีศัตรูและกระแทกพวกเขากับพื้น ใช้ได้เฉพาะตอนอยู่กลางอากาศเท่านั้น "
 	}]);
 	
 	knight.skill[11] = new Skill("./img_p/kni/ironwill.webp","ACTIVE","<font color='#8e6aac'>Impervion</font>","5",[8,2],[],[{
 		level:21,sp:20,mp:20,power:undefined,casttime:0,cooltime:20,duration:10,
-		description:"30% chance to endure  any effect such as knock back, knock down, flip, or flinch. Damage received is still 100%. "					
+		description:"มีโอกาส 30% ที่จะทนต่อเอฟเฟกต์ใดๆ เช่น Knock Back, Knock Down, Flip, หรือ Flinch ความเสียหายที่ได้รับยังคงเป็น 100% "
 	},{
 		level:24,sp:20,mp:23,power:undefined,casttime:0,cooltime:24,duration:12,
-		description:"35% chance to endure any effect such as knock back, knock down, launch, or flinch. Damage received is still 100%. "	
+		description:"มีโอกาส 35% ที่จะทนต่อเอฟเฟกต์ใดๆ เช่น Knock Back, Knock Down, Launch, หรือ Flinch ความเสียหายที่ได้รับยังคงเป็น 100% "
 	},{
 		level:27,sp:20,mp:26,power:undefined,casttime:0,cooltime:28,duration:14,
-		description:"40% chance to endure  any effect such as knock back, knock down, launch, or flinch. Damage received is still 100%. "					
+		description:"มีโอกาส 40% ที่จะทนต่อเอฟเฟกต์ใดๆ เช่น Knock Back, Knock Down, Launch, หรือ Flinch ความเสียหายที่ได้รับยังคงเป็น 100% "
 	},{
 		level:30,sp:20,mp:29,power:undefined,casttime:0,cooltime:32,duration:16,
-		description:"45% chance to endure  any effect such as knock back, knock down, launch, or flinch. Damage received is still 100%. "					
+		description:"มีโอกาส 45% ที่จะทนต่อเอฟเฟกต์ใดๆ เช่น Knock Back, Knock Down, Launch, หรือ Flinch ความเสียหายที่ได้รับยังคงเป็น 100% "
 	},{
 		level:33,sp:20,mp:32,power:undefined,casttime:0,cooltime:36,duration:18,
-		description:"50% chance to endure  any effect such as knock back, knock down, launch, or flinch. Damage received is still 100%. "					
+		description:"มีโอกาส 50% ที่จะทนต่อเอฟเฟกต์ใดๆ เช่น Knock Back, Knock Down, Launch, หรือ Flinch ความเสียหายที่ได้รับยังคงเป็น 100% "
 	}]);
 	
 	knight.skill[12] = new Skill("./img_p/kni/revenge.webp","ACTIVE","<font color='#8e6aac'>Revenge</font>","5",[8,6],[{id:11,lv:1}],[{
 		level:23,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"Cast thorn shield around oneself. Attacker receives back 20% of damage with 25% chance for close attack only."
+		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 20% โดยมีโอกาส 25% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:26,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"Cast thorn shield around oneself. Attacker receives back 25% of damage with 35% chance for close attack only."
+		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 25% โดยมีโอกาส 35% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:29,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"Cast thorn shield around oneself. Attacker receives back 30% of damage with 45% chance for close attack only."
+		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 30% โดยมีโอกาส 45% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:32,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"Cast thorn shield around oneself. Attacker receives back 35% of damage with 55% chance for close attack only."
+		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 35% โดยมีโอกาส 55% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:35,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"Cast thorn shield around oneself. Attacker receives back 40% of damage with 65% chance for close attack only."
+		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 40% โดยมีโอกาส 65% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	}]);
 	
 //Warrior - Knight - Paladin - Dragoon
@@ -662,105 +662,105 @@
 	};
 
     paradin.skill[0] = new Skill("./img_p/pld/armermastery.webp","PASSIVE","<font color='#8e6aac'>Armor Mastery</font>","5",[2.2,0],[],[{
-		level:40,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase current physical defense by 10%. "
+		level:40,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพปัจจุบัน 10% "
 	},{
-		level:43,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase current physical defense by 15%. "
+		level:43,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพปัจจุบัน 15% "
 	},{
-		level:46,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase current physical defense by 20%. "
+		level:46,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพปัจจุบัน 20% "
 	},{
-		level:49,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase current physical defense by 25%. "
+		level:49,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพปัจจุบัน 25% "
 	},{
-		level:52,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase current physical defense by 30%. "
+		level:52,sp:20,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพปัจจุบัน 30% "
 	}]);
 
     paradin.skill[1] = new Skill("./img_p/pld/armerbreak.webp","ACTIVE","<font color='#8e6aac'>Armor Break</font>","5",[0.6,2],[{id:0,lv:1}],[{
-		level:41,sp:15,mp:45,power:"250.0%+400",casttime:0,cooltime:5,duration:10, 
-	 	description:"Crush up to 4 enemies, dealing damage and reducing physical defense by 200 for 10 seconds."
+		level:41,sp:15,mp:45,power:"250.0%+400",casttime:0,cooltime:5,duration:10,
+		description:"ทุบศัตรูสูงสุด 4 ตัว สร้างความเสียหายและลดพลังป้องกันกายภาพ 200 เป็นเวลา 10 วินาที "
 	},{
-		level:44,sp:15,mp:50,power:"300.0%+500",casttime:0,cooltime:5,duration:10, 
-	 	description:"Crush up to 6 enemies, dealing damage and reducing physical defense by 300 for 10 seconds."
+		level:44,sp:15,mp:50,power:"300.0%+500",casttime:0,cooltime:5,duration:10,
+		description:"ทุบศัตรูสูงสุด 6 ตัว สร้างความเสียหายและลดพลังป้องกันกายภาพ 300 เป็นเวลา 10 วินาที "
 	},{
-		level:47,sp:15,mp:55,power:"350.0%+600",casttime:0,cooltime:5,duration:10, 
-	 	description:"Crush up to 8 enemies, dealing damage and reducing physical defense by 400 for 10 seconds."
+		level:47,sp:15,mp:55,power:"350.0%+600",casttime:0,cooltime:5,duration:10,
+		description:"ทุบศัตรูสูงสุด 8 ตัว สร้างความเสียหายและลดพลังป้องกันกายภาพ 400 เป็นเวลา 10 วินาที "
 	},{
-		level:50,sp:15,mp:60,power:"400.0%+700",casttime:0,cooltime:5,duration:10, 
-	 	description:"Crush up to 10 enemies, dealing damage and reducing physical defense by 500 for 10 seconds."
+		level:50,sp:15,mp:60,power:"400.0%+700",casttime:0,cooltime:5,duration:10,
+		description:"ทุบศัตรูสูงสุด 10 ตัว สร้างความเสียหายและลดพลังป้องกันกายภาพ 500 เป็นเวลา 10 วินาที "
 	},{
-		level:53,sp:15,mp:65,power:"450.0%+800",casttime:0,cooltime:5,duration:10, 
-	 	description:"Crush up to 12 enemies, dealing damage and reducing physical defense by 600 for 10 seconds."
+		level:53,sp:15,mp:65,power:"450.0%+800",casttime:0,cooltime:5,duration:10,
+		description:"ทุบศัตรูสูงสุด 12 ตัว สร้างความเสียหายและลดพลังป้องกันกายภาพ 600 เป็นเวลา 10 วินาที "
 	}]);
 
     paradin.skill[2] = new Skill("./img_p/pld/jointbreak.webp","ACTIVE","<font color='#8e6aac'>Joint Break</font>","5",[0.6,4],[{id:1,lv:1}],[{
-		level:42,sp:10,mp:60,power:"250.0%+400",casttime:0,cooltime:5,duration:5, 
-	 	description:"Attack 4 enemies at their joints to decrease their attack and movement speed by 30% for 5 seconds and slightly launch them into the air. "
+		level:42,sp:10,mp:60,power:"250.0%+400",casttime:0,cooltime:5,duration:5,
+		description:"โจมตีข้อต่อของศัตรู 4 ตัว เพื่อลดความเร็วในการโจมตีและการเคลื่อนที่ของพวกเขา 30% เป็นเวลา 5 วินาที และทำให้พวกเขาลอยขึ้นไปในอากาศเล็กน้อย "
 	},{
-		level:45,sp:10,mp:65,power:"300.0%+500",casttime:0,cooltime:5,duration:5, 
-	 	description:"Attack 6 enemies at their joints to decrease their attack and movement speed by 40% for 5 seconds and slightly launch them into the air. "
+		level:45,sp:10,mp:65,power:"300.0%+500",casttime:0,cooltime:5,duration:5,
+		description:"โจมตีข้อต่อของศัตรู 6 ตัว เพื่อลดความเร็วในการโจมตีและการเคลื่อนที่ของพวกเขา 40% เป็นเวลา 5 วินาที และทำให้พวกเขาลอยขึ้นไปในอากาศเล็กน้อย "
 	},{
-		level:48,sp:10,mp:70,power:"350.0%+600",casttime:0,cooltime:5,duration:5, 
-	 	description:"Attack 8 enemies at their joints to decrease their attack and movement speed by 50% for 5 seconds and slightly launch them into the air. "
+		level:48,sp:10,mp:70,power:"350.0%+600",casttime:0,cooltime:5,duration:5,
+		description:"โจมตีข้อต่อของศัตรู 8 ตัว เพื่อลดความเร็วในการโจมตีและการเคลื่อนที่ของพวกเขา 50% เป็นเวลา 5 วินาที และทำให้พวกเขาลอยขึ้นไปในอากาศเล็กน้อย "
 	},{
-		level:51,sp:10,mp:75,power:"400.0%+700",casttime:0,cooltime:5,duration:5, 
-	 	description:"Attack 10 enemies at their joints to decrease their attack and movement speed by 60% for 5 seconds and slightly launch them into the air. "
+		level:51,sp:10,mp:75,power:"400.0%+700",casttime:0,cooltime:5,duration:5,
+		description:"โจมตีข้อต่อของศัตรู 10 ตัว เพื่อลดความเร็วในการโจมตีและการเคลื่อนที่ของพวกเขา 60% เป็นเวลา 5 วินาที และทำให้พวกเขาลอยขึ้นไปในอากาศเล็กน้อย "
 	},{
-		level:54,sp:10,mp:80,power:"450.0%+800",casttime:0,cooltime:5,duration:5, 
-	 	description:"Attack 12 enemies at their joints to decrease their attack and movement speed by 70% for 5 seconds and slightly launch them into the air. "
+		level:54,sp:10,mp:80,power:"450.0%+800",casttime:0,cooltime:5,duration:5,
+		description:"โจมตีข้อต่อของศัตรู 12 ตัว เพื่อลดความเร็วในการโจมตีและการเคลื่อนที่ของพวกเขา 70% เป็นเวลา 5 วินาที และทำให้พวกเขาลอยขึ้นไปในอากาศเล็กน้อย "
 	}]);
 
     paradin.skill[3] = new Skill("./img_p/pld/waponfreezing.webp","ACTIVE","<font color='#8e6aac'>Weapon Suspension</font>","5",[0.6,6],[{id:2,lv:1}],[{
-		level:43,sp:15,mp:50,power:"275.0%+400",casttime:0,cooltime:10,duration:5, 
-	 	description:"Attack up to 4 enemies and block their attack action."
+		level:43,sp:15,mp:50,power:"275.0%+400",casttime:0,cooltime:10,duration:5,
+		description:"โจมตีศัตรูสูงสุด 4 ตัว และทำให้เป้าหมายไม่สามารถโจมตีได้ "
 	},{
-		level:46,sp:15,mp:55,power:"325.0%+500",casttime:0,cooltime:10,duration:5, 
-	 	description:"Attack up to 6 enemies and block their attack action."
+		level:46,sp:15,mp:55,power:"325.0%+500",casttime:0,cooltime:10,duration:5,
+		description:"โจมตีศัตรูสูงสุด 6 ตัว และทำให้เป้าหมายไม่สามารถโจมตีได้ "
 	},{
-		level:49,sp:15,mp:60,power:"375.0%+600",casttime:0,cooltime:10,duration:5, 
-	 	description:"Attack up to 8 enemies and block their attack action."
+		level:49,sp:15,mp:60,power:"375.0%+600",casttime:0,cooltime:10,duration:5,
+		description:"โจมตีศัตรูสูงสุด 8 ตัว และทำให้เป้าหมายไม่สามารถโจมตีได้ "
 	},{
-		level:52,sp:15,mp:65,power:"425.0%+700",casttime:0,cooltime:10,duration:5, 
-	 	description:"Attack up to 10 enemies and block their attack action."
+		level:52,sp:15,mp:65,power:"425.0%+700",casttime:0,cooltime:10,duration:5,
+		description:"โจมตีศัตรูสูงสุด 10 ตัว และทำให้เป้าหมายไม่สามารถโจมตีได้ "
 	},{
-		level:55,sp:15,mp:70,power:"475.0%+800",casttime:0,cooltime:10,duration:5, 
-	 	description:"Attack up to 12 enemies and block their attack action."
+		level:55,sp:15,mp:70,power:"475.0%+800",casttime:0,cooltime:10,duration:5,
+		description:"โจมตีศัตรูสูงสุด 12 ตัว และทำให้เป้าหมายไม่สามารถโจมตีได้ "
 	}]);
 	
     paradin.skill[4] = new Skill("./img_p/pld/waponcrasher.webp","ACTIVE","<font color='#8e6aac'>Weapon Crasher</font>","5",[0.6,8],[{id:3,lv:1}],[{
-		level:44,sp:15,mp:100,power:"275.0%+600",casttime:0,cooltime:2.0,duration:10, 
-	 	description:"Attack up to 4 enemies, damaging them and decreasing their physical and magical attack power by 20%"
+		level:44,sp:15,mp:100,power:"275.0%+600",casttime:0,cooltime:2.0,duration:10,
+		description:"โจมตีศัตรูสูงสุด 4 ตัว สร้างความเสียหายและลดพลังโจมตีกายภาพและเวทมนตร์ของพวกเขาลง 20%"
 	},{
-		level:47,sp:15,mp:110,power:"325.0%+700",casttime:0,cooltime:2.5,duration:10, 
-	 	description:"Attack up to 6 enemies, damaging them and decreasing their physical and magical attack power by 20%"
+		level:47,sp:15,mp:110,power:"325.0%+700",casttime:0,cooltime:2.5,duration:10,
+		description:"โจมตีศัตรูสูงสุด 6 ตัว สร้างความเสียหายและลดพลังโจมตีกายภาพและเวทมนตร์ของพวกเขาลง 20%"
 	},{
-		level:50,sp:15,mp:120,power:"375.0%+800",casttime:0,cooltime:3.0,duration:10, 
-	 	description:"Attack up to 8 enemies, damaging them and decreasing their physical and magical attack power by 20%"
+		level:50,sp:15,mp:120,power:"375.0%+800",casttime:0,cooltime:3.0,duration:10,
+		description:"โจมตีศัตรูสูงสุด 8 ตัว สร้างความเสียหายและลดพลังโจมตีกายภาพและเวทมนตร์ของพวกเขาลง 20%"
 	},{
-		level:53,sp:15,mp:130,power:"425.0%+900",casttime:0,cooltime:3.5,duration:10, 
-	 	description:"Attack up to 10 enemies, damaging them and decreasing their physical and magical attack power by 20%"
+		level:53,sp:15,mp:130,power:"425.0%+900",casttime:0,cooltime:3.5,duration:10,
+		description:"โจมตีศัตรูสูงสุด 10 ตัว สร้างความเสียหายและลดพลังโจมตีกายภาพและเวทมนตร์ของพวกเขาลง 20%"
 	},{
-		level:56,sp:15,mp:140,power:"475.0%+1000",casttime:0,cooltime:4.0,duration:10, 
-	 	description:"Attack up to 12 enemies, damaging them and decreasing their physical and magical attack power by 20%"
+		level:56,sp:15,mp:140,power:"475.0%+1000",casttime:0,cooltime:4.0,duration:10,
+		description:"โจมตีศัตรูสูงสุด 12 ตัว สร้างความเสียหายและลดพลังโจมตีกายภาพและเวทมนตร์ของพวกเขาลง 20%"
 	}]);
 
     paradin.skill[5] = new Skill("./img_p/pld/crosscut.webp","ACTIVE","<font color='#8e6aac'>Cross Cut</font>","5",[0.6,10],[{id:4,lv:2}],[{
-		level:48,sp:20,mp:100,power:"350.0%+600",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Attack 4 enemies with a powerful crosscut and knock them down. "
+		level:48,sp:20,mp:100,power:"350.0%+600",casttime:0,cooltime:5,duration:undefined,
+		description:"โจมตีศัตรู 4 ตัว ด้วยท่าฟันแบบ Crosscut อันทรงพลังและทำให้พวกเขาล้มลง "
 	},{
-		level:51,sp:20,mp:110,power:"390.0%+650",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Attack 6 enemies with a powerful crosscut and knock them down. "
+		level:51,sp:20,mp:110,power:"390.0%+650",casttime:0,cooltime:5,duration:undefined,
+		description:"โจมตีศัตรู 6 ตัว ด้วยท่าฟันแบบ Crosscut อันทรงพลังและทำให้พวกเขาล้มลง "
 	},{
-		level:54,sp:20,mp:120,power:"430.0%+700",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Attack 8 enemies with a powerful crosscut and knock them down. "
+		level:54,sp:20,mp:120,power:"430.0%+700",casttime:0,cooltime:5,duration:undefined,
+		description:"โจมตีศัตรู 8 ตัว ด้วยท่าฟันแบบ Crosscut อันทรงพลังและทำให้พวกเขาล้มลง "
 	},{
-		level:57,sp:20,mp:130,power:"470.0%+750",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Attack 10 enemies with a powerful crosscut and knock them down. "
+		level:57,sp:20,mp:130,power:"470.0%+750",casttime:0,cooltime:5,duration:undefined,
+		description:"โจมตีศัตรู 10 ตัว ด้วยท่าฟันแบบ Crosscut อันทรงพลังและทำให้พวกเขาล้มลง "
 	},{
-		level:60,sp:20,mp:140,power:"510.0%+800",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Attack 12 enemies with a powerful crosscut and knock them down. "
+		level:60,sp:20,mp:140,power:"510.0%+800",casttime:0,cooltime:5,duration:undefined,
+		description:"โจมตีศัตรู 12 ตัว ด้วยท่าฟันแบบ Crosscut อันทรงพลังและทำให้พวกเขาล้มลง "
 	}]);
 
     paradin.skill[6] = new Skill("./img_p/pld/ironskin.webp","PASSIVE","<font color='#8e6aac'>Iron Skin</font>","5",[3.8,2],[{id:0,lv:1}],[{
