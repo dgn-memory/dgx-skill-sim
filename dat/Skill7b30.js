@@ -639,19 +639,19 @@
 	
 	knight.skill[12] = new Skill("./img_p/kni/revenge.webp","ACTIVE","<font color='#8e6aac'>Revenge</font>","5",[8,6],[{id:11,lv:1}],[{
 		level:23,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 20% โดยมีโอกาส 25% สำหรับการโจมตีระยะประชิดเท่านั้น"
+		description:"ร่ายใบเลื่อยหนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 20% โดยมีโอกาส 25% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:26,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 25% โดยมีโอกาส 35% สำหรับการโจมตีระยะประชิดเท่านั้น"
+		description:"ร่ายใบเลื่อยหนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 25% โดยมีโอกาส 35% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:29,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 30% โดยมีโอกาส 45% สำหรับการโจมตีระยะประชิดเท่านั้น"
+		description:"ร่ายใบเลื่อยหนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 30% โดยมีโอกาส 45% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:32,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 35% โดยมีโอกาส 55% สำหรับการโจมตีระยะประชิดเท่านั้น"
+		description:"ร่ายใบเลื่อยหนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 35% โดยมีโอกาส 55% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	},{
 		level:35,sp:20,mp:0,power:undefined,casttime:0,cooltime:5,duration:undefined,
-		description:"ร่ายโล่หนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 40% โดยมีโอกาส 65% สำหรับการโจมตีระยะประชิดเท่านั้น"
+		description:"ร่ายใบเลื่อยหนามรอบตัวเอง ผู้โจมตีจะได้รับความเสียหายกลับคืน 40% โดยมีโอกาส 65% สำหรับการโจมตีระยะประชิดเท่านั้น"
 	}]);
 	
 //Warrior - Knight - Paladin - Dragoon
@@ -764,199 +764,199 @@
 	}]);
 
     paradin.skill[6] = new Skill("./img_p/pld/ironskin.webp","PASSIVE","<font color='#8e6aac'>Iron Skin</font>","5",[3.8,2],[{id:0,lv:1}],[{
-		level:42,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase physical defense by +150. "
+		level:42,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพ +150 "
 	},{
-		level:45,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase physical defense by +220. "
+		level:45,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพ +220 "
 	},{
-		level:48,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase physical defense by +290. "
+		level:48,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพ +290 "
 	},{
-		level:51,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase physical defense by +360. "
+		level:51,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพ +360 "
 	},{
-		level:54,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase physical defense by +430. "
+		level:54,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังป้องกันกายภาพ +430 "
 	}]);
 
     paradin.skill[7] = new Skill("./img_p/pld/barricade.webp","toggle","<font color='#8e6aac'>Barricade</font>","5",[3.8,4],[{id:6,lv:1}],[{
-		level:43,sp:20,mp:45,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transforms into a combat cop which cannot attack but has 35% higher defense. When this skill is used, 1 debuff is removed and a level 1 slow heal is applied for 30 seconds. "
+		level:43,sp:20,mp:45,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"แปลงร่างเป็น Combat Cop ที่ไม่สามารถโจมตีได้ แต่มีพลังป้องกันสูงขึ้น 35% เมื่อใช้สกิลนี้ จะลบดีบัฟ 1 อย่าง และใช้ Slow Heal เลเวล 1 เป็นเวลา 30 วินาที "
 	},{
-		level:46,sp:20,mp:50,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transforms into a combat cop which cannot attack but has 40% higher defense. When this skill is used, 2 debuffs are removed and a level 2 slow heal is applied for 30 seconds. "
+		level:46,sp:20,mp:50,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"แปลงร่างเป็น Combat Cop ที่ไม่สามารถโจมตีได้ แต่มีพลังป้องกันสูงขึ้น 40% เมื่อใช้สกิลนี้ จะลบดีบัฟ 2 อย่าง และใช้ Slow Heal เลเวล 2 เป็นเวลา 30 วินาที "
 	},{
-		level:49,sp:20,mp:55,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transforms into a combat cop which cannot attack but has 45% higher defense. When this skill is used, 3 debuffs are removed and a level 3 slow heal is applied for 30 seconds. "
+		level:49,sp:20,mp:55,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"แปลงร่างเป็น Combat Cop ที่ไม่สามารถโจมตีได้ แต่มีพลังป้องกันสูงขึ้น 45% เมื่อใช้สกิลนี้ จะลบดีบัฟ 3 อย่าง และใช้ Slow Heal เลเวล 3 เป็นเวลา 30 วินาที "
 	},{
-		level:52,sp:20,mp:60,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transforms into a combat cop which cannot attack but has 50% higher defense. When this skill is used, 4 debuffs are removed and a level 4 slow heal is applied for 30 seconds. "
+		level:52,sp:20,mp:60,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"แปลงร่างเป็น Combat Cop ที่ไม่สามารถโจมตีได้ แต่มีพลังป้องกันสูงขึ้น 50% เมื่อใช้สกิลนี้ จะลบดีบัฟ 4 อย่าง และใช้ Slow Heal เลเวล 4 เป็นเวลา 30 วินาที "
 	},{
-		level:55,sp:20,mp:65,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transforms into a combat cop which cannot attack but has 55% higher defense. When this skill is used, 5 debuffs are removed and a level 5 slow heal is applied for 30 seconds. "
+		level:55,sp:20,mp:65,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"แปลงร่างเป็น Combat Cop ที่ไม่สามารถโจมตีได้ แต่มีพลังป้องกันสูงขึ้น 55% เมื่อใช้สกิลนี้ จะลบดีบัฟ 5 อย่าง และใช้ Slow Heal เลเวล 5 เป็นเวลา 30 วินาที "
 	}]);
 
     paradin.skill[8] = new Skill("./img_p/pld/finaldeffense.webp","ACTIVE","<font color='#8e6aac'>Cockroach Life</font>","5",[3.8,6],[{id:7,lv:1}],[{
-		level:44,sp:15,mp:150,power:undefined,casttime:0,cooltime:180,duration:30, 
-	 	description:"If cast when HP is lower than 21% of maximum, it will instantly return 20% of your max HP and increase physical and magical defense power by 50% for 30 seconds. "
+		level:44,sp:15,mp:150,power:undefined,casttime:0,cooltime:180,duration:30,
+		description:"ใช้งานได้เมื่อ HP ต่ำกว่า 21% ของค่าสูงสุด จะฟื้นฟู HP ทันที 20% ของ Max HP ของคุณ และเพิ่มพลังป้องกันกายภาพและเวทมนตร์ 50% เป็นเวลา 30 วินาที "
 	},{
-		level:47,sp:15,mp:180,power:undefined,casttime:0,cooltime:180,duration:40, 
-	 	description:"If cast when HP is lower than 22% of maximum, it will instantly return 25% of your max HP and increase physical and magical defense power by 60% for 40 seconds. "
+		level:47,sp:15,mp:180,power:undefined,casttime:0,cooltime:180,duration:40,
+		description:"ใช้งานได้เมื่อ HP ต่ำกว่า 22% ของค่าสูงสุด จะฟื้นฟู HP ทันที 25% ของ Max HP ของคุณ และเพิ่มพลังป้องกันกายภาพและเวทมนตร์ 60% เป็นเวลา 40 วินาที "
 	},{
-		level:50,sp:15,mp:210,power:undefined,casttime:0,cooltime:180,duration:50, 
-	 	description:"If cast when HP is lower than 23% of maximum, it will instantly return 30% of your max HP and increase physical and magical defense power by 70% for 50 seconds. "
+		level:50,sp:15,mp:210,power:undefined,casttime:0,cooltime:180,duration:50,
+		description:"ใช้งานได้เมื่อ HP ต่ำกว่า 23% ของค่าสูงสุด จะฟื้นฟู HP ทันที 30% ของ Max HP ของคุณ และเพิ่มพลังป้องกันกายภาพและเวทมนตร์ 70% เป็นเวลา 50 วินาที "
 	},{
-		level:53,sp:15,mp:240,power:undefined,casttime:0,cooltime:180,duration:60, 
-	 	description:"If cast when HP is lower than 24% of maximum, it will instantly return 35% of your max HP and increase physical and magical defense power by 80% for 60 seconds. "
+		level:53,sp:15,mp:240,power:undefined,casttime:0,cooltime:180,duration:60,
+		description:"ใช้งานได้เมื่อ HP ต่ำกว่า 24% ของค่าสูงสุด จะฟื้นฟู HP ทันที 35% ของ Max HP ของคุณ และเพิ่มพลังป้องกันกายภาพและเวทมนตร์ 80% เป็นเวลา 60 วินาที "
 	},{
-		level:56,sp:15,mp:270,power:undefined,casttime:0,cooltime:180,duration:70, 
-	 	description:"If cast when HP is lower than 25% of maximum, it will instantly return 40% of your max HP and increase physical and magical defense power by 90% for 70 seconds. "
+		level:56,sp:15,mp:270,power:undefined,casttime:0,cooltime:180,duration:70,
+		description:"ใช้งานได้เมื่อ HP ต่ำกว่า 25% ของค่าสูงสุด จะฟื้นฟู HP ทันที 40% ของ Max HP ของคุณ และเพิ่มพลังป้องกันกายภาพและเวทมนตร์ 90% เป็นเวลา 70 วินาที "
 	}]);
 
     paradin.skill[9] = new Skill("./img_p/pld/recoverybless.webp","ACTIVE","<font color='#8e6aac'>Recovery Blessing</font>","5",[7,4],[],[{
-		level:41,sp:10,mp:100,power:undefined,casttime:1,cooltime:90,duration:120, 
-	 	description:"Increases HP regeneration amount by 20 and decreases regeneration time by 10% for 120 seconds. "
+		level:41,sp:10,mp:100,power:undefined,casttime:1,cooltime:90,duration:120,
+		description:"เพิ่มปริมาณการฟื้นฟู HP 20 และลดระยะเวลาการฟื้นฟู 10% เป็นเวลา 120 วินาที "
 	},{
-		level:44,sp:10,mp:120,power:undefined,casttime:1,cooltime:110,duration:140, 
-	 	description:"Increases HP regeneration amount by 40 and decreases regeneration time by 15% for 140 seconds. "
+		level:44,sp:10,mp:120,power:undefined,casttime:1,cooltime:110,duration:140,
+		description:"เพิ่มปริมาณการฟื้นฟู HP 40 และลดระยะเวลาการฟื้นฟู 15% เป็นเวลา 140 วินาที "
 	},{
-		level:47,sp:10,mp:140,power:undefined,casttime:1,cooltime:130,duration:160, 
-	 	description:"Increases HP regeneration amount by 60 and decreases regeneration time by 20% for 160 seconds. "
+		level:47,sp:10,mp:140,power:undefined,casttime:1,cooltime:130,duration:160,
+		description:"เพิ่มปริมาณการฟื้นฟู HP 60 และลดระยะเวลาการฟื้นฟู 20% เป็นเวลา 160 วินาที "
 	},{
-		level:50,sp:10,mp:160,power:undefined,casttime:1,cooltime:150,duration:180, 
-	 	description:"Increases HP regeneration amount by 80 and decreases regeneration time by 25% for 180 seconds. "
+		level:50,sp:10,mp:160,power:undefined,casttime:1,cooltime:150,duration:180,
+		description:"เพิ่มปริมาณการฟื้นฟู HP 80 และลดระยะเวลาการฟื้นฟู 25% เป็นเวลา 180 วินาที "
 	},{
-		level:53,sp:10,mp:180,power:undefined,casttime:1,cooltime:170,duration:200, 
-	 	description:"Increases HP regeneration amount by 100 and decreases regeneration time by 30% for 200 seconds. "
+		level:53,sp:10,mp:180,power:undefined,casttime:1,cooltime:170,duration:200,
+		description:"เพิ่มปริมาณการฟื้นฟู HP 100 และลดระยะเวลาการฟื้นฟู 30% เป็นเวลา 200 วินาที "
 	}]);
 
     paradin.skill[10] = new Skill("./img_p/pld/deffensivebless.webp","ACTIVE","<font color='#8e6aac'>Defensive Blessing</font>","5",[7,6],[{id:9,lv:1}],[{
-		level:43,sp:10,mp:120,power:undefined,casttime:1,cooltime:90,duration:120, 
-	 	description:"Buff skill that amplifies caster and party member\'s nearby Physical and Magical Defense Power by 30% and also increase them by 15. "
+		level:43,sp:10,mp:120,power:undefined,casttime:1,cooltime:90,duration:120,
+		description:"สกิลบัฟที่เพิ่มพลังป้องกันกายภาพและเวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ที่อยู่ใกล้เคียง 30% และยังเพิ่มขึ้นอีก 15 เป็นเวลา 120 วินาที "
 	},{
-		level:46,sp:10,mp:140,power:undefined,casttime:1,cooltime:110,duration:140, 
-	 	description:"Buff skill that amplifies caster and party member\'s nearby Physical and Magical Defense Power by 30% and also increase them by 30. "
+		level:46,sp:10,mp:140,power:undefined,casttime:1,cooltime:110,duration:140,
+		description:"สกิลบัฟที่เพิ่มพลังป้องกันกายภาพและเวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ที่อยู่ใกล้เคียง 30% และยังเพิ่มขึ้นอีก 30 เป็นเวลา 140 วินาที "
 	},{
-		level:49,sp:10,mp:160,power:undefined,casttime:1,cooltime:130,duration:160, 
-	 	description:"Buff skill that amplifies caster and party member\'s nearby Physical and Magical Defense Power by 30% and also increase them by 45. "
+		level:49,sp:10,mp:160,power:undefined,casttime:1,cooltime:130,duration:160,
+		description:"สกิลบัฟที่เพิ่มพลังป้องกันกายภาพและเวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ที่อยู่ใกล้เคียง 30% และยังเพิ่มขึ้นอีก 45 เป็นเวลา 160 วินาที "
 	},{
-		level:52,sp:10,mp:180,power:undefined,casttime:1,cooltime:150,duration:180, 
-	 	description:"Buff skill that amplifies caster and party member\'s nearby Physical and Magical Defense Power by 30% and also increase them by 60. "
+		level:52,sp:10,mp:180,power:undefined,casttime:1,cooltime:150,duration:180,
+		description:"สกิลบัฟที่เพิ่มพลังป้องกันกายภาพและเวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ที่อยู่ใกล้เคียง 30% และยังเพิ่มขึ้นอีก 60 เป็นเวลา 180 วินาที "
 	},{
-		level:55,sp:10,mp:200,power:undefined,casttime:1,cooltime:170,duration:200, 
-	 	description:"Buff skill that amplifies caster and party member\'s nearby Physical and Magical Defense Power by 30% and also increase them by 75. "
+		level:55,sp:10,mp:200,power:undefined,casttime:1,cooltime:170,duration:200,
+		description:"สกิลบัฟที่เพิ่มพลังป้องกันกายภาพและเวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ที่อยู่ใกล้เคียง 30% และยังเพิ่มขึ้นอีก 75 เป็นเวลา 200 วินาที "
 	}]);
 
     paradin.skill[11] = new Skill("./img_p/pld/aura.webp","PASSIVE","<font color='#8e6aac'>Aura Initiation</font>","1",[10,2],[],[{
-		level:40,sp:5,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Activates aura type skills. A character can have only one aura skill activated at once. Multiple Paladins can activate multiple auras at once, and higher level skill\"s effect is activated when more than 2 Palandins activates the same aura skill. "
-	}]);
+		level:40,sp:5,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เปิดใช้งานสกิลประเภทออร่า ตัวละครสามารถเปิดใช้งานสกิลออร่าได้เพียงสกิลเดียวในเวลาเดียวกัน หากมีพาลาดินหลายคนเปิดใช้งานสกิลออร่าเดียวกัน เอฟเฟกต์ของสกิลระดับสูงกว่าจะถูกเปิดใช้งาน "
+}]);
 
     paradin.skill[12] = new Skill("./img_p/pld/timereverseaura.webp","toggle","<font color='#8e6aac'>Time Reverse Aura</font>","5",[10,4],[{id:11,lv:1}],[{
-		level:41,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff that decreases casting time and cooldown time by 1 second by consuming 15 MP per second. Cannot be used in PvP. "
+		level:41,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดบัฟที่ลดเวลาการร่ายและคูลดาวน์ลง 1 วินาที โดยใช้ MP 15 หน่วยต่อวินาที ไม่สามารถใช้ในโหมด PvP ได้ "
 	},{
-		level:44,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff that decreases casting time and cooldown time by 1.2 seconds by consuming 18 MP per second. Cannot be used in PvP. "
+		level:44,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดบัฟที่ลดเวลาการร่ายและคูลดาวน์ลง 1.2 วินาที โดยใช้ MP 18 หน่วยต่อวินาที ไม่สามารถใช้ในโหมด PvP ได้ "
 	},{
-		level:47,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff that decreases casting time and cooldown time by 1.4 seconds by consuming 21 MP per second. Cannot be used in PvP. "
+		level:47,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดบัฟที่ลดเวลาการร่ายและคูลดาวน์ลง 1.4 วินาที โดยใช้ MP 21 หน่วยต่อวินาที ไม่สามารถใช้ในโหมด PvP ได้ "
 	},{
-		level:50,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff that decreases casting time and cooldown time by 1.6 seconds by consuming 24 MP per second. Cannot be used in PvP. "
+		level:50,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดบัฟที่ลดเวลาการร่ายและคูลดาวน์ลง 1.6 วินาที โดยใช้ MP 24 หน่วยต่อวินาที ไม่สามารถใช้ในโหมด PvP ได้ "
 	},{
-		level:53,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff that decreases casting time and cooldown time by 1.8 seconds by consuming 27 MP per second. Cannot be used in PvP. "
+		level:53,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดบัฟที่ลดเวลาการร่ายและคูลดาวน์ลง 1.8 วินาที โดยใช้ MP 27 หน่วยต่อวินาที ไม่สามารถใช้ในโหมด PvP ได้ "
 	}]);
 
     paradin.skill[13] = new Skill("./img_p/pld/offensiveaura.webp","toggle","<font color='#8e6aac'>Offensive Aura</font>","5",[10,6],[{id:12,lv:1}],[{
-		level:43,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff skill that amplifies oneself's and party members' physical/magical attack power by 5% by consuming 10 MP per second. "
+		level:43,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดสกิลบัฟที่เพิ่มพลังโจมตีกายภาพ/เวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ 5% โดยใช้ MP 10 หน่วยต่อวินาที "
 	},{
-		level:46,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff skill that amplifies oneself's and party members' physical/magical attack power by 8% by consuming 11 MP per second. "
+		level:46,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดสกิลบัฟที่เพิ่มพลังโจมตีกายภาพ/เวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ 8% โดยใช้ MP 11 หน่วยต่อวินาที "
 	},{
-		level:49,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff skill that amplifies oneself's and party members' physical/magical attack power by 11% by consuming 12 MP per second. "
+		level:49,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดสกิลบัฟที่เพิ่มพลังโจมตีกายภาพ/เวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ 11% โดยใช้ MP 12 หน่วยต่อวินาที "
 	},{
-		level:52,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff skill that amplifies oneself's and party members' physical/magical attack power by 14% by consuming 13 MP per second. "
+		level:52,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดสกิลบัฟที่เพิ่มพลังโจมตีกายภาพ/เวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ 14% โดยใช้ MP 13 หน่วยต่อวินาที "
 	},{
-		level:55,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Toggles a buff skill that amplifies oneself's and party members' physical/magical attack power by 17% by consuming 14 MP per second. "
+		level:55,sp:10,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เปิด/ปิดสกิลบัฟที่เพิ่มพลังโจมตีกายภาพ/เวทมนตร์ของตัวเองและสมาชิกในปาร์ตี้ 17% โดยใช้ MP 14 หน่วยต่อวินาที "
 	}]);
 
     paradin.skill[14] = new Skill("./img_p/pld/secredprotection.webp","ACTIVE","<font color='#8e6aac'>Sacred Protection</font>","5",[8.5,8],[{id:10,lv:1},{id:13,lv:1}],[{
-		level:45,sp:15,mp:100,power:undefined,casttime:2,cooltime:60,duration:180, 
-	 	description:"Sacrifice oneself to take 10% of a party member's damage for 180 seconds. Must be near target party member. "
+		level:45,sp:15,mp:100,power:undefined,casttime:2,cooltime:60,duration:180,
+		description:"สละชีพเพื่อรับความเสียหาย 10% ของสมาชิกในปาร์ตี้เป็นเวลา 180 วินาที ต้องอยู่ใกล้สมาชิกปาร์ตี้เป้าหมาย "
 	},{
-		level:48,sp:15,mp:110,power:undefined,casttime:2,cooltime:60,duration:210, 
-	 	description:"Sacrifice oneself to take 20% of a party member's damage for 210 seconds. Must be near target party member. "
+		level:48,sp:15,mp:110,power:undefined,casttime:2,cooltime:60,duration:210,
+		description:"สละชีพเพื่อรับความเสียหาย 20% ของสมาชิกในปาร์ตี้เป็นเวลา 210 วินาที ต้องอยู่ใกล้สมาชิกปาร์ตี้เป้าหมาย "
 	},{
-		level:51,sp:15,mp:120,power:undefined,casttime:2,cooltime:60,duration:240, 
-	 	description:"Sacrifice oneself to take 30% of a party member's damage for 240 seconds. Must be near target party member. "
+		level:51,sp:15,mp:120,power:undefined,casttime:2,cooltime:60,duration:240,
+		description:"สละชีพเพื่อรับความเสียหาย 30% ของสมาชิกในปาร์ตี้เป็นเวลา 240 วินาที ต้องอยู่ใกล้สมาชิกปาร์ตี้เป้าหมาย "
 	},{
-		level:54,sp:15,mp:130,power:undefined,casttime:2,cooltime:60,duration:270, 
-	 	description:"Sacrifice oneself to take 40% of a party member's damage for 270 seconds. Must be near target party member. "
+		level:54,sp:15,mp:130,power:undefined,casttime:2,cooltime:60,duration:270,
+		description:"สละชีพเพื่อรับความเสียหาย 40% ของสมาชิกในปาร์ตี้เป็นเวลา 270 วินาที ต้องอยู่ใกล้สมาชิกปาร์ตี้เป้าหมาย "
 	},{
-		level:57,sp:15,mp:140,power:undefined,casttime:2,cooltime:60,duration:300, 
-	 	description:"Sacrifice oneself to take 50% of a party member's damage for 300 seconds. Must be near target party member. "
+		level:57,sp:15,mp:140,power:undefined,casttime:2,cooltime:60,duration:300,
+		description:"สละชีพเพื่อรับความเสียหาย 50% ของสมาชิกในปาร์ตี้เป็นเวลา 300 วินาที ต้องอยู่ใกล้สมาชิกปาร์ตี้เป้าหมาย "
 	}]);
 	
 	paradin.skill[15] = new Skill("./img_p/pld/Provoke.webp","ACTIVE","<font color='#8e6aac'>Provoke</font>","3",[7,0],[],[{
-		level:42,sp:15,mp:320,power:undefined,casttime:0.5,cooltime:30,duration:5, 
-	 	description:"Release Killing Force that will make the monsters within range to target the user, maximum effect upto 5 monsters. The effect will last 5 seconds, any one leave the range would not be effected."
+		level:42,sp:15,mp:320,power:undefined,casttime:0.5,cooltime:30,duration:5,
+		description:"ปล่อยพลังสังหารที่ทำให้มอนสเตอร์ในระยะเป้าหมายผู้ใช้ มีผลสูงสุด 5 ตัว เอฟเฟกต์จะอยู่ได้ 5 วินาที ตัวใดที่ออกจากระยะจะไม่ได้รับผลกระทบ "
 	},{
-		level:45,sp:15,mp:360,power:undefined,casttime:0.5,cooltime:40,duration:8, 
-	 	description:"Release Killing Force that will make the monsters within range to target the user, maximum effect upto 6 monsters. The effect will last 8 seconds, any one leave the range would not be effected."
+		level:45,sp:15,mp:360,power:undefined,casttime:0.5,cooltime:40,duration:8,
+		description:"ปล่อยพลังสังหารที่ทำให้มอนสเตอร์ในระยะเป้าหมายผู้ใช้ มีผลสูงสุด 6 ตัว เอฟเฟกต์จะอยู่ได้ 8 วินาที ตัวใดที่ออกจากระยะจะไม่ได้รับผลกระทบ "
 	},{
-		level:48,sp:15,mp:400,power:undefined,casttime:0.5,cooltime:50,duration:11, 
-	 	description:"Release Killing Force that will make the monsters within range to target the user, maximum effect upto 8 monsters. The effect will last 12 seconds, any one leave the range would not be effected."
+		level:48,sp:15,mp:400,power:undefined,casttime:0.5,cooltime:50,duration:11,
+		description:"ปล่อยพลังสังหารที่ทำให้มอนสเตอร์ในระยะเป้าหมายผู้ใช้ มีผลสูงสุด 8 ตัว เอฟเฟกต์จะอยู่ได้ 12 วินาที ตัวใดที่ออกจากระยะจะไม่ได้รับผลกระทบ "
 	}]);
 
 	paradin.skill[16] = new Skill("./img_p/pld/ChainShield.webp","ACTIVE","<font color='#8e6aac'>Chain Shield</font>","3",[3.8,8],[],[{
-		level:46,sp:15,mp:50,power:"80.0%+200",casttime:0,cooltime:11,duration:undefined, 
-		description:"Summon a chain shield and attack the enemies in air."
+		level:46,sp:15,mp:50,power:"80.0%+200",casttime:0,cooltime:11,duration:undefined,
+		description:"เรียกใบเลื่อยออกมาโจมตีศัตรูที่อยู่กลางอากาศ "
 	},{
-		level:47,sp:15,mp:60,power:"110.0%+250",casttime:0,cooltime:10,duration:undefined, 
-		description:"Summon a chain shield and attack the enemies in air."
+		level:47,sp:15,mp:60,power:"110.0%+250",casttime:0,cooltime:10,duration:undefined,
+		description:"เรียกใบเลื่อยออกมาโจมตีศัตรูที่อยู่กลางอากาศ "
 	},{
-		level:48,sp:15,mp:70,power:"140.0%+300",casttime:0,cooltime:9,duration:undefined, 
-		description:"Summon a chain shield and attack the enemies in air."
+		level:48,sp:15,mp:70,power:"140.0%+300",casttime:0,cooltime:9,duration:undefined,
+		description:"เรียกใบเลื่อยออกมาโจมตีศัตรูที่อยู่กลางอากาศ "
 	}]);
 
 	paradin.skill[17] = new Skill("./img_p/pld/MegaStormBlade.webp","ACTIVE","<font color='#8e6aac'>Mega Storm Blade</font>","3",[3.8,10],[{id:102,lv:2}],[{
-		level:50,sp:20,mp:70,power:"120.0%+330",casttime:0,cooltime:5,duration:undefined, 
-		description:"Upgraded storm blade skill. Summon a holy sword with Typhoon, attacking enemies in the air."
+		level:50,sp:20,mp:70,power:"120.0%+330",casttime:0,cooltime:5,duration:undefined,
+		description:"อัปเกรดสกิล Storm Blade เรียกดาบศักดิ์สิทธิ์พร้อมพายุไต้ฝุ่นโจมตีศัตรูที่อยู่กลางอากาศ "
 	},{
-		level:52,sp:20,mp:85,power:"160.0%+450",casttime:0,cooltime:5,duration:undefined, 
-		description:"Upgraded storm blade skill. Summon a holy sword with Typhoon, attacking enemies in the air."
+		level:52,sp:20,mp:85,power:"160.0%+450",casttime:0,cooltime:5,duration:undefined,
+		description:"อัปเกรดสกิล Storm Blade เรียกดาบศักดิ์สิทธิ์พร้อมพายุไต้ฝุ่นโจมตีศัตรูที่อยู่กลางอากาศ "
 	},{
-		level:54,sp:20,mp:100,power:"200.0%+570",casttime:0,cooltime:5,duration:undefined, 
-		description:"Upgraded storm blade skill. Summon a holy sword with Typhoon, attacking enemies in the air."
+		level:54,sp:20,mp:100,power:"200.0%+570",casttime:0,cooltime:5,duration:undefined,
+		description:"อัปเกรดสกิล Storm Blade เรียกดาบศักดิ์สิทธิ์พร้อมพายุไต้ฝุ่นโจมตีศัตรูที่อยู่กลางอากาศ "
 	}]);
 
 	paradin.skill[18] = new Skill("./img_p/pld/ShieldStrike.webp","ACTIVE","<font color='#8e6aac'>Shield Strike</font>","3",[7,2],[],[{
-		level:43,sp:15,mp:85,power:"35.0%+250",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Push the shield toward front, attacking 3 enemies lightely and put Lv3 Stun effect. Higher the level, higher range of attack. During the skill, pressing jump key would cancel the skill."
+		level:43,sp:15,mp:85,power:"35.0%+250",casttime:0,cooltime:10,duration:undefined,
+		description:"ผลักโล่ไปข้างหน้า โจมตีศัตรู 3 ตัวเบาๆ และติดสถานะ Stun Lv3 ยิ่งเลเวลสูงขึ้น ระยะการโจมตีก็ยิ่งสูงขึ้น ระหว่างใช้สกิลนี้ การกดปุ่มกระโดดจะยกเลิกสกิล "
 	},{
-		level:46,sp:15,mp:90,power:"40.0%+280",casttime:0,cooltime:9,duration:undefined, 
-	 	description:"Push the shield toward front, attacking 5 enemies lightely and put Lv4 Stun effect. Higher the level, higher range of attack. During the skill, pressing jump key would cancel the skill."
+		level:46,sp:15,mp:90,power:"40.0%+280",casttime:0,cooltime:9,duration:undefined,
+		description:"ผลักโล่ไปข้างหน้า โจมตีศัตรู 5 ตัวเบาๆ และติดสถานะ Stun Lv4 ยิ่งเลเวลสูงขึ้น ระยะการโจมตีก็ยิ่งสูงขึ้น ระหว่างใช้สกิลนี้ การกดปุ่มกระโดดจะยกเลิกสกิล "
 	},{
-		level:49,sp:15,mp:95,power:"35.0%+250",casttime:0,cooltime:8,duration:undefined, 
-	 	description:"Push the shield toward front, attacking 7 enemies lightely and put Lv5 Stun effect. Higher the level, higher range of attack. During the skill, pressing jump key would cancel the skill."
+		level:49,sp:15,mp:95,power:"35.0%+250",casttime:0,cooltime:8,duration:undefined,
+		description:"ผลักโล่ไปข้างหน้า โจมตีศัตรู 7 ตัวเบาๆ และติดสถานะ Stun Lv5 ยิ่งเลเวลสูงขึ้น ระยะการโจมตีก็ยิ่งสูงขึ้น ระหว่างใช้สกิลนี้ การกดปุ่มกระโดดจะยกเลิกสกิล "
 	}]);
 
 	paradin.skill[19] = new Skill("./img_p/pld/Concentration.webp","ACTIVE","<font color='#8e6aac'>Concentration</font>","3",[10,0],[],[{
-		level:41,sp:15,mp:150,power:undefined,casttime:0.5,cooltime:180,duration:180, 
-	 	description:"For certain period of time, concentrate and increase the accuracy by 4%."
+		level:41,sp:15,mp:150,power:undefined,casttime:0.5,cooltime:180,duration:180,
+		description:"เป็นระยะเวลาหนึ่ง จะเพิ่มความแม่นยำ 4% "
 	},{
-		level:43,sp:15,mp:155,power:undefined,casttime:0.5,cooltime:180,duration:180, 
-	 	description:"For certain period of time, concentrate and increase the accuracy by 8%."
+		level:43,sp:15,mp:155,power:undefined,casttime:0.5,cooltime:180,duration:180,
+		description:"เป็นระยะเวลาหนึ่ง จะเพิ่มความแม่นยำ 8% "
 	},{
-		level:45,sp:15,mp:160,power:undefined,casttime:0.5,cooltime:180,duration:180, 
-	 	description:"For certain period of time, concentrate and increase the accuracy by 12%."
+		level:45,sp:15,mp:160,power:undefined,casttime:0.5,cooltime:180,duration:180,
+		description:"เป็นระยะเวลาหนึ่ง จะเพิ่มความแม่นยำ 12% "
 	}]);		
 
 
@@ -968,92 +968,92 @@
 	};
 
 	dragoon.skill[0] = new Skill("./img_p/dra/rolling.webp","ACTIVE","<font color='#8e6aac'>Rolling Ground</font>","5",[1,0],[],[{
-		level:60,sp:25,mp:100,power:"55%",casttime:0,cooltime:14,duration:undefined, 
-	 	description:"Move quickly, and spin rapidly while moving forward in a straight line. Attacks up to 2 enemies 9 times. "
+		level:60,sp:25,mp:100,power:"55%",casttime:0,cooltime:14,duration:undefined,
+		description:"เคลื่อนที่อย่างรวดเร็วและหมุนอย่างรวดเร็วขณะเคลื่อนที่ไปข้างหน้าในแนวเส้นตรง โจมตีศัตรูสูงสุด 2 ตัว 9 ครั้ง "
 	},{
-		level:62,sp:25,mp:120,power:"75%",casttime:0,cooltime:12,duration:undefined, 
-	 	description:"Move quickly, and spin rapidly while moving forward in a straight line. Attacks up to 3 enemies 10 times. "
+		level:62,sp:25,mp:120,power:"75%",casttime:0,cooltime:12,duration:undefined,
+		description:"เคลื่อนที่อย่างรวดเร็วและหมุนอย่างรวดเร็วขณะเคลื่อนที่ไปข้างหน้าในแนวเส้นตรง โจมตีศัตรูสูงสุด 3 ตัว 10 ครั้ง "
 	},{
-		level:64,sp:25,mp:140,power:"95%",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Move quickly, and spin rapidly while moving forward in a straight line. Attacks up to 4 enemies 11 times. "
+		level:64,sp:25,mp:140,power:"95%",casttime:0,cooltime:10,duration:undefined,
+		description:"เคลื่อนที่อย่างรวดเร็วและหมุนอย่างรวดเร็วขณะเคลื่อนที่ไปข้างหน้าในแนวเส้นตรง โจมตีศัตรูสูงสุด 4 ตัว 11 ครั้ง "
 	},{
-		level:66,sp:25,mp:160,power:"115%",casttime:0,cooltime:8,duration:undefined, 
-	 	description:"Move quickly, and spin rapidly while moving forward in a straight line. Attacks up to 5 enemies 12 times. "
+		level:66,sp:25,mp:160,power:"115%",casttime:0,cooltime:8,duration:undefined,
+		description:"เคลื่อนที่อย่างรวดเร็วและหมุนอย่างรวดเร็วขณะเคลื่อนที่ไปข้างหน้าในแนวเส้นตรง โจมตีศัตรูสูงสุด 5 ตัว 12 ครั้ง "
 	},{
-		level:68,sp:25,mp:180,power:"135%",casttime:0,cooltime:6,duration:undefined, 
-	 	description:"Move quickly, and spin rapidly while moving forward in a straight line. Attacks up to 6 enemies 13 times. "
+		level:68,sp:25,mp:180,power:"135%",casttime:0,cooltime:6,duration:undefined,
+		description:"เคลื่อนที่อย่างรวดเร็วและหมุนอย่างรวดเร็วขณะเคลื่อนที่ไปข้างหน้าในแนวเส้นตรง โจมตีศัตรูสูงสุด 6 ตัว 13 ครั้ง "
 	}]);
 
 	dragoon.skill[1] = new Skill("./img_p/dra/awakening.webp","PASSIVE","<font color='#8e6aac'>Awakening</font>","1",[5,0],[],[{
-		level:60,sp:1,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Whenever you use MP during battle, your Awakening bar will fill up. This allows you to perform certain special skills which consume Awakening points. These skills also consume MP, however the MP they consume does not fill your awakening bar. "
-	}]);
+		level:60,sp:1,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เมื่อคุณใช้ MP ระหว่างการต่อสู้ แถบ Awakening ของคุณจะเต็มขึ้น สิ่งนี้ทำให้คุณสามารถใช้สกิลพิเศษบางอย่างที่ใช้แต้ม Awakening ได้ สกิลเหล่านี้จะใช้ MP ด้วย แต่ MP ที่ใช้จะไม่ทำให้แถบ Awakening ของคุณเต็มขึ้น "
+}]);
 	
 	dragoon.skill[2] = new Skill("./img_p/dra/scale.webp","ACTIVE","<font color='#8e6aac'>Dragon Scale</font>","5",[9,0],[{id:1,lv:1}],[{
-		level:60,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Strengthens your skin using a dragon's power. Physical/Magic defense increased by 15%. "
+		level:60,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เสริมความแข็งแกร่งให้กับผิวของคุณด้วยพลังของมังกร พลังป้องกันกายภาพ/เวทมนตร์เพิ่มขึ้น 15% "
 	},{
-		level:62,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Strengthens your skin using a dragon's power. Physical/Magic defense increased by 20%. "
+		level:62,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เสริมความแข็งแกร่งให้กับผิวของคุณด้วยพลังของมังกร พลังป้องกันกายภาพ/เวทมนตร์เพิ่มขึ้น 20% "
 	},{
-		level:64,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Strengthens your skin using a dragon's power. Physical/Magic defense increased by 25%. "
+		level:64,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เสริมความแข็งแกร่งให้กับผิวของคุณด้วยพลังของมังกร พลังป้องกันกายภาพ/เวทมนตร์เพิ่มขึ้น 25% "
 	},{
-		level:66,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Strengthens your skin using a dragon's power. Physical/Magic defense increased by 30%."
+		level:66,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เสริมความแข็งแกร่งให้กับผิวของคุณด้วยพลังของมังกร พลังป้องกันกายภาพ/เวทมนตร์เพิ่มขึ้น 30% "
 	},{
-		level:68,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Strengthens your skin using a dragon's power. Physical/Magic defense increased by 35%. "
+		level:68,sp:25,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เสริมความแข็งแกร่งให้กับผิวของคุณด้วยพลังของมังกร พลังป้องกันกายภาพ/เวทมนตร์เพิ่มขึ้น 35% "
 	}]);
 
 	dragoon.skill[3] = new Skill("./img_p/dra/accdragon.webp","ACTIVE","<font color='#8e6aac'>Ascending Dragon</font>","5",[4,3],[{id:1,lv:1}],[{
-		level:61,sp:25,mp:300,power:"130%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] Ride an ascending dragon to launch standing or mid-air enemies with 6 rapid attacks. At skill level 5 fallen enemies can be hit. "
+		level:61,sp:25,mp:300,power:"130%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ขี่มังกรที่กำลังขึ้นเพื่อโจมตีศัตรูที่ยืนอยู่หรือกลางอากาศด้วยการโจมตีอย่างรวดเร็ว 6 ครั้ง ที่ระดับสกิล 5 สามารถโจมตีศัตรูที่ล้มลงได้ "
 	},{
-		level:63,sp:25,mp:325,power:"140%",casttime:0,cooltime:25,duration:undefined, 
-	 	description:"	[Awakening Skill] Ride an ascending dragon to launch standing or mid-air enemies with 7 rapid attacks. At skill level 5 fallen enemies can be hit. "
+		level:63,sp:25,mp:325,power:"140%",casttime:0,cooltime:25,duration:undefined,
+		description:"[Awakening Skill] ขี่มังกรที่กำลังขึ้นเพื่อโจมตีศัตรูที่ยืนอยู่หรือกลางอากาศด้วยการโจมตีอย่างรวดเร็ว 7 ครั้ง ที่ระดับสกิล 5 สามารถโจมตีศัตรูที่ล้มลงได้ "
 	},{
-		level:65,sp:25,mp:350,power:"150%",casttime:0,cooltime:20,duration:undefined, 
-	 	description:"[Awakening Skill] Ride an ascending dragon to launch standing or mid-air enemies with 8 rapid attacks. At skill level 5 fallen enemies can be hit. "
+		level:65,sp:25,mp:350,power:"150%",casttime:0,cooltime:20,duration:undefined,
+		description:"[Awakening Skill] ขี่มังกรที่กำลังขึ้นเพื่อโจมตีศัตรูที่ยืนอยู่หรือกลางอากาศด้วยการโจมตีอย่างรวดเร็ว 8 ครั้ง ที่ระดับสกิล 5 สามารถโจมตีศัตรูที่ล้มลงได้ "
 	},{
-		level:67,sp:25,mp:375,power:"160%",casttime:0,cooltime:17,duration:undefined, 
-	 	description:"[Awakening Skill] Ride an ascending dragon to launch standing or mid-air enemies with 9 rapid attacks. At skill level 5 fallen enemies can be hit. "
+		level:67,sp:25,mp:375,power:"160%",casttime:0,cooltime:17,duration:undefined,
+		description:"[Awakening Skill] ขี่มังกรที่กำลังขึ้นเพื่อโจมตีศัตรูที่ยืนอยู่หรือกลางอากาศด้วยการโจมตีอย่างรวดเร็ว 9 ครั้ง ที่ระดับสกิล 5 สามารถโจมตีศัตรูที่ล้มลงได้ "
 	},{
-		level:69,sp:25,mp:400,power:"170%",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"[Awakening Skill] Ride an ascending dragon to launch standing or mid-air enemies with 10 rapid attacks. At skill level 5 fallen enemies can be hit. "
+		level:69,sp:25,mp:400,power:"170%",casttime:0,cooltime:15,duration:undefined,
+		description:"[Awakening Skill] ขี่มังกรที่กำลังขึ้นเพื่อโจมตีศัตรูที่ยืนอยู่หรือกลางอากาศด้วยการโจมตีอย่างรวดเร็ว 10 ครั้ง ที่ระดับสกิล 5 สามารถโจมตีศัตรูที่ล้มลงได้ "
 	}]);
 
     dragoon.skill[4] = new Skill("./img_p/dra/dragonrush.webp","ACTIVE","<font color='#8e6aac'>Dragon Rush</font>","1",[6,3],[{id:1,lv:1}],[{
-		level:60,sp:60,mp:undefined,power:undefined,casttime:0,cooltime:300,duration:undefined, 
-	 	description:"[Ultimate Skill] The Ultimate Dragoon skill. Summon dragons to burn all enemies in the entire map. Launches 8 physical attacks with a final lightning attack of up to 20 enemies. During casting, character is invulnerable. This skill is not allowed to use during PVP. "
-	}]);
+		level:60,sp:60,mp:undefined,power:undefined,casttime:0,cooltime:300,duration:undefined,
+		description:"[Ultimate Skill] สกิลสุดยอดของ Dragoon เรียกมังกรออกมาโจมตีศัตรูทั้งหมดในแผนที่ ปล่อยการโจมตีกายภาพ 8 ครั้ง พร้อมการโจมตีด้วยสายฟ้าครั้งสุดท้ายใส่ศัตรูสูงสุด 20 ตัว ขณะร่ายสกิล ตัวละครจะอยู่ยงคงกระพัน ไม่สามารถใช้สกิลนี้ในโหมด PvP ได้ "
+}]);
 	
 	dragoon.skill[5] = new Skill("./img_p/dra/dragondive.webp","ACTIVE","<font color='#8e6aac'>Dragon Dive</font>","5",[4,5],[{id:3,lv:1}],[{
-		level:62,sp:25,mp:300,power:"200%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] With the power of the dragon, perform a diving attack with a powerful spin. Attack up to 6 enemies 6 times, with the final attack launching your enemies. "
+		level:62,sp:25,mp:300,power:"200%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ด้วยพลังของมังกร พุ่งตัวลงมาโจมตีพร้อมหมุนตัวอย่างรุนแรง โจมตีศัตรูสูงสุด 6 ตัว 6 ครั้ง โดยการโจมตีครั้งสุดท้ายจะทำให้ศัตรูกระเด็นขึ้น "
 	},{
-		level:64,sp:25,mp:325,power:"220%",casttime:0,cooltime:25,duration:undefined, 
-	 	description:"[Awakening Skill] With the power of the dragon, perform a diving attack with a powerful spin. Attack up to 7 enemies 6 times, with the final attack launching your enemies. "
+		level:64,sp:25,mp:325,power:"220%",casttime:0,cooltime:25,duration:undefined,
+		description:"[Awakening Skill] ด้วยพลังของมังกร พุ่งตัวลงมาโจมตีพร้อมหมุนตัวอย่างรุนแรง โจมตีศัตรูสูงสุด 7 ตัว 6 ครั้ง โดยการโจมตีครั้งสุดท้ายจะทำให้ศัตรูกระเด็นขึ้น "
 	},{
-		level:66,sp:25,mp:350,power:"240%",casttime:0,cooltime:20,duration:undefined, 
-	 	description:"[Awakening Skill] With the power of the dragon, perform a diving attack with a powerful spin. Attack up to 8 enemies 7 times, with the final attack launching your enemies. "
+		level:66,sp:25,mp:350,power:"240%",casttime:0,cooltime:20,duration:undefined,
+		description:"[Awakening Skill] ด้วยพลังของมังกร พุ่งตัวลงมาโจมตีพร้อมหมุนตัวอย่างรุนแรง โจมตีศัตรูสูงสุด 8 ตัว 7 ครั้ง โดยการโจมตีครั้งสุดท้ายจะทำให้ศัตรูกระเด็นขึ้น "
 	},{
-		level:68,sp:25,mp:375,power:"260%",casttime:0,cooltime:17,duration:undefined, 
-	 	description:"[Awakening Skill] With the power of the dragon, perform a diving attack with a powerful spin. Attack up to 9 enemies 7 times, with the final attack launching your enemies. "
+		level:68,sp:25,mp:375,power:"260%",casttime:0,cooltime:17,duration:undefined,
+		description:"[Awakening Skill] ด้วยพลังของมังกร พุ่งตัวลงมาโจมตีพร้อมหมุนตัวอย่างรุนแรง โจมตีศัตรูสูงสุด 9 ตัว 7 ครั้ง โดยการโจมตีครั้งสุดท้ายจะทำให้ศัตรูกระเด็นขึ้น "
 	},{
-		level:70,sp:25,mp:400,power:"280%",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"[Awakening Skill] With the power of the dragon, perform a diving attack with a powerful spin. Attack up to 10 enemies 8 times, with the final attack launching your enemies. "
+		level:70,sp:25,mp:400,power:"280%",casttime:0,cooltime:15,duration:undefined,
+		description:"[Awakening Skill] ด้วยพลังของมังกร พุ่งตัวลงมาโจมตีพร้อมหมุนตัวอย่างรุนแรง โจมตีศัตรูสูงสุด 10 ตัว 8 ครั้ง โดยการโจมตีครั้งสุดท้ายจะทำให้ศัตรูกระเด็นขึ้น "
 	}]);
 	
 	dragoon.skill[6] = new Skill("./img_p/dra/ChargeTheAwakening.webp","toggle","<font color='#8e6aac'>Awakening Charge</font>","3",[1,7],[],[{
-		level:60,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-		description:"Consumes 20% MP to recharge 14% of the Awakening bar every 3 seconds."
-	 },{
-	 	level:62,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-		description:"Consumes 20% MP to recharge 17% of the Awakening bar every 3 seconds."
-	 },{
-		level:68,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-		description:"Consumes 20% MP to recharge 20% of the Awakening bar every 3 seconds."
+		level:60,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined,
+		description:"ใช้ MP 20% เพื่อชาร์จแถบ Awakening 14% ทุก 3 วินาที"
+	},{
+		level:62,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined,
+		description:"ใช้ MP 20% เพื่อชาร์จแถบ Awakening 17% ทุก 3 วินาที"
+	},{
+		level:68,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined,
+		description:"ใช้ MP 20% เพื่อชาร์จแถบ Awakening 20% ทุก 3 วินาที"
 	}]);
 	
 //Warrior - Gladiator - Myrmidon - Overlord
@@ -1064,333 +1064,333 @@
 	};
 
     gladiator.skill[0] = new Skill("./img_p/gld/grizzlypower.webp","ACTIVE","<font color='#8e6aac'>Grizzly Power</font>","10",[2,0],[],[{
-		level:20,sp:15,mp:200,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 10 and final physical attack by 2%."
+		level:20,sp:15,mp:200,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 10 และ Final Damage Amplification 2% "
 	},{
-		level:23,sp:15,mp:220,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 15 and final physical attack by 3%."
+		level:23,sp:15,mp:220,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 15 และ Final Damage Amplification 3% "
 	},{
-		level:26,sp:15,mp:240,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 22 and final physical attack by 4%."
+		level:26,sp:15,mp:240,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 22 และ Final Damage Amplification 4% "
 	},{
-		level:29,sp:15,mp:260,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 30 and final physical attack by 5%."
+		level:29,sp:15,mp:260,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 30 และ Final Damage Amplification 5% "
 	},{
-		level:32,sp:15,mp:280,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 50 and final physical attack by 6%."
+		level:32,sp:15,mp:280,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 50 และ Final Damage Amplification 6% "
 	},{
-		level:"CARD",sp:15,mp:320,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 60 and final physical attack by 7%."
+		level:"CARD",sp:15,mp:320,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 60 และ Final Damage Amplification 7% "
 	},{
-		level:"CARD",sp:15,mp:360,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 70 and final physical attack by 8%."
+		level:"CARD",sp:15,mp:360,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 70 และ Final Damage Amplification 8% "
 	},{
-		level:"CARD",sp:15,mp:400,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 80 and final physical attack by 9%."
+		level:"CARD",sp:15,mp:400,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 80 และ Final Damage Amplification 9% "
 	},{
-		level:"CARD",sp:15,mp:440,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 90 and final physical attack by 10%."
+		level:"CARD",sp:15,mp:440,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 90 และ Final Damage Amplification 10% "
 	},{
-		level:"CARD",sp:15,mp:480,power:undefined,casttime:0.5,cooltime:10,duration:900, 
-	 	description:"Increase the Power by 100 and final physical attack by 11%."
+		level:"CARD",sp:15,mp:480,power:undefined,casttime:0.5,cooltime:10,duration:900,
+		description:"เพิ่มพลังโจมตี 100 และ Final Damage Amplification 11% "
 	}]);
 
     gladiator.skill[1] = new Skill("./img_p/gld/advancedswordmastery.webp","PASSIVE","<font color='#8e6aac'>Advanced Sword Mastery</font>","10",[1,2],[{id:0,lv:1}],[{
-		level:20,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 2% when using two handed sword."
+		level:20,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 2% เมื่อใช้ดาบสองมือ"
 	},{
-		level:23,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 3% when using two handed sword."
+		level:23,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 3% เมื่อใช้ดาบสองมือ"
 	},{
-		level:26,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 4% when using two handed sword."
+		level:26,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 4% เมื่อใช้ดาบสองมือ"
 	},{
-		level:29,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 5% when using two handed sword."
+		level:29,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 5% เมื่อใช้ดาบสองมือ"
 	},{
-		level:32,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 6% when using two handed sword."
+		level:32,sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 6% เมื่อใช้ดาบสองมือ"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 7% when using two handed sword."
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 7% เมื่อใช้ดาบสองมือ"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 8% when using two handed sword."
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 8% เมื่อใช้ดาบสองมือ"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 9% when using two handed sword."
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 9% เมื่อใช้ดาบสองมือ"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 10% when using two handed sword."
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 10% เมื่อใช้ดาบสองมือ"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase total value of Physical Attack Power by 11% when using two handed sword."
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมถาวร 11% เมื่อใช้ดาบสองมือ"
 	}]);
 
     gladiator.skill[2] = new Skill("./img_p/gld/dushbrow.webp","ACTIVE","<font color='#8e6aac'>Dashing Blow</font>","1",[1,4],[{id:1,lv:1}],[{
-		level:20,sp:20,mp:15,power:"100.0%+150",casttime:undefined,cooltime:3,duration:undefined, 
-	 	description:"While dashing, press Upward key and attack button to cast Dash Combo that launches enemies into the air. Maximum of 10 targets are damaged and launched into the air with Lv 1 Serious Bleeding effect."
-	}]);
+		level:20,sp:20,mp:15,power:"100.0%+150",casttime:undefined,cooltime:3,duration:undefined,
+	description:"ขณะพุ่งตัว ให้กดปุ่มขึ้นและปุ่มโจมตีเพื่อใช้ Dash Combo ที่จะทำให้ศัตรูกระเด็นขึ้นไปในอากาศ โจมตีศัตรูได้สูงสุด 10 ตัว และทำให้กระเด็นขึ้นไปในอากาศพร้อมติดสถานะ Serious Bleeding เลเวล 1 "
+}]);
 
     gladiator.skill[3] = new Skill("./img_p/gld/bearkick.webp","ACTIVE","<font color='#8e6aac'>I'm Gone Bear!</font>","10",[1,6],[{id:2,lv:1}],[{
-		level:21,sp:15,mp:12,power:"50.0%+53",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:21,sp:15,mp:12,power:"50.0%+53",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:24,sp:15,mp:14,power:"57.5%+61",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:24,sp:15,mp:14,power:"57.5%+61",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:27,sp:15,mp:16,power:"65.0%+68",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:27,sp:15,mp:16,power:"65.0%+68",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:30,sp:15,mp:18,power:"72.5%+76",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:30,sp:15,mp:18,power:"72.5%+76",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:33,sp:15,mp:20,power:"80.0%+83",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:33,sp:15,mp:20,power:"80.0%+83",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:"CARD",sp:15,mp:22,power:"87.5%+91",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:"CARD",sp:15,mp:22,power:"87.5%+91",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:"CARD",sp:15,mp:24,power:"92.5%+98",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:"CARD",sp:15,mp:24,power:"92.5%+98",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:"CARD",sp:15,mp:26,power:"97.5%+106",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:"CARD",sp:15,mp:26,power:"97.5%+106",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:"CARD",sp:15,mp:28,power:"107.5%+121",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:"CARD",sp:15,mp:28,power:"107.5%+121",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	},{
-		level:"CARD",sp:15,mp:30,power:"120.6%+137",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Call Bear and have him perform an 8 hit combo kick on enemy targets, making them flinch. "
+		level:"CARD",sp:15,mp:30,power:"120.6%+137",casttime:0,cooltime:5,duration:undefined,
+		description:"เรียกหมีออกมาและให้มันเตะคอมโบ 8 ครั้งใส่เป้าหมายศัตรู ทำให้พวกเขาชะงัก "
 	}]);
 
     gladiator.skill[4] = new Skill("./img_p/gld/airbrow.webp","ACTIVE","<font color='#8e6aac'>Aerial Blow</font>","1",[3,4],[{id:0,lv:1}],[{
-		level:21,sp:15,mp:10,power:"95.0%+130",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"	After an air combo attack, a toy hammer is pulled out and attacks enemies and knocks them on the ground. For mid-air use only. "	
-	}]);
+		level:21,sp:15,mp:10,power:"95.0%+130",casttime:0,cooltime:3,duration:undefined,
+		description:"หลังจากโจมตีแบบคอมโบกลางอากาศ จะดึงค้อนของเล่นออกมาโจมตีศัตรูและกระแทกพวกเขากับพื้น ใช้ได้เฉพาะตอนอยู่กลางอากาศเท่านั้น "
+}]);
 
     gladiator.skill[5] = new Skill("./img_p/gld/incomingbear.webp","ACTIVE","<font color='#8e6aac'>Incoming Bear!</font>","10",[3,6],[{id:4,lv:1}],[{
-		level:22,sp:15,mp:12,power:"41.7%+166",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 4 enemy targets and knock them down."
+		level:22,sp:15,mp:12,power:"41.7%+166",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 4 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:24,sp:15,mp:14,power:"50.0%+175",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 5 enemy targets and knock them down."
+		level:24,sp:15,mp:14,power:"50.0%+175",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 5 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:26,sp:15,mp:16,power:"58.3%+183",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 6 enemy targets and knock them down."
+		level:26,sp:15,mp:16,power:"58.3%+183",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 6 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:28,sp:15,mp:18,power:"66.7%+191",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 7 enemy targets and knock them down."
+		level:28,sp:15,mp:18,power:"66.7%+191",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 7 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:30,sp:15,mp:20,power:"75.0%+200",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 8 enemy targets and knock them down."
+		level:30,sp:15,mp:20,power:"75.0%+200",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 8 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:"CARD",sp:15,mp:22,power:"83.3%+208 ",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 9 enemy targets and knock them down."
+		level:"CARD",sp:15,mp:22,power:"83.3%+208 ",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 9 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:"CARD",sp:15,mp:24,power:"91.6%+216 ",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 10 enemy targets and knock them down."
+		level:"CARD",sp:15,mp:24,power:"91.6%+216 ",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 10 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:"CARD",sp:15,mp:26,power:"99.9%+224 ",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 11 enemy targets and knock them down."
+		level:"CARD",sp:15,mp:26,power:"99.9%+224 ",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 11 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:"CARD",sp:15,mp:28,power:"108.2%+232 	",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 12 enemy targets and knock them down."
+		level:"CARD",sp:15,mp:28,power:"108.2%+232 ",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 12 ตัว และทำให้พวกเขาล้มลง"
 	},{
-		level:"CARD",sp:15,mp:30,power:"116.5%+240 ",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Bear charges up to the front and casts 3 combo chain attack up to 13 enemy targets and knock them down."
+		level:"CARD",sp:15,mp:30,power:"116.5%+240 ",casttime:0,cooltime:4,duration:undefined,
+		description:"หมีพุ่งไปข้างหน้าและโจมตีแบบคอมโบต่อเนื่อง 3 ครั้ง ใส่ศัตรูสูงสุด 13 ตัว และทำให้พวกเขาล้มลง"
 	}]);
 
     gladiator.skill[6] = new Skill("./img_p/gld/ganble.webp","ACTIVE","<font color='#8e6aac'>Gamble</font>","10",[3,8],[{id:5,lv:1}],[{
-		level:24,sp:20,mp:200,power:undefined,casttime:0.5,cooltime:180,duration:120, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:24,sp:20,mp:200,power:undefined,casttime:0.5,cooltime:180,duration:120,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:26,sp:20,mp:230,power:undefined,casttime:0.5,cooltime:180,duration:180, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:26,sp:20,mp:230,power:undefined,casttime:0.5,cooltime:180,duration:180,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:28,sp:20,mp:260,power:undefined,casttime:0.5,cooltime:180,duration:240, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:28,sp:20,mp:260,power:undefined,casttime:0.5,cooltime:180,duration:240,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:30,sp:20,mp:290,power:undefined,casttime:0.5,cooltime:180,duration:300, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:30,sp:20,mp:290,power:undefined,casttime:0.5,cooltime:180,duration:300,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:32,sp:20,mp:320,power:undefined,casttime:0.5,cooltime:180,duration:360, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:32,sp:20,mp:320,power:undefined,casttime:0.5,cooltime:180,duration:360,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:"CARD",sp:20,mp:350,power:undefined,casttime:0.5,cooltime:180,duration:360, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:"CARD",sp:20,mp:350,power:undefined,casttime:0.5,cooltime:180,duration:360,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:"CARD",sp:20,mp:380,power:undefined,casttime:0.5,cooltime:180,duration:360, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:"CARD",sp:20,mp:380,power:undefined,casttime:0.5,cooltime:180,duration:360,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:"CARD",sp:20,mp:410,power:undefined,casttime:0.5,cooltime:180,duration:360, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:"CARD",sp:20,mp:410,power:undefined,casttime:0.5,cooltime:180,duration:360,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:"CARD",sp:20,mp:440,power:undefined,casttime:0.5,cooltime:180,duration:360, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:"CARD",sp:20,mp:440,power:undefined,casttime:0.5,cooltime:180,duration:360,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	},{
-		level:"CARD",sp:20,mp:470,power:undefined,casttime:0.5,cooltime:180,duration:360, 
-	 	description:"Cast a powerful buff to all party members including caster, but buff will be given randomly. May the god of dice be with you."
+		level:"CARD",sp:20,mp:470,power:undefined,casttime:0.5,cooltime:180,duration:360,
+		description:"ร่ายบัฟอันทรงพลังให้กับสมาชิกปาร์ตี้ทั้งหมดรวมถึงผู้ร่ายด้วย แต่บัฟจะถูกสุ่ม ขอให้เทพเจ้าแห่งลูกเต๋าอยู่กับคุณ"
 	}]);
 
     gladiator.skill[7] = new Skill("./img_p/gld/warcry.webp","ACTIVE","<font color='#8e6aac'>Stumblebum</font>","10",[3,10],[{id:6,lv:1}],[{
-		level:25,sp:10,mp:50,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 5 enemies within the range for 1.5 second and decrease 20% of their Physical Attack Power and aim rate."
+		level:25,sp:10,mp:50,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 5 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 20%"
 	},{
-		level:28,sp:10,mp:65,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 5 enemies within the range for 1.5 second and decrease 25% of their Physical Attack Power and aim rate."
+		level:28,sp:10,mp:65,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 5 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 25%"
 	},{
-		level:31,sp:10,mp:80,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 5 enemies within the range for 1.5 second and decrease 30% of their Physical Attack Power and aim rate."
+		level:31,sp:10,mp:80,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 5 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 30%"
 	},{
-		level:34,sp:10,mp:95,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 5 enemies within the range for 1.5 second and decrease 35% of their Physical Attack Power and aim rate."
+		level:34,sp:10,mp:95,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 5 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 35%"
 	},{
-		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 5 enemies within the range for 1.5 second and decrease 40% of their Physical Attack Power and aim rate."
+		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 5 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 40%"
 	},{
-		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 6 enemies within the range for 1.5 second and decrease 42% of their Physical Attack Power and aim rate."
+		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 6 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 42%"
 	},{
-		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 7 enemies within the range for 1.5 second and decrease 44% of their Physical Attack Power and aim rate."
+		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 7 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 44%"
 	},{
-		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 8 enemies within the range for 1.5 second and decrease 46% of their Physical Attack Power and aim rate."
+		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 8 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 46%"
 	},{
-		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 9 enemies within the range for 1.5 second and decrease 48% of their Physical Attack Power and aim rate."
+		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 9 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 48%"
 	},{
-		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined, 
-	 	description:"With powerful battle cry, stun 10 enemies within the range for 1.5 second and decrease 50% of their Physical Attack Power and aim rate."
+		level:37,sp:10,mp:110,power:undefined,casttime:0.3,cooltime:10,duration:undefined,
+		description:"ด้วยเสียงคำรามอันทรงพลัง ทำให้ศัตรู 10 ตัวในระยะติดสถานะมึนงงเป็นเวลา 1.5 วินาที และลดพลังโจมตีกายภาพและความแม่นยำของพวกเขาลง 50%"
 	}]);
 
     gladiator.skill[8] = new Skill("./img_p/gld/earthcrash.webp","ACTIVE","<font color='#8e6aac'>Wrath of Earth</font>","10",[6,10],[{id:6,lv:1},{id:10,lv:2}],[{
-		level:26,sp:20,mp:90,power:"200.0%+1000",casttime:0,cooltime:12,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 5 standing or fallen targets and slightly launches them into the air. At skill level 3, victims are launched to higher height with caster\'s casting is not cancelled. At skill level 5, victims are launched to even higher height. "
+		level:26,sp:20,mp:90,power:"200.0%+1000",casttime:0,cooltime:12,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 5 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศเล็กน้อย ที่ระดับสกิล 3 เหยื่อจะถูกเหวี่ยงขึ้นไปสูงขึ้นโดยที่การร่ายสกิลของผู้ร่ายไม่ถูกยกเลิก ที่ระดับสกิล 5 เหยื่อจะถูกเหวี่ยงขึ้นไปสูงขึ้นอีก"
 	},{
-		level:29,sp:20,mp:95,power:"220.0%+1150",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 5 standing or fallen targets and slightly launches them into the air. At skill level 3, victims are launched to higher height with caster\'s casting is not cancelled. At skill level 5, victims are launched to even higher height. "
+		level:29,sp:20,mp:95,power:"220.0%+1150",casttime:0,cooltime:10,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 5 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศเล็กน้อย ที่ระดับสกิล 3 เหยื่อจะถูกเหวี่ยงขึ้นไปสูงขึ้นโดยที่การร่ายสกิลของผู้ร่ายไม่ถูกยกเลิก ที่ระดับสกิล 5 เหยื่อจะถูกเหวี่ยงขึ้นไปสูงขึ้นอีก"
 	},{
-		level:32,sp:20,mp:100,power:"240.0%+1300",casttime:0,cooltime:9,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 9 targets on ground or standing and launches them into the air. During casting, casting is not cancelled. At skill level 5, vicitims are launched to even higher height. "
+		level:32,sp:20,mp:100,power:"240.0%+1300",casttime:0,cooltime:9,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 9 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศ ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก ที่ระดับสกิล 5 เหยื่อจะถูกเหวี่ยงขึ้นไปสูงขึ้นอีก"
 	},{
-		level:35,sp:20,mp:105,power:"260.0%+1450",casttime:0,cooltime:8,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 9 targets on ground or standing and launches them into the air. During casting, casting is not cancelled. At skill level 5, vicitims are launched to even higher height. "
+		level:35,sp:20,mp:105,power:"260.0%+1450",casttime:0,cooltime:8,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 9 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศ ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก ที่ระดับสกิล 5 เหยื่อจะถูกเหวี่ยงขึ้นไปสูงขึ้นอีก"
 	},{
-		level:38,sp:20,mp:110,power:"280.0%+1600",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 13 targets on ground or standing and greatly launches them into the air. During casting, casting is not cancelled.  "
+		level:38,sp:20,mp:110,power:"280.0%+1600",casttime:0,cooltime:7,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 13 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศอย่างแรง ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก"
 	},{
-		level:"CARD",sp:20,mp:115,power:"300.0%+1750",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 13 targets on ground or standing and greatly launches them into the air. During casting, casting is not cancelled.  "
+		level:"CARD",sp:20,mp:115,power:"300.0%+1750",casttime:0,cooltime:7,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 13 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศอย่างแรง ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก"
 	},{
-		level:"CARD",sp:20,mp:120,power:"320.0%+1900 ",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 13 targets on ground or standing and greatly launches them into the air. During casting, casting is not cancelled.  "
+		level:"CARD",sp:20,mp:120,power:"320.0%+1900 ",casttime:0,cooltime:7,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 13 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศอย่างแรง ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก"
 	},{
-		level:"CARD",sp:20,mp:125,power:"340.0%+2050",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 13 targets on ground or standing and greatly launches them into the air. During casting, casting is not cancelled.  "
+		level:"CARD",sp:20,mp:125,power:"340.0%+2050",casttime:0,cooltime:7,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 13 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศอย่างแรง ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก"
 	},{
-		level:"CARD",sp:20,mp:130,power:"360.0%+2200 ",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 13 targets on ground or standing and greatly launches them into the air. During casting, casting is not cancelled.  "
+		level:"CARD",sp:20,mp:130,power:"360.0%+2200 ",casttime:0,cooltime:7,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 13 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศอย่างแรง ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก"
 	},{
-		level:"CARD",sp:20,mp:135,power:"380.0%+2350",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Cause seismic wave with sword to attack enemies in front. Seismic wave attacks 13 targets on ground or standing and greatly launches them into the air. During casting, casting is not cancelled.  "
+		level:"CARD",sp:20,mp:135,power:"380.0%+2350",casttime:0,cooltime:7,duration:undefined,
+		description:"ทำให้เกิดคลื่นกระแทกด้วยดาบเพื่อโจมตีศัตรูที่อยู่ข้างหน้า คลื่นกระแทกโจมตีเป้าหมายที่ยืนอยู่หรือล้มอยู่ 13 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศอย่างแรง ระหว่างการร่าย การร่ายจะไม่ถูกยกเลิก"
 	}]);
 
     gladiator.skill[9] = new Skill("./img_p/gld/acceration.webp","ACTIVE","<font color='#8e6aac'>Acceleration</font>","10",[8,0],[],[{
-		level:20,sp:20,mp:300,power:undefined,casttime:0,cooltime:380,duration:240, 
-	 	description:"Increases attack speed by 15% for 240 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:20,sp:20,mp:300,power:undefined,casttime:0,cooltime:380,duration:240,
+		description:"เพิ่มความเร็วในการโจมตี 15% เป็นเวลา 240 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:23,sp:20,mp:360,power:undefined,casttime:0,cooltime:380,duration:270, 
-	 	description:"Increases attack speed by 20% for 270 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:23,sp:20,mp:360,power:undefined,casttime:0,cooltime:380,duration:270,
+		description:"เพิ่มความเร็วในการโจมตี 20% เป็นเวลา 270 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:26,sp:20,mp:420,power:undefined,casttime:0,cooltime:380,duration:300, 
-	 	description:"Increases attack speed by 25% for 300 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:26,sp:20,mp:420,power:undefined,casttime:0,cooltime:380,duration:300,
+		description:"เพิ่มความเร็วในการโจมตี 25% เป็นเวลา 300 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:29,sp:20,mp:480,power:undefined,casttime:0,cooltime:380,duration:330, 
-	 	description:"Increases attack speed by 30% for 330 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:29,sp:20,mp:480,power:undefined,casttime:0,cooltime:380,duration:330,
+		description:"เพิ่มความเร็วในการโจมตี 30% เป็นเวลา 330 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:32,sp:20,mp:520,power:undefined,casttime:0,cooltime:380,duration:360, 
-	 	description:"Increases attack speed by 35% for 360 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:32,sp:20,mp:520,power:undefined,casttime:0,cooltime:380,duration:360,
+		description:"เพิ่มความเร็วในการโจมตี 35% เป็นเวลา 360 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:"CARD",sp:20,mp:560,power:undefined,casttime:0,cooltime:380,duration:360, 
-	 	description:"Increases attack speed by 36% for 360 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:"CARD",sp:20,mp:560,power:undefined,casttime:0,cooltime:380,duration:360,
+		description:"เพิ่มความเร็วในการโจมตี 36% เป็นเวลา 360 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:"CARD",sp:20,mp:600,power:undefined,casttime:0,cooltime:380,duration:360, 
-	 	description:"Increases attack speed by 37% for 360 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:"CARD",sp:20,mp:600,power:undefined,casttime:0,cooltime:380,duration:360,
+		description:"เพิ่มความเร็วในการโจมตี 37% เป็นเวลา 360 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:"CARD",sp:20,mp:640,power:undefined,casttime:0,cooltime:380,duration:360, 
-	 	description:"Increases attack speed by 38% for 360 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:"CARD",sp:20,mp:640,power:undefined,casttime:0,cooltime:380,duration:360,
+		description:"เพิ่มความเร็วในการโจมตี 38% เป็นเวลา 360 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:"CARD",sp:20,mp:780,power:undefined,casttime:0,cooltime:380,duration:360, 
-	 	description:"Increases attack speed by 39% for 360 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:"CARD",sp:20,mp:780,power:undefined,casttime:0,cooltime:380,duration:360,
+		description:"เพิ่มความเร็วในการโจมตี 39% เป็นเวลา 360 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	},{
-		level:"CARD",sp:20,mp:720,power:undefined,casttime:0,cooltime:380,duration:360, 
-	 	description:"Increases attack speed by 40% for 360 seconds when holding a two handed sword. Buff effect disappears when receiving Weapon Quicken buff from Myrmidon."
+		level:"CARD",sp:20,mp:720,power:undefined,casttime:0,cooltime:380,duration:360,
+		description:"เพิ่มความเร็วในการโจมตี 40% เป็นเวลา 360 วินาที เมื่อถือดาบสองมือ เอฟเฟกต์บัฟจะหายไปเมื่อได้รับบัฟ Weapon Quicken จาก Myrmidon"
 	}]);
 
     gladiator.skill[10] = new Skill("./img_p/gld/extarmination.webp","ACTIVE","<font color='#8e6aac'>Annihilation</font>","10",[6,2],[{id:9,lv:1}],[{
-		level:21,sp:15,mp:12,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 2 attacks by 10%. Damage of attack skill can also be increased with this skill."
+		level:21,sp:15,mp:12,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 2 ครั้งถัดไป 10% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:24,sp:15,mp:14,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 2 attacks by 15%. Damage of attack skill can also be increased with this skill."
+		level:24,sp:15,mp:14,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 2 ครั้งถัดไป 15% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:27,sp:15,mp:16,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 3 attacks by 20%. Damage of attack skill can also be increased with this skill."
+		level:27,sp:15,mp:16,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 3 ครั้งถัดไป 20% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:30,sp:15,mp:18,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 4 attacks by 25%. Damage of attack skill can also be increased with this skill."
+		level:30,sp:15,mp:18,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 4 ครั้งถัดไป 25% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:33,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 5 attacks by 30%. Damage of attack skill can also be increased with this skill."
+		level:33,sp:15,mp:20,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 5 ครั้งถัดไป 30% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:"CARD",sp:15,mp:115,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 5 attacks by 32%. Damage of attack skill can also be increased with this skill."
+		level:"CARD",sp:15,mp:115,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 5 ครั้งถัดไป 32% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:"CARD",sp:15,mp:125,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 5 attacks by 34%. Damage of attack skill can also be increased with this skill."
+		level:"CARD",sp:15,mp:125,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 5 ครั้งถัดไป 34% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:"CARD",sp:15,mp:135,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 5 attacks by 36%. Damage of attack skill can also be increased with this skill."
+		level:"CARD",sp:15,mp:135,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 5 ครั้งถัดไป 36% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:"CARD",sp:15,mp:145,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 5 attacks by 38%. Damage of attack skill can also be increased with this skill."
+		level:"CARD",sp:15,mp:145,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 5 ครั้งถัดไป 38% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	},{
-		level:"CARD",sp:15,mp:155,power:undefined,casttime:0,cooltime:0.1,duration:undefined, 
-	 	description:"Amplfies Physical Attack Power of the next 5 attacks by 40%. Damage of attack skill can also be increased with this skill."
+		level:"CARD",sp:15,mp:155,power:undefined,casttime:0,cooltime:0.1,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพของการโจมตี 5 ครั้งถัดไป 40% ความเสียหายของสกิลโจมตีก็สามารถเพิ่มขึ้นได้ด้วยสกิลนี้"
 	}]);
 
     gladiator.skill[11] = new Skill("./img_p/gld/hprecovery.webp","PASSIVE","<font color='#8e6aac'>HP Recovery</font>","10",[8,2],[{id:9,lv:1}],[{
-		level:22,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 200 HP permanently, increase regeneration amount by +10, and increase effect of potions by 10%. "
+		level:22,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 200, เพิ่มอัตราการฟื้นฟู +10 และเพิ่มผลของยาฟื้นฟู 10% "
 	},{
-		level:25,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 400 HP permanently, increase regeneration amount by +20, and increase effect of potions by 15%. "
+		level:25,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 400, เพิ่มอัตราการฟื้นฟู +20 และเพิ่มผลของยาฟื้นฟู 15% "
 	},{
-		level:28,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 600 HP permanently, increase regeneration amount by +30, and increase effect of potions by 20%. "
+		level:28,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 600, เพิ่มอัตราการฟื้นฟู +30 และเพิ่มผลของยาฟื้นฟู 20% "
 	},{
-		level:31,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 800 HP permanently, increase regeneration amount by +40, and increase effect of potions by 25%. "
+		level:31,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 800, เพิ่มอัตราการฟื้นฟู +40 และเพิ่มผลของยาฟื้นฟู 25% "
 	},{
-		level:34,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 1000 HP permanently, increase regeneration amount by +50, and increase effect of potions by 30%. "
+		level:34,sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 1000, เพิ่มอัตราการฟื้นฟู +50 และเพิ่มผลของยาฟื้นฟู 30% "
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 1200 HP permanently, increase regeneration amount by +60, and increase effect of potions by 32%. "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 1200, เพิ่มอัตราการฟื้นฟู +60 และเพิ่มผลของยาฟื้นฟู 32% "
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 1400 HP permanently, increase regeneration amount by +70, and increase effect of potions by 34%. "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 1400, เพิ่มอัตราการฟื้นฟู +70 และเพิ่มผลของยาฟื้นฟู 34% "
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 1600 HP permanently, increase regeneration amount by +80, and increase effect of potions by 36%. "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 1600, เพิ่มอัตราการฟื้นฟู +80 และเพิ่มผลของยาฟื้นฟู 36% "
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 1800 HP permanently, increase regeneration amount by +90, and increase effect of potions by 38%. "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 1800, เพิ่มอัตราการฟื้นฟู +90 และเพิ่มผลของยาฟื้นฟู 38% "
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Add extra 2000 HP permanently, increase regeneration amount by +100, and increase effect of potions by 40%. "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP ถาวร 2000, เพิ่มอัตราการฟื้นฟู +100 และเพิ่มผลของยาฟื้นฟู 40% "
 	}]);
 	
 //Warrior - Gladiator - Myrmidon - Overlord
@@ -1400,220 +1400,220 @@
 		image: "./img_p/marcenarybg.webp"
 	};
 	marcenary.skill[0] = new Skill("./img_p/mer/sharpnesblade.webp","PASSIVE","<font color='#8e6aac'>Sharpness Blade</font>","5",[1,0],[],[{
-		level:40,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase Base Physical Attack Power by 100 when holding two handed sword."
+		level:40,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพพื้นฐาน 100 เมื่อถือดาบสองมือ"
 	},{
-		level:44,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase Base Physical Attack Power by 180 when holding two handed sword."
+		level:44,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพพื้นฐาน 180 เมื่อถือดาบสองมือ"
 	},{
-		level:48,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase Base Physical Attack Power by 260 when holding two handed sword."
+		level:48,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพพื้นฐาน 260 เมื่อถือดาบสองมือ"
 	},{
-		level:52,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase Base Physical Attack Power by 340 when holding two handed sword."
+		level:52,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพพื้นฐาน 340 เมื่อถือดาบสองมือ"
 	},{
-		level:56,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase Base Physical Attack Power by 420 when holding two handed sword."		
+		level:56,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีกายภาพพื้นฐาน 420 เมื่อถือดาบสองมือ"
 	}]);
 	
 	marcenary.skill[1] = new Skill("./img_p/mer/gustslash.webp","ACTIVE","<font color='#8e6aac'>Gust Slash</font>","5",[1,2],[{id:0,lv:1}],[{
-		level:41,sp:15,mp:60,power:"300.0%+300",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Attack up to 6 targets with 3 rapid combo attack with sword, and knock down the target. If there are more than 6 enemies, target will be reselected for each attack. From Lv3 fallen enemies can be attacked. "
+		level:41,sp:15,mp:60,power:"300.0%+300",casttime:0,cooltime:10,duration:undefined,
+		description:"โจมตีศัตรูสูงสุด 6 ตัวด้วยคอมโบดาบ 3 ครั้งอย่างรวดเร็ว และทำให้เป้าหมายล้มลง หากมีศัตรูมากกว่า 6 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง ตั้งแต่เลเวล 3 เป็นต้นไป สามารถโจมตีศัตรูที่ล้มลงได้"
 	},{
-		level:41,sp:15,mp:63,power:"315.0%+380",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Attack up to 6 targets with 3 rapid combo attack with sword, and knock down the target. If there are more than 6 enemies, target will be reselected for each attack. From Lv3 fallen enemies can be attacked. "
+		level:41,sp:15,mp:63,power:"315.0%+380",casttime:0,cooltime:10,duration:undefined,
+		description:"โจมตีศัตรูสูงสุด 6 ตัวด้วยคอมโบดาบ 3 ครั้งอย่างรวดเร็ว และทำให้เป้าหมายล้มลง หากมีศัตรูมากกว่า 6 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง ตั้งแต่เลเวล 3 เป็นต้นไป สามารถโจมตีศัตรูที่ล้มลงได้"
 	},{
-		level:41,sp:15,mp:66,power:"330.0%+460",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Attack up to 10 standing or fallen targets with 3 rapid combo attack with sword, and knock down the target. If there are more than 10 enemies, target will be reselected for each attack. "
+		level:41,sp:15,mp:66,power:"330.0%+460",casttime:0,cooltime:10,duration:undefined,
+		description:"โจมตีศัตรูที่ยืนอยู่หรือล้มอยู่สูงสุด 10 ตัวด้วยคอมโบดาบ 3 ครั้งอย่างรวดเร็ว และทำให้เป้าหมายล้มลง หากมีศัตรูมากกว่า 10 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง"
 	},{
-		level:41,sp:15,mp:69,power:"345.0%+540",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Attack up to 12 standing or fallen targets with 3 rapid combo attack with sword, and knock down the target. If there are more than 10 enemies, target will be reselected for each attack. "
+		level:41,sp:15,mp:69,power:"345.0%+540",casttime:0,cooltime:10,duration:undefined,
+		description:"โจมตีศัตรูที่ยืนอยู่หรือล้มอยู่สูงสุด 12 ตัวด้วยคอมโบดาบ 3 ครั้งอย่างรวดเร็ว และทำให้เป้าหมายล้มลง หากมีศัตรูมากกว่า 10 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง"
 	},{
-		level:41,sp:15,mp:72,power:"360.0%+620",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Attack up to 14 standing or fallen targets with 3 rapid combo attack with sword, and knock down the target. If there are more than 10 enemies, target will be reselected for each attack. "
+		level:41,sp:15,mp:72,power:"360.0%+620",casttime:0,cooltime:10,duration:undefined,
+		description:"โจมตีศัตรูที่ยืนอยู่หรือล้มอยู่สูงสุด 14 ตัวด้วยคอมโบดาบ 3 ครั้งอย่างรวดเร็ว และทำให้เป้าหมายล้มลง หากมีศัตรูมากกว่า 10 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง"
 	}]);
 	
 	marcenary.skill[2] = new Skill("./img_p/mer/bloodyroar.webp","toggle","<font color='#8e6aac'>Bloody Roar</font>","5",[1,4],[{id:1,lv:1}],[{
-		level:41,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"By sacrificing 0.6% of Max HP per second, increase total value of Physical Attack Power by 20% and decrease base value of Physical Defense power by 20%."
+		level:41,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"โดยการสละชีพ 0.6% ของ HP สูงสุดต่อวินาที เพิ่มค่าพลังโจมตีกายภาพรวม 20% และลดค่าพลังป้องกันกายภาพพื้นฐาน 20% "
 	},{
-		level:45,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"By sacrificing 0.7% of Max HP per second, increase total value of Physical Attack Power by 30% and decrease base value of Physical Defense power by 30%."		
+		level:45,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"โดยการสละชีพ 0.7% ของ HP สูงสุดต่อวินาที เพิ่มค่าพลังโจมตีกายภาพรวม 30% และลดค่าพลังป้องกันกายภาพพื้นฐาน 30% "
 	},{
-		level:49,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"By sacrificing 0.8% of Max HP per second, increase total value of Physical Attack Power by 40% and decrease base value of Physical Defense power by 40%."
+		level:49,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"โดยการสละชีพ 0.8% ของ HP สูงสุดต่อวินาที เพิ่มค่าพลังโจมตีกายภาพรวม 40% และลดค่าพลังป้องกันกายภาพพื้นฐาน 40% "
 	},{
-		level:53,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"By sacrificing 0.9% of Max HP per second, increase total value of Physical Attack Power by 50% and decrease base value of Physical Defense power by 50%."
+		level:53,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"โดยการสละชีพ 0.9% ของ HP สูงสุดต่อวินาที เพิ่มค่าพลังโจมตีกายภาพรวม 50% และลดค่าพลังป้องกันกายภาพพื้นฐาน 50% "
 	},{
-		level:57,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"By sacrificing 1% of Max HP per second, increase total value of Physical Attack Power by 60% and decrease base value of Physical Defense power by 60%."
+		level:57,sp:30,mp:20,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"โดยการสละชีพ 1% ของ HP สูงสุดต่อวินาที เพิ่มค่าพลังโจมตีกายภาพรวม 60% และลดค่าพลังป้องกันกายภาพพื้นฐาน 60% "
 	}]);
 	
 	marcenary.skill[3] = new Skill("./img_p/mer/brokenmagnum.webp","ACTIVE","<font color='#8e6aac'>Magnum Break</font>","5",[3,3],[{id:0,lv:1}],[{
-		level:42,sp:15,mp:70,power:"200.0%+300",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Blow up a barrel of gun powder to damage up to 6 targets and launch them high into the air. Above skill level 3, you can attack fallen targets and victim will get serious burn. "
+		level:42,sp:15,mp:70,power:"200.0%+300",casttime:0,cooltime:10,duration:undefined,
+		description:"ระเบิดถังดินปืนเพื่อสร้างความเสียหายแก่เป้าหมายสูงสุด 6 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง ตั้งแต่ระดับสกิล 3 ขึ้นไป คุณสามารถโจมตีเป้าหมายที่ล้มอยู่ได้ และเหยื่อจะได้รับสถานะติดไฟอย่างรุนแรง"
 	},{
-		level:45,sp:15,mp:80,power:"230.0%+350",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Blow up a barrel of gun powder to damage up to 8 targets and launch them high into the air. Above skill level 3, you can attack fallen targets and victim will get serious burn. "
+		level:45,sp:15,mp:80,power:"230.0%+350",casttime:0,cooltime:10,duration:undefined,
+		description:"ระเบิดถังดินปืนเพื่อสร้างความเสียหายแก่เป้าหมายสูงสุด 8 ตัว และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง ตั้งแต่ระดับสกิล 3 ขึ้นไป คุณสามารถโจมตีเป้าหมายที่ล้มอยู่ได้ และเหยื่อจะได้รับสถานะติดไฟอย่างรุนแรง"
 	},{
-		level:48,sp:15,mp:90,power:"260.0%+400",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Blow up a barrel of gun powder to damage up to 10 targets, either standing or fallen, and launch them high into the air. Victim will get serious burn. "
+		level:48,sp:15,mp:90,power:"260.0%+400",casttime:0,cooltime:10,duration:undefined,
+		description:"ระเบิดถังดินปืนเพื่อสร้างความเสียหายแก่เป้าหมายสูงสุด 10 ตัว ไม่ว่าจะยืนอยู่หรือล้มอยู่ และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง เหยื่อจะได้รับสถานะติดไฟอย่างรุนแรง"
 	},{
-		level:51,sp:15,mp:100,power:"290.0%+450",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Blow up a barrel of gun powder to damage up to 12 targets, either standing or fallen, and launch them high into the air. Victim will get serious burn. "
+		level:51,sp:15,mp:100,power:"290.0%+450",casttime:0,cooltime:10,duration:undefined,
+		description:"ระเบิดถังดินปืนเพื่อสร้างความเสียหายแก่เป้าหมายสูงสุด 12 ตัว ไม่ว่าจะยืนอยู่หรือล้มอยู่ และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง เหยื่อจะได้รับสถานะติดไฟอย่างรุนแรง"
 	},{
-		level:54,sp:15,mp:110,power:"320.0%+500",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Blow up a barrel of gun powder to damage up to 14 targets, either standing or fallen, and launch them high into the air. Victim will get serious burn. "
+		level:54,sp:15,mp:110,power:"320.0%+500",casttime:0,cooltime:10,duration:undefined,
+		description:"ระเบิดถังดินปืนเพื่อสร้างความเสียหายแก่เป้าหมายสูงสุด 14 ตัว ไม่ว่าจะยืนอยู่หรือล้มอยู่ และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง เหยื่อจะได้รับสถานะติดไฟอย่างรุนแรง"
 	}]);
 	
 	marcenary.skill[4] = new Skill("./img_p/mer/deathbound.webp","ACTIVE","<font color='#8e6aac'>Death Bound</font>","10",[4,5],[{id:3,lv:1}],[{
-		level:43,sp:20,mp:70,power:"320.0%+400",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damage up to 12 enemies nearby with Lv.6 Curse and launch them high into the air. Above skill level 3, launched enemies can be attacked also and launch will be increased to the maximum height. "
+		level:43,sp:20,mp:70,power:"320.0%+400",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 12 ตัวที่อยู่ใกล้เคียงด้วย Lv.6 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง ตั้งแต่ระดับสกิล 3 ขึ้นไป ศัตรูที่กระเด็นขึ้นไปก็สามารถถูกโจมตีได้ด้วย และจะกระเด็นขึ้นไปในความสูงสูงสุด"
 	},{
-		level:46,sp:20,mp:75,power:"345.0%+500",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damage up to 14 enemies nearby with Lv.7 Curse and launch them high into the air. Above skill level 3, launched enemies can be attacked also and launch will be increased to the maximum height. "
+		level:46,sp:20,mp:75,power:"345.0%+500",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 14 ตัวที่อยู่ใกล้เคียงด้วย Lv.7 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง ตั้งแต่ระดับสกิล 3 ขึ้นไป ศัตรูที่กระเด็นขึ้นไปก็สามารถถูกโจมตีได้ด้วย และจะกระเด็นขึ้นไปในความสูงสูงสุด"
 	},{
-		level:49,sp:20,mp:80,power:"370.0%+600",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 16 enemies nearby with Lv.8 Curse and launch them high into the air. "
+		level:49,sp:20,mp:80,power:"370.0%+600",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 16 ตัวที่อยู่ใกล้เคียงด้วย Lv.8 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:51,sp:20,mp:85,power:"395.0%+700",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 18 enemies nearby with Lv.9 Curse and launch them high into the air. "
+		level:51,sp:20,mp:85,power:"395.0%+700",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 18 ตัวที่อยู่ใกล้เคียงด้วย Lv.9 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:55,sp:20,mp:90,power:"420.0%+800",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 20 enemies nearby with Lv.10 Curse and launch them high into the air. "
+		level:55,sp:20,mp:90,power:"420.0%+800",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 20 ตัวที่อยู่ใกล้เคียงด้วย Lv.10 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:55,sp:20,mp:95,power:"445.0%+800",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 20 enemies nearby with Lv.11 Curse and launch them high into the air. "
+		level:55,sp:20,mp:95,power:"445.0%+800",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 20 ตัวที่อยู่ใกล้เคียงด้วย Lv.11 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:55,sp:20,mp:100,power:"470.0%+800",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 20 enemies nearby with Lv.12 Curse and launch them high into the air. "
+		level:55,sp:20,mp:100,power:"470.0%+800",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 20 ตัวที่อยู่ใกล้เคียงด้วย Lv.12 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:55,sp:20,mp:105,power:"495.0%+800",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 20 enemies nearby with Lv.13 Curse and launch them high into the air. "
+		level:55,sp:20,mp:105,power:"495.0%+800",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 20 ตัวที่อยู่ใกล้เคียงด้วย Lv.13 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:55,sp:20,mp:110,power:"520.0%+800",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 20 enemies nearby with Lv.14 Curse and launch them high into the air. "
+		level:55,sp:20,mp:110,power:"520.0%+800",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 20 ตัวที่อยู่ใกล้เคียงด้วย Lv.14 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	},{
-		level:55,sp:20,mp:115,power:"545.0%+800",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Smash the ground with sword to damabe up to 20 enemies nearby with Lv.15 Curse and launch them high into the air. "
+		level:55,sp:20,mp:115,power:"545.0%+800",casttime:0,cooltime:15,duration:undefined,
+		description:"ทุบพื้นด้วยดาบเพื่อสร้างความเสียหายแก่ศัตรูสูงสุด 20 ตัวที่อยู่ใกล้เคียงด้วย Lv.15 Curse และทำให้พวกเขากระเด็นขึ้นไปในอากาศสูง"
 	}]);
 	
 	marcenary.skill[5] = new Skill("./img_p/mer/phisicaltraining.webp","PASSIVE","<font color='#8e6aac'>Physical Training</font>","5",[9,0],[],[{
-		level:40,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase Max HP by +500 and increase Regeneration amount by +20."		
+		level:40,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP สูงสุดถาวร +500 และเพิ่มอัตราการฟื้นฟู +20"
 	},{
-		level:43,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase Max HP by +1000 and increase Regeneration amount by +40."			
+		level:43,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP สูงสุดถาวร +1000 และเพิ่มอัตราการฟื้นฟู +40"
 	},{
-		level:46,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase Max HP by +1500 and increase Regeneration amount by +60."	
+		level:46,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP สูงสุดถาวร +1500 และเพิ่มอัตราการฟื้นฟู +60"
 	},{
-		level:49,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase Max HP by +2000 and increase Regeneration amount by +80."	
+		level:49,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP สูงสุดถาวร +2000 และเพิ่มอัตราการฟื้นฟู +80"
 	},{
-		level:52,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increase Max HP by +2500 and increase Regeneration amount by +100."	
+		level:52,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่ม HP สูงสุดถาวร +2500 และเพิ่มอัตราการฟื้นฟู +100"
 	}]);
 	
 	marcenary.skill[6] = new Skill("./img_p/mer/wheelwind.webp","ACTIVE","<font color='#8e6aac'>Whirlwind</font>","5",[7,3],[{id:5,lv:1}],[{
-		level:43,sp:20,mp:40,power:"75.0%+500",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a powerful spinning attack to front attacking up to 8 enemy targets at once. During casting time, character still receives damage but skill action is not canceled. At skill level 3, fallen enemies can also be attacked."
+		level:43,sp:20,mp:40,power:"75.0%+500",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายการโจมตีแบบหมุนตัวอันทรงพลังไปด้านหน้า โจมตีศัตรูสูงสุด 8 ตัวในครั้งเดียว ในระหว่างการร่าย ตัวละครยังคงได้รับความเสียหาย แต่การกระทำของสกิลจะไม่ถูกยกเลิก ที่ระดับสกิล 3 ศัตรูที่ล้มลงก็สามารถถูกโจมตีได้ด้วย"
 	},{
-		level:46,sp:20,mp:45,power:"80.0%+600",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a powerful spinning attack to front attacking up to 10 enemy targets at once. During casting time, character still receives damage but skill action is not canceled. At skill level 3, fallen enemies can also be attacked. "
+		level:46,sp:20,mp:45,power:"80.0%+600",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายการโจมตีแบบหมุนตัวอันทรงพลังไปด้านหน้า โจมตีศัตรูสูงสุด 10 ตัวในครั้งเดียว ในระหว่างการร่าย ตัวละครยังคงได้รับความเสียหาย แต่การกระทำของสกิลจะไม่ถูกยกเลิก ที่ระดับสกิล 3 ศัตรูที่ล้มลงก็สามารถถูกโจมตีได้ด้วย"
 	},{
-		level:49,sp:20,mp:50,power:"85.0%+700",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a powerful spinning attack to front attacking up to 12 standing or fallen enemy targets at once. During casting time, character still receives damage but skill action is not canceled. "
+		level:49,sp:20,mp:50,power:"85.0%+700",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายการโจมตีแบบหมุนตัวอันทรงพลังไปด้านหน้า โจมตีศัตรูที่ยืนอยู่หรือล้มอยู่สูงสุด 12 ตัวในครั้งเดียว ในระหว่างการร่าย ตัวละครยังคงได้รับความเสียหาย แต่การกระทำของสกิลจะไม่ถูกยกเลิก"
 	},{
-		level:52,sp:20,mp:55,power:"90.0%+800",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a powerful spinning attack to front attacking up to 14 standing or fallen enemy targets at once. During casting time, character still receives damage but skill action is not canceled. "
+		level:52,sp:20,mp:55,power:"90.0%+800",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายการโจมตีแบบหมุนตัวอันทรงพลังไปด้านหน้า โจมตีศัตรูที่ยืนอยู่หรือล้มอยู่สูงสุด 14 ตัวในครั้งเดียว ในระหว่างการร่าย ตัวละครยังคงได้รับความเสียหาย แต่การกระทำของสกิลจะไม่ถูกยกเลิก"
 	},{
-		level:55,sp:20,mp:60,power:"95.0%+900",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a powerful spinning attack to front attacking up to 16 standing or fallen enemy targets at once. During casting time, character still receives damage but skill action is not canceled. "
+		level:55,sp:20,mp:60,power:"95.0%+900",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายการโจมตีแบบหมุนตัวอันทรงพลังไปด้านหน้า โจมตีศัตรูที่ยืนอยู่หรือล้มอยู่สูงสุด 16 ตัวในครั้งเดียว ในระหว่างการร่าย ตัวละครยังคงได้รับความเสียหาย แต่การกระทำของสกิลจะไม่ถูกยกเลิก"
 	}]);
 	
 	marcenary.skill[7] = new Skill("./img_p/mer/risingstorm.webp","ACTIVE","<font color='#8e6aac'>Raising Storm</font>","5",[6,5],[{id:6,lv:1}],[{
-		level:44,sp:25,mp:100,power:"375%+300",casttime:1,cooltime:30,duration:undefined, 
-	 	description:"Summon an invincible wrestler who will cast a powerful spinning attack on 12 standing enemies. "
+		level:44,sp:25,mp:100,power:"375%+300",casttime:1,cooltime:30,duration:undefined,
+		description:"เรียกนักมวยปล้ำที่อยู่ยงคงกระพันออกมาโจมตีแบบหมุนตัวอันทรงพลังใส่ศัตรูที่ยืนอยู่ 12 ตัว"
 	},{
-		level:47,sp:25,mp:110,power:"400%+450",casttime:1,cooltime:30,duration:undefined, 
-	 	description:"Summon an invincible wrestler who will cast a powerful spinning attack on 14 standing enemies. "
+		level:47,sp:25,mp:110,power:"400%+450",casttime:1,cooltime:30,duration:undefined,
+		description:"เรียกนักมวยปล้ำที่อยู่ยงคงกระพันออกมาโจมตีแบบหมุนตัวอันทรงพลังใส่ศัตรูที่ยืนอยู่ 14 ตัว"
 	},{
-		level:50,sp:25,mp:120,power:"425%+600",casttime:1,cooltime:30,duration:undefined, 
-	 	description:"Summon an invincible wrestler who will cast a powerful spinning attack on 16 standing enemies. "
+		level:50,sp:25,mp:120,power:"425%+600",casttime:1,cooltime:30,duration:undefined,
+		description:"เรียกนักมวยปล้ำที่อยู่ยงคงกระพันออกมาโจมตีแบบหมุนตัวอันทรงพลังใส่ศัตรูที่ยืนอยู่ 16 ตัว"
 	},{
-		level:53,sp:25,mp:130,power:"450%+750",casttime:1,cooltime:30,duration:undefined, 
-	 	description:"Summon an invincible wrestler who will cast a powerful spinning attack on 18 standing enemies. "
+		level:53,sp:25,mp:130,power:"450%+750",casttime:1,cooltime:30,duration:undefined,
+		description:"เรียกนักมวยปล้ำที่อยู่ยงคงกระพันออกมาโจมตีแบบหมุนตัวอันทรงพลังใส่ศัตรูที่ยืนอยู่ 18 ตัว"
 	},{
-		level:56,sp:25,mp:140,power:"475%+900",casttime:1,cooltime:30,duration:undefined, 
-	 	description:"Summon an invincible wrestler who will cast a powerful spinning attack on 20 standing enemies. "
+		level:56,sp:25,mp:140,power:"475%+900",casttime:1,cooltime:30,duration:undefined,
+		description:"เรียกนักมวยปล้ำที่อยู่ยงคงกระพันออกมาโจมตีแบบหมุนตัวอันทรงพลังใส่ศัตรูที่ยืนอยู่ 20 ตัว"
 	}]);
 	
 	marcenary.skill[8] = new Skill("./img_p/mer/waponquick.webp","ACTIVE","<font color='#8e6aac'>Weapon Quicken</font>","5",[9,2],[{id:5,lv:1}],[{
-		level:42,sp:20,mp:80,power:undefined,casttime:1.5,cooltime:70,duration:30, 
-	 	description:"Increase all party members' attack speed by 5% for 30 seconds. Effect does not stack with Acceleration or Adrenaline. "				
+		level:42,sp:20,mp:80,power:undefined,casttime:1.5,cooltime:70,duration:30,
+		description:"เพิ่มความเร็วในการโจมตีของสมาชิกปาร์ตี้ทั้งหมด 5% เป็นเวลา 30 วินาที เอฟเฟกต์นี้ไม่ทับซ้อนกับ Acceleration หรือ Adrenaline"
 	},{
-		level:45,sp:20,mp:85,power:undefined,casttime:1.5,cooltime:70,duration:30, 
-	 	description:"Increase all party members' attack speed by 7% for 30 seconds. Effect does not stack with Acceleration or Adrenaline. "
+		level:45,sp:20,mp:85,power:undefined,casttime:1.5,cooltime:70,duration:30,
+		description:"เพิ่มความเร็วในการโจมตีของสมาชิกปาร์ตี้ทั้งหมด 7% เป็นเวลา 30 วินาที เอฟเฟกต์นี้ไม่ทับซ้อนกับ Acceleration หรือ Adrenaline"
 	},{
-		level:48,sp:20,mp:90,power:undefined,casttime:1.5,cooltime:70,duration:30, 
-	 	description:"Increase all party members' attack speed by 9% for 30 seconds. Effect does not stack with Acceleration or Adrenaline. "
+		level:48,sp:20,mp:90,power:undefined,casttime:1.5,cooltime:70,duration:30,
+		description:"เพิ่มความเร็วในการโจมตีของสมาชิกปาร์ตี้ทั้งหมด 9% เป็นเวลา 30 วินาที เอฟเฟกต์นี้ไม่ทับซ้อนกับ Acceleration หรือ Adrenaline"
 	},{
-		level:51,sp:20,mp:95,power:undefined,casttime:1.5,cooltime:70,duration:30, 
-	 	description:"Increase all party members' attack speed by 11% for 30 seconds. Effect does not stack with Acceleration or Adrenaline. "
+		level:51,sp:20,mp:95,power:undefined,casttime:1.5,cooltime:70,duration:30,
+		description:"เพิ่มความเร็วในการโจมตีของสมาชิกปาร์ตี้ทั้งหมด 11% เป็นเวลา 30 วินาที เอฟเฟกต์นี้ไม่ทับซ้อนกับ Acceleration หรือ Adrenaline"
 	},{
-		level:54,sp:20,mp:100,power:undefined,casttime:1.5,cooltime:70,duration:30, 
-	 	description:"Increase all party members' attack speed by 13% for 30 seconds. Effect does not stack with Acceleration or Adrenaline. "
+		level:54,sp:20,mp:100,power:undefined,casttime:1.5,cooltime:70,duration:30,
+		description:"เพิ่มความเร็วในการโจมตีของสมาชิกปาร์ตี้ทั้งหมด 13% เป็นเวลา 30 วินาที เอฟเฟกต์นี้ไม่ทับซ้อนกับ Acceleration หรือ Adrenaline"
 	}]);
 	
 	marcenary.skill[9] = new Skill("./img_p/mer/wildrage.webp","ACTIVE","<font color='#8e6aac'>Wild Rage</font>","10",[9,4],[{id:8,lv:1}],[{
-		level:43,sp:15,mp:50,power:undefined,casttime:0,cooltime:60,duration:40, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 4% for 100 seconds."			
+		level:43,sp:15,mp:50,power:undefined,casttime:0,cooltime:60,duration:40,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 4% เป็นเวลา 100 วินาที"
 	},{
-		level:46,sp:15,mp:55,power:undefined,casttime:0,cooltime:60,duration:45, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 6% for 120 seconds."
+		level:46,sp:15,mp:55,power:undefined,casttime:0,cooltime:60,duration:45,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 6% เป็นเวลา 120 วินาที"
 	},{
-		level:49,sp:15,mp:60,power:undefined,casttime:0,cooltime:60,duration:50, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 8% for 140 seconds."
+		level:49,sp:15,mp:60,power:undefined,casttime:0,cooltime:60,duration:50,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 8% เป็นเวลา 140 วินาที"
 	},{
-		level:52,sp:15,mp:65,power:undefined,casttime:0,cooltime:60,duration:55, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 10% for 160 seconds."
+		level:52,sp:15,mp:65,power:undefined,casttime:0,cooltime:60,duration:55,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 10% เป็นเวลา 160 วินาที"
 	},{
-		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 12% for 180 seconds."
+		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 12% เป็นเวลา 180 วินาที"
 	},{
-		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 14% for 180 seconds."
+		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 14% เป็นเวลา 180 วินาที"
 	},{
-		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 16% for 180 seconds."
+		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 16% เป็นเวลา 180 วินาที"
 	},{
-		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 18% for 180 seconds."
+		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 18% เป็นเวลา 180 วินาที"
 	},{
-		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 20% for 180 seconds."
+		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 20% เป็นเวลา 180 วินาที"
 	},{
-		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60, 
-	 	description:"Amplifies all party member\'s total value of Physical Attack Power and crit. chance by 22% for 180 seconds."
+		level:55,sp:15,mp:70,power:undefined,casttime:0,cooltime:60,duration:60,
+		description:"เพิ่มค่าพลังโจมตีกายภาพรวมและโอกาสคริติคอลของสมาชิกปาร์ตี้ทั้งหมด 22% เป็นเวลา 180 วินาที"
 	}]);
 	
 	marcenary.skill[10] = new Skill("./img_p/mer/wyvernblede.webp","ACTIVE","<font color='#8e6aac'>Wyvern Blade</font>","5",[5,7],[{id:4,lv:2},{id:7,lv:2}],[{
-		level:48,sp:25,mp:100,power:"190.0%+500",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a strong tornado by powerful spin. Caster attacks by moving it with arrow keys. Tornado attack up to 6 launched enemies. At skill level 2, standing enemies can be attacked. With skill level 4, fallen enemies can also attacked. "		
+		level:48,sp:25,mp:100,power:"190.0%+500",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายพายุทอร์นาโดที่รุนแรงด้วยการหมุนตัวอันทรงพลัง ผู้ร่ายสามารถโจมตีได้โดยการเคลื่อนที่ด้วยปุ่มลูกศร พายุทอร์นาโดโจมตีศัตรูที่กระเด็นขึ้นไปสูงสุด 6 ตัว ที่ระดับสกิล 2 สามารถโจมตีศัตรูที่ยืนอยู่ได้ ที่ระดับสกิล 4 สามารถโจมตีศัตรูที่ล้มอยู่ได้ด้วย"
 	},{
-		level:51,sp:25,mp:125,power:"200.0%+650",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a strong tornado by powerful spin. Caster attacks by moving it with arrow keys. Tornado attack up to 8 launched or standing enemies. With skill level 4, fallen enemies can also attacked. "
+		level:51,sp:25,mp:125,power:"200.0%+650",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายพายุทอร์นาโดที่รุนแรงด้วยการหมุนตัวอันทรงพลัง ผู้ร่ายสามารถโจมตีได้โดยการเคลื่อนที่ด้วยปุ่มลูกศร พายุทอร์นาโดโจมตีศัตรูที่กระเด็นขึ้นไปหรือยืนอยู่สูงสุด 8 ตัว ที่ระดับสกิล 4 สามารถโจมตีศัตรูที่ล้มอยู่ได้ด้วย"
 	},{
-		level:54,sp:25,mp:150,power:"210.0%+800",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a strong tornado by powerful spin. Caster attacks by moving it with arrow keys. Tornado attack up to 10 launched or standing enemies. With skill level 4, fallen enemies can also attacked. "
+		level:54,sp:25,mp:150,power:"210.0%+800",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายพายุทอร์นาโดที่รุนแรงด้วยการหมุนตัวอันทรงพลัง ผู้ร่ายสามารถโจมตีได้โดยการเคลื่อนที่ด้วยปุ่มลูกศร พายุทอร์นาโดโจมตีศัตรูที่กระเด็นขึ้นไปหรือยืนอยู่สูงสุด 10 ตัว ที่ระดับสกิล 4 สามารถโจมตีศัตรูที่ล้มอยู่ได้ด้วย"
 	},{
-		level:57,sp:25,mp:175,power:"220.0%+950",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a strong tornado by powerful spin. Caster attacks by moving it with arrow keys. Tornado attack up to 12 launched, standing or fallen enemies. If there are more than 12 enemies, target will be reselected for each attack. "
+		level:57,sp:25,mp:175,power:"220.0%+950",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายพายุทอร์นาโดที่รุนแรงด้วยการหมุนตัวอันทรงพลัง ผู้ร่ายสามารถโจมตีได้โดยการเคลื่อนที่ด้วยปุ่มลูกศร พายุทอร์นาโดโจมตีศัตรูที่กระเด็นขึ้นไป ยืนอยู่ หรือล้มอยู่สูงสุด 12 ตัว หากมีศัตรูมากกว่า 12 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง"
 	},{
-		level:60,sp:25,mp:200,power:"230.0%+1100",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Cast a strong tornado by powerful spin. Caster attacks by moving it with arrow keys. Tornado attack up to 14 launched, standing or fallen enemies. If there are more than 14 enemies, target will be reselected for each attack. "
+		level:60,sp:25,mp:200,power:"230.0%+1100",casttime:0,cooltime:10,duration:undefined,
+		description:"ร่ายพายุทอร์นาโดที่รุนแรงด้วยการหมุนตัวอันทรงพลัง ผู้ร่ายสามารถโจมตีได้โดยการเคลื่อนที่ด้วยปุ่มลูกศร พายุทอร์นาโดโจมตีศัตรูที่กระเด็นขึ้นไป ยืนอยู่ หรือล้มอยู่สูงสุด 14 ตัว หากมีศัตรูมากกว่า 14 ตัว เป้าหมายจะถูกเลือกใหม่สำหรับการโจมตีแต่ละครั้ง"
 	}]);
 	
 //Warrior - Gladiator - Myrmidon - Overlord
@@ -1624,92 +1624,92 @@
 	};
 	
 	overlord.skill[0] = new Skill("./img_p/ovl/Awakening.webp","PASSIVE","<font color='#8e6aac'>Awakening</font>","1",[5,0],[],[{
-		level:60,sp:1,mp:undefined,power:undefined,casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Whenever you use MP during battle, your Awakening bar will fill up. This allows you to perform certain special skills which consume Awakening points. These skills also consume MP, however the MP they consume does not fill your awakening bar. "
+		level:60,sp:1,mp:undefined,power:undefined,casttime:0,cooltime:10,duration:undefined,
+	description:"เมื่อใดก็ตามที่คุณใช้ MP ระหว่างการต่อสู้ แถบ Awakening ของคุณจะเต็มขึ้น สิ่งนี้ทำให้คุณสามารถใช้สกิลพิเศษบางอย่างที่ใช้แต้ม Awakening ได้ สกิลเหล่านี้ยังคงใช้ MP แต่ MP ที่ใช้จะไม่ทำให้แถบ Awakening ของคุณเต็มขึ้น"
 	}]);
 	
 	overlord.skill[1] = new Skill("./img_p/ovl/DeathGrab.webp","ACTIVE","<font color='#8e6aac'>Death Grab</font>","5",[1,0],[],[{
-		level:60,sp:20,mp:60,power:"120.0%+400",casttime:0,cooltime:15,duration:undefined, 
-	 	description:"Brings 2 enemies in mid-air in front of the user. Targets will be stunned. "		
+		level:60,sp:20,mp:60,power:"120.0%+400",casttime:0,cooltime:15,duration:undefined,
+		description:"ดึงศัตรู 2 ตัวที่อยู่กลางอากาศมาไว้ข้างหน้าผู้ใช้ เป้าหมายจะติดสถานะมึนงง"
 	},{
-		level:62,sp:20,mp:75,power:"140.0%+500",casttime:0,cooltime:12.5,duration:undefined, 
-	 	description:"Brings 4 enemies in mid-air in front of the user. Targets will be stunned. "
+		level:62,sp:20,mp:75,power:"140.0%+500",casttime:0,cooltime:12.5,duration:undefined,
+		description:"ดึงศัตรู 4 ตัวที่อยู่กลางอากาศมาไว้ข้างหน้าผู้ใช้ เป้าหมายจะติดสถานะมึนงง"
 	},{
-		level:64,sp:20,mp:90,power:"160.0%+600",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Brings 6 enemies in mid-air in front of the user. Targets will be stunned. "
+		level:64,sp:20,mp:90,power:"160.0%+600",casttime:0,cooltime:10,duration:undefined,
+		description:"ดึงศัตรู 6 ตัวที่อยู่กลางอากาศมาไว้ข้างหน้าผู้ใช้ เป้าหมายจะติดสถานะมึนงง"
 	},{
-		level:66,sp:20,mp:105,power:"180.0%+700",casttime:0,cooltime:7.5,duration:undefined, 
-	 	description:"Brings 8 enemies in mid-air in front of the user. Targets will be stunned."
+		level:66,sp:20,mp:105,power:"180.0%+700",casttime:0,cooltime:7.5,duration:undefined,
+		description:"ดึงศัตรู 8 ตัวที่อยู่กลางอากาศมาไว้ข้างหน้าผู้ใช้ เป้าหมายจะติดสถานะมึนงง"
 	},{
-		level:68,sp:20,mp:120,power:"200.0%+800",casttime:0,cooltime:5,duration:undefined, 
-	 	description:"Brings 10 enemies in mid-air in front of the user. Targets will be stunned. "
+		level:68,sp:20,mp:120,power:"200.0%+800",casttime:0,cooltime:5,duration:undefined,
+		description:"ดึงศัตรู 10 ตัวที่อยู่กลางอากาศมาไว้ข้างหน้าผู้ใช้ เป้าหมายจะติดสถานะมึนงง"
 	}]);
 	
 	overlord.skill[2] = new Skill("./img_p/ovl/WindStep.webp","ACTIVE","<font color='#8e6aac'>Wind Step</font>","5",[9,0],[{id:0,lv:1}],[{
-		level:60,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Using the God of Destruction's power movement speed permanently increased by 8%. "		
+		level:60,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined,
+		description:"ใช้พลังของเทพเจ้าแห่งการทำลายล้างเพื่อเพิ่มความเร็วในการเคลื่อนที่ถาวร 8%"
 	},{
-		level:62,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Using the God of Destruction's power movement speed permanently increased by 10%. "
+		level:62,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined,
+		description:"ใช้พลังของเทพเจ้าแห่งการทำลายล้างเพื่อเพิ่มความเร็วในการเคลื่อนที่ถาวร 10%"
 	},{
-		level:64,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Using the God of Destruction's power movement speed permanently increased by 12%. "
+		level:64,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined,
+		description:"ใช้พลังของเทพเจ้าแห่งการทำลายล้างเพื่อเพิ่มความเร็วในการเคลื่อนที่ถาวร 12%"
 	},{
-		level:66,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Using the God of Destruction's power movement speed permanently increased by 14%. "
+		level:66,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined,
+		description:"ใช้พลังของเทพเจ้าแห่งการทำลายล้างเพื่อเพิ่มความเร็วในการเคลื่อนที่ถาวร 14%"
 	},{
-		level:68,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"Using the God of Destruction's power movement speed permanently increased by 16%. "
+		level:68,sp:25,mp:undefined,power:"",casttime:0,cooltime:undefined,duration:undefined,
+		description:"ใช้พลังของเทพเจ้าแห่งการทำลายล้างเพื่อเพิ่มความเร็วในการเคลื่อนที่ถาวร 16%"
 	}]);
 	
 	overlord.skill[3] = new Skill("./img_p/ovl/DeathStinger.webp","PASSIVE","<font color='#8e6aac'>Death Stinger</font>","5",[4,3],[{id:0,lv:1}],[{
-		level:61,sp:25,mp:300,power:"220%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] Summon the God of Ruins, Bultan, with Blood Covenant, and attack enemies with knock back."
-	 	},{
-		level:63,sp:25,mp:325,power:"250%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] Summon the God of Ruins, Bultan, with Blood Covenant, and attack enemies with knock back."
-		},{
-		level:65,sp:25,mp:350,power:"280%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] Summon the God of Ruins, Bultan, with Blood Covenant, and attack enemies with knock back."
-		},{
-		level:67,sp:25,mp:375,power:"310%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] Summon the God of Ruins, Bultan, with Blood Covenant, and attack enemies with knock back."
-		},{
-		level:69,sp:25,mp:400,power:"340%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"[Awakening Skill] Summon the God of Ruins, Bultan, with Blood Covenant, and attack enemies with knock back."
+		level:61,sp:25,mp:300,power:"220%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] อัญเชิญเทพแห่งซากปรักหักพัง บูลทัน ด้วยพันธสัญญาโลหิต และโจมตีศัตรูพร้อมกับผลักพวกมันกระเด็น"
+	},{
+		level:63,sp:25,mp:325,power:"250%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] อัญเชิญเทพแห่งซากปรักหักพัง บูลทัน ด้วยพันธสัญญาโลหิต และโจมตีศัตรูพร้อมกับผลักพวกมันกระเด็น"
+	},{
+		level:65,sp:25,mp:350,power:"280%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] อัญเชิญเทพแห่งซากปรักหักพัง บูลทัน ด้วยพันธสัญญาโลหิต และโจมตีศัตรูพร้อมกับผลักพวกมันกระเด็น"
+	},{
+		level:67,sp:25,mp:375,power:"310%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] อัญเชิญเทพแห่งซากปรักหักพัง บูลทัน ด้วยพันธสัญญาโลหิต และโจมตีศัตรูพร้อมกับผลักพวกมันกระเด็น"
+	},{
+		level:69,sp:25,mp:400,power:"340%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] อัญเชิญเทพแห่งซากปรักหักพัง บูลทัน ด้วยพันธสัญญาโลหิต และโจมตีศัตรูพร้อมกับผลักพวกมันกระเด็น"
 	}]);
 	
 	overlord.skill[4] = new Skill("./img_p/ovl/DemolitionBomber.webp","ACTIVE","<font color='#8e6aac'>Demolition Bomber</font>","1",[6,3],[{id:0,lv:1}],[{
-		level:undefined,sp:60,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined, 
-	 	description:"[Ultimate Skill] The ultimate skill for the Overlord class. Summon the God of Ruins, Bultan, to inflict 2 physical attack combos to 20 enemies with explosion damage in final attack. "
+		level:undefined,sp:60,mp:undefined,power:undefined,casttime:0,cooltime:undefined,duration:undefined,
+		description:"[Ultimate Skill] สกิลขั้นสูงสุดสำหรับคลาส Overlord อัญเชิญเทพแห่งซากปรักหักพัง บูลทัน เพื่อโจมตีกายภาพแบบคอมโบ 2 ครั้งแก่ศัตรู 20 ตัว พร้อมความเสียหายจากการระเบิดในการโจมตีครั้งสุดท้าย"
 	}]);
 	
 	overlord.skill[5] = new Skill("./img_p/ovl/DemolitionCharge.webp","ACTIVE","<font color='#8e6aac'>Demolition Charge</font>","5",[4,5],[{id:3,lv:1}],[{
-		level:62,sp:25,mp:300,power:"900%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transfer God of Ruins, Bultan’s Power to the sword with Blood Covenant. Able to charge maximum 3 levels. If user wants to cast during charging, press “Z”. Automatically active when charging is completed. Additional damages in tooltips are maximum damage."
-	 	},{
-		level:64,sp:25,mp:325,power:"950%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transfer God of Ruins, Bultan’s Power to the sword with Blood Covenant. Able to charge maximum 3 levels. If user wants to cast during charging, press “Z”. Automatically active when charging is completed. Additional damages in tooltips are maximum damage."
-		},{
-		level:66,sp:25,mp:350,power:"1000%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transfer God of Ruins, Bultan’s Power to the sword with Blood Covenant. Able to charge maximum 3 levels. If user wants to cast during charging, press “Z”. Automatically active when charging is completed. Additional damages in tooltips are maximum damage."
-		},{
-		level:68,sp:25,mp:375,power:"1050%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transfer God of Ruins, Bultan’s Power to the sword with Blood Covenant. Able to charge maximum 3 levels. If user wants to cast during charging, press “Z”. Automatically active when charging is completed. Additional damages in tooltips are maximum damage."
-		},{
-		level:70,sp:25,mp:400,power:"1100%",casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Transfer God of Ruins, Bultan’s Power to the sword with Blood Covenant. Able to charge maximum 3 levels. If user wants to cast during charging, press “Z”. Automatically active when charging is completed. Additional damages in tooltips are maximum damage."	
-	 }]);
+		level:62,sp:25,mp:300,power:"900%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ถ่ายโอนพลังของเทพเจ้าแห่งซากปรักหักพัง 'บูลทัน' ไปยังดาบด้วยพันธสัญญาโลหิต สามารถชาร์จได้สูงสุด 3 ระดับ หากผู้ใช้ต้องการร่ายในระหว่างการชาร์จ ให้กดปุ่ม 'Z' จะทำงานโดยอัตโนมัติเมื่อชาร์จเสร็จสมบูรณ์ ความเสียหายเพิ่มเติมในคำแนะนำเครื่องมือคือความเสียหายสูงสุด"
+	},{
+		level:64,sp:25,mp:325,power:"950%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ถ่ายโอนพลังของเทพเจ้าแห่งซากปรักหักพัง 'บูลทัน' ไปยังดาบด้วยพันธสัญญาโลหิต สามารถชาร์จได้สูงสุด 3 ระดับ หากผู้ใช้ต้องการร่ายในระหว่างการชาร์จ ให้กดปุ่ม 'Z' จะทำงานโดยอัตโนมัติเมื่อชาร์จเสร็จสมบูรณ์ ความเสียหายเพิ่มเติมในคำแนะนำเครื่องมือคือความเสียหายสูงสุด"
+	},{
+		level:66,sp:25,mp:350,power:"1000%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ถ่ายโอนพลังของเทพเจ้าแห่งซากปรักหักพัง 'บูลทัน' ไปยังดาบด้วยพันธสัญญาโลหิต สามารถชาร์จได้สูงสุด 3 ระดับ หากผู้ใช้ต้องการร่ายในระหว่างการชาร์จ ให้กดปุ่ม 'Z' จะทำงานโดยอัตโนมัติเมื่อชาร์จเสร็จสมบูรณ์ ความเสียหายเพิ่มเติมในคำแนะนำเครื่องมือคือความเสียหายสูงสุด"
+	},{
+		level:68,sp:25,mp:375,power:"1050%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ถ่ายโอนพลังของเทพเจ้าแห่งซากปรักหักพัง 'บูลทัน' ไปยังดาบด้วยพันธสัญญาโลหิต สามารถชาร์จได้สูงสุด 3 ระดับ หากผู้ใช้ต้องการร่ายในระหว่างการชาร์จ ให้กดปุ่ม 'Z' จะทำงานโดยอัตโนมัติเมื่อชาร์จเสร็จสมบูรณ์ ความเสียหายเพิ่มเติมในคำแนะนำเครื่องมือคือความเสียหายสูงสุด"
+	},{
+		level:70,sp:25,mp:400,power:"1100%",casttime:0,cooltime:30,duration:undefined,
+		description:"[Awakening Skill] ถ่ายโอนพลังของเทพเจ้าแห่งซากปรักหักพัง 'บูลทัน' ไปยังดาบด้วยพันธสัญญาโลหิต สามารถชาร์จได้สูงสุด 3 ระดับ หากผู้ใช้ต้องการร่ายในระหว่างการชาร์จ ให้กดปุ่ม 'Z' จะทำงานโดยอัตโนมัติเมื่อชาร์จเสร็จสมบูรณ์ ความเสียหายเพิ่มเติมในคำแนะนำเครื่องมือคือความเสียหายสูงสุด"
+	}]);
 	 
 	overlord.skill[6] = new Skill("./img_p/ovl/ChargeTheAwakening.webp","toggle","<font color='#8e6aac'>Awakening Charge</font>","3",[1,7],[],[{
-		level:60,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-		description:"Consumes 20% MP to recharge 14% of the Awakening bar every 3 seconds."
-	 },{
-	 	level:62,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-		description:"Consumes 20% MP to recharge 17% of the Awakening bar every 3 seconds."
-	 },{
-		level:68,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-		description:"Consumes 20% MP to recharge 20% of the Awakening bar every 3 seconds."
+		level:60,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined,
+		description:"ใช้ MP 20% เพื่อชาร์จแถบ Awakening 14% ทุก 3 วินาที"
+	},{
+		level:62,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined,
+		description:"ใช้ MP 20% เพื่อชาร์จแถบ Awakening 17% ทุก 3 วินาที"
+	},{
+		level:68,sp:10,mp:35,power:undefined,casttime:0,cooltime:3,duration:undefined,
+		description:"ใช้ MP 20% เพื่อชาร์จแถบ Awakening 20% ทุก 3 วินาที"
 	}]);
 	
 //Mage
