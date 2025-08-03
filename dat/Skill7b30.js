@@ -1719,301 +1719,301 @@
 		image: "./img_p/magebg.webp"
 	};
 	mage.skill[0] = new Skill("./img_p/mag/pointbuster.webp","ACTIVE","<font color='#8e6aac'>Point Buster</font>","10",[5,0],[],[{
-		level:1,sp:15,mp:10,power:"25.0%+80",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 4 standing or fallen enemies into the air."
+		level:1,sp:15,mp:10,power:"25.0%+80",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 4 ตัวขึ้นไปในอากาศ"
 	},{
-		level:4,sp:15,mp:13,power:"27.5%+90",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 5 standing or fallen enemies into the air."
+		level:4,sp:15,mp:13,power:"27.5%+90",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 5 ตัวขึ้นไปในอากาศ"
 	},{
-		level:6,sp:15,mp:16,power:"30.0%+100",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 6 standing or fallen enemies into the air."
+		level:6,sp:15,mp:16,power:"30.0%+100",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 6 ตัวขึ้นไปในอากาศ"
 	},{
-		level:8,sp:15,mp:19,power:"32.5%+110",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 7 standing or fallen enemies into the air. "
+		level:8,sp:15,mp:19,power:"32.5%+110",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 7 ตัวขึ้นไปในอากาศ"
 	},{
-		level:10,sp:15,mp:21,power:"35.0%+120",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 8 standing or fallen enemies into the air. "
+		level:10,sp:15,mp:21,power:"35.0%+120",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 8 ตัวขึ้นไปในอากาศ"
 	},{
-		level:13,sp:15,mp:23,power:"37.5%+130",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 9 standing or fallen enemies into the air. "
+		level:13,sp:15,mp:23,power:"37.5%+130",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 9 ตัวขึ้นไปในอากาศ"
 	},{
-		level:13,sp:15,mp:25,power:"40.0%+140",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 10 standing or fallen enemies into the air. "
+		level:13,sp:15,mp:25,power:"40.0%+140",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 10 ตัวขึ้นไปในอากาศ"
 	},{
-		level:13,sp:15,mp:27,power:"42.5%+150",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 11 standing or fallen enemies into the air. "
+		level:13,sp:15,mp:27,power:"42.5%+150",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 11 ตัวขึ้นไปในอากาศ"
 	},{
-		level:13,sp:15,mp:29,power:"45.0%+160",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 12 standing or fallen enemies into the air. "
+		level:13,sp:15,mp:29,power:"45.0%+160",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 12 ตัวขึ้นไปในอากาศ"
 	},{
-		level:13,sp:15,mp:31,power:"47.5%+170",casttime:0.5,cooltime:2,duration:undefined, 
-	 	description:"Attack and launch 13 standing or fallen enemies into the air. "
+		level:13,sp:15,mp:31,power:"47.5%+170",casttime:0.5,cooltime:2,duration:undefined,
+		description:"โจมตีและเหวี่ยงศัตรูที่ยืนอยู่หรือล้มอยู่ 13 ตัวขึ้นไปในอากาศ"
 	}]);
 
 	mage.skill[1] = new Skill("./img_p/mag/aircombo.webp","PASSIVE","<font color='#8e6aac'>Air Combo</font>","3",[5,2],[{id:0,lv:1}],[{
-		level:2,sp:15,mp:undefined,power:"15.0%+50",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Hits enemies with electric bolts in mid-air."
+		level:2,sp:15,mp:undefined,power:"15.0%+50",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"โจมตีศัตรูด้วยสายฟ้ากลางอากาศ"
 	},{
-		level:3,sp:15,mp:undefined,power:"18.0%+60",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Hits enemies with electric bolts in mid-air."
+		level:3,sp:15,mp:undefined,power:"18.0%+60",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"โจมตีศัตรูด้วยสายฟ้ากลางอากาศ"
 	},{
-		level:4,sp:15,mp:undefined,power:"21.0%+70",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Hits enemies with electric bolts in mid-air."
+		level:4,sp:15,mp:undefined,power:"21.0%+70",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"โจมตีศัตรูด้วยสายฟ้ากลางอากาศ"
 	}]);
 
 	mage.skill[2] = new Skill("./img_p/mag/meteor.webp","ACTIVE","<font color='#8e6aac'>Meteor Fall</font>","5",[5,4],[{id:1,lv:1}],[{
-		level:3,sp:15,mp:10,power:"25.0%+80",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"After jumping, drop a small meteor to attack 2 enemy target. Skill is also activated by pressing down arrow key and attack button after jumping. At skill level 3, victims are slightly launched into the air."
+		level:3,sp:15,mp:10,power:"25.0%+80",casttime:0,cooltime:3,duration:undefined,
+		description:"หลังจากกระโดดแล้ว ปล่อยอุกกาบาตขนาดเล็กเพื่อโจมตีเป้าหมายศัตรู 2 ตัว สกิลนี้ยังสามารถใช้งานได้โดยการกดปุ่มลูกศรลงและปุ่มโจมตีหลังจากกระโดด ที่ระดับสกิล 3 เหยื่อจะถูกเหวี่ยงขึ้นไปในอากาศเล็กน้อย"
 	},{
-		level:6,sp:15,mp:13,power:"28.5%+95",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"After jumping, drop a small meteor to attack 4 enemy target. Skill is also activated by pressing down arrow key and attack button after jumping. At skill level 3, victims are slightly launched into the air."
+		level:6,sp:15,mp:13,power:"28.5%+95",casttime:0,cooltime:3,duration:undefined,
+		description:"หลังจากกระโดดแล้ว ปล่อยอุกกาบาตขนาดเล็กเพื่อโจมตีเป้าหมายศัตรู 4 ตัว สกิลนี้ยังสามารถใช้งานได้โดยการกดปุ่มลูกศรลงและปุ่มโจมตีหลังจากกระโดด ที่ระดับสกิล 3 เหยื่อจะถูกเหวี่ยงขึ้นไปในอากาศเล็กน้อย"
 	},{
-		level:9,sp:15,mp:16,power:"31.0%+110",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"After jumping, drop a small meteor to attack 6 enemy targets and slightly launch them into the air. Skill is also activated by pressing down arrow key and attack button after jumping."
+		level:9,sp:15,mp:16,power:"31.0%+110",casttime:0,cooltime:3,duration:undefined,
+		description:"หลังจากกระโดดแล้ว ปล่อยอุกกาบาตขนาดเล็กเพื่อโจมตีเป้าหมายศัตรู 6 ตัว และเหวี่ยงพวกมันขึ้นไปในอากาศเล็กน้อย สกิลนี้ยังสามารถใช้งานได้โดยการกดปุ่มลูกศรลงและปุ่มโจมตีหลังจากกระโดด"
 	},{
-		level:12,sp:15,mp:19,power:"34.0%+125",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"After jumping, drop a small meteor to attack 8 enemy targets and slightly launch them into the air. Skill is also activated by pressing down arrow key and attack button after jumping."
+		level:12,sp:15,mp:19,power:"34.0%+125",casttime:0,cooltime:3,duration:undefined,
+		description:"หลังจากกระโดดแล้ว ปล่อยอุกกาบาตขนาดเล็กเพื่อโจมตีเป้าหมายศัตรู 8 ตัว และเหวี่ยงพวกมันขึ้นไปในอากาศเล็กน้อย สกิลนี้ยังสามารถใช้งานได้โดยการกดปุ่มลูกศรลงและปุ่มโจมตีหลังจากกระโดด"
 	},{
-		level:15,sp:15,mp:21,power:"37.0%+140",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"After jumping, drop a small meteor to attack 10 enemy targets and slightly launch them into the air. Skill is also activated by pressing down arrow key and attack button after jumping."
+		level:15,sp:15,mp:21,power:"37.0%+140",casttime:0,cooltime:3,duration:undefined,
+		description:"หลังจากกระโดดแล้ว ปล่อยอุกกาบาตขนาดเล็กเพื่อโจมตีเป้าหมายศัตรู 10 ตัว และเหวี่ยงพวกมันขึ้นไปในอากาศเล็กน้อย สกิลนี้ยังสามารถใช้งานได้โดยการกดปุ่มลูกศรลงและปุ่มโจมตีหลังจากกระโดด"
 	}]);
 
 	mage.skill[3] = new Skill("./img_p/mag/relaunch_mage.webp","ACTIVE","<font color='#8e6aac'>Re-Launch</font>","5",[2,2],[],[{
-		level:2,sp:10,mp:10,power:"25.0%+60",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"Attacks fallen enemies on the ground and raises them back into the air. "
+		level:2,sp:10,mp:10,power:"25.0%+60",casttime:0,cooltime:3,duration:undefined,
+		description:"โจมตีศัตรูที่ล้มอยู่บนพื้นและยกพวกมันขึ้นไปในอากาศอีกครั้ง"
 	},{
-		level:4,sp:10,mp:12,power:"26.5%+75",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"Attacks fallen enemies on the ground and raises them back into the air. "
+		level:4,sp:10,mp:12,power:"26.5%+75",casttime:0,cooltime:3,duration:undefined,
+		description:"โจมตีศัตรูที่ล้มอยู่บนพื้นและยกพวกมันขึ้นไปในอากาศอีกครั้ง"
 	},{
-		level:6,sp:10,mp:14,power:"28.0%+90",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"Attacks fallen enemies on the ground and raises them back into the air. "
+		level:6,sp:10,mp:14,power:"28.0%+90",casttime:0,cooltime:3,duration:undefined,
+		description:"โจมตีศัตรูที่ล้มอยู่บนพื้นและยกพวกมันขึ้นไปในอากาศอีกครั้ง"
 	},{
-		level:8,sp:10,mp:16,power:"29.5%+105",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"Attacks fallen enemies on the ground and raises them back into the air. "
+		level:8,sp:10,mp:16,power:"29.5%+105",casttime:0,cooltime:3,duration:undefined,
+		description:"โจมตีศัตรูที่ล้มอยู่บนพื้นและยกพวกมันขึ้นไปในอากาศอีกครั้ง"
 	},{
-		level:10,sp:10,mp:18,power:"31.0%+120",casttime:0,cooltime:3,duration:undefined, 
-	 	description:"Attacks fallen enemies on the ground and raises them back into the air. "
+		level:10,sp:10,mp:18,power:"31.0%+120",casttime:0,cooltime:3,duration:undefined,
+		description:"โจมตีศัตรูที่ล้มอยู่บนพื้นและยกพวกมันขึ้นไปในอากาศอีกครั้ง"
 	}]);
 
 	mage.skill[4] = new Skill("./img_p/mag/blink.webp","ACTIVE","<font color='#8e6aac'>Blink</font>","1",[2,4],[],[{
-		level:10,sp:15,mp:20,power:undefined,casttime:0,cooltime:3,duration:undefined, 
-	 	description:"Unique skill of magicians for bailing out of danger. caster teleports back to certain distance."
-	}]);
+		level:10,sp:15,mp:20,power:undefined,casttime:0,cooltime:3,duration:undefined,
+	description:"สกิลเฉพาะตัวของนักเวทสำหรับการเอาตัวรอดจากอันตราย ผู้ร่ายจะเทเลพอร์ตถอยหลังไปในระยะที่กำหนด"
+}]);
 
 	mage.skill[5] = new Skill("./img_p/mag/cannon.webp","ACTIVE","<font color='#8e6aac'>Fortress</font>","10",[2,6],[],[{
-		level:4,sp:10,mp:15,power:"35.0%+80",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 5 enemies."
+		level:4,sp:10,mp:15,power:"35.0%+80",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 5 ตัว"
 	},{
-		level:7,sp:10,mp:17,power:"40.0%+100",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 6 enemies."
+		level:7,sp:10,mp:17,power:"40.0%+100",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 6 ตัว"
 	},{
-		level:10,sp:10,mp:19,power:"45.0%+120",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 7 enemies."
+		level:10,sp:10,mp:19,power:"45.0%+120",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 7 ตัว"
 	},{
-		level:13,sp:10,mp:21,power:"50.0%+140",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 8 enemies."
+		level:13,sp:10,mp:21,power:"50.0%+140",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 8 ตัว"
 	},{
-		level:16,sp:10,mp:23,power:"55.0%+160",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 9 enemies."
+		level:16,sp:10,mp:23,power:"55.0%+160",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 9 ตัว"
 	},{
-		level:"CARD",sp:10,mp:25,power:"60.0%+180",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 10 enemies."
+		level:"CARD",sp:10,mp:25,power:"60.0%+180",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 10 ตัว"
 	},{
-		level:"CARD",sp:10,mp:27,power:"65.0%+200",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 11 enemies."
+		level:"CARD",sp:10,mp:27,power:"65.0%+200",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 11 ตัว"
 	},{
-		level:"CARD",sp:10,mp:29,power:"70.0%+220",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 12 enemies."
+		level:"CARD",sp:10,mp:29,power:"70.0%+220",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 12 ตัว"
 	},{
-		level:"CARD",sp:10,mp:31,power:"75.0%+240",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 13 enemies."
+		level:"CARD",sp:10,mp:31,power:"75.0%+240",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 13 ตัว"
 	},{
-		level:"CARD",sp:10,mp:33,power:"80.0%+260 ",casttime:0,cooltime:1,duration:undefined, 
-	 	description:"Turns you into a cannon head and blasts 14 enemies."
+		level:"CARD",sp:10,mp:33,power:"80.0%+260 ",casttime:0,cooltime:1,duration:undefined,
+		description:"เปลี่ยนคุณเป็นหัวปืนใหญ่และระเบิดศัตรู 14 ตัว"
 	}]);
 
 	mage.skill[6] = new Skill("./img_p/mag/cannonupgrade.webp","PASSIVE","<font color='#8e6aac'>Cannon Upgrade</font>","5",[1,8],[{id:5,lv:1}],[{
-		level:5,sp:15,mp:undefined,power:"15.0%+40",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Upgrades Fortress skill to deal 50% more damage and have a chance to cause Lv. 1 Serious Bleeding effect."
+		level:5,sp:15,mp:undefined,power:"15.0%+40",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"อัปเกรดสกิล Fortress ให้สร้างความเสียหายเพิ่มขึ้น 50% และมีโอกาสทำให้เกิดสถานะเลือดออกรุนแรง Lv. 1"
 	},{
-		level:8,sp:15,mp:undefined,power:"18.0%+60",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Upgrades Fortress skill to deal 55% more damage and have a chance to cause Lv. 1 Serious Bleeding effect."
+		level:8,sp:15,mp:undefined,power:"18.0%+60",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"อัปเกรดสกิล Fortress ให้สร้างความเสียหายเพิ่มขึ้น 55% และมีโอกาสทำให้เกิดสถานะเลือดออกรุนแรง Lv. 1"
 	},{
-		level:11,sp:15,mp:undefined,power:"21.0%+80",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Upgrades Fortress skill to deal 60% more damage and have a chance to cause Lv. 1 Serious Bleeding effect."
+		level:11,sp:15,mp:undefined,power:"21.0%+80",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"อัปเกรดสกิล Fortress ให้สร้างความเสียหายเพิ่มขึ้น 60% และมีโอกาสทำให้เกิดสถานะเลือดออกรุนแรง Lv. 1"
 	},{
-		level:14,sp:15,mp:undefined,power:"24.0%+100",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Upgrades Fortress skill to deal 65% more damage and have a chance to cause Lv. 1 Serious Bleeding effect."
+		level:14,sp:15,mp:undefined,power:"24.0%+100",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"อัปเกรดสกิล Fortress ให้สร้างความเสียหายเพิ่มขึ้น 65% และมีโอกาสทำให้เกิดสถานะเลือดออกรุนแรง Lv. 1"
 	},{
-		level:17,sp:15,mp:undefined,power:"27.0%+120",casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Upgrades Fortress skill to deal 70% more damage and have a chance to cause Lv. 1 Serious Bleeding effect."
+		level:17,sp:15,mp:undefined,power:"27.0%+120",casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"อัปเกรดสกิล Fortress ให้สร้างความเสียหายเพิ่มขึ้น 70% และมีโอกาสทำให้เกิดสถานะเลือดออกรุนแรง Lv. 1"
 	}]);
 
 	mage.skill[7] = new Skill("./img_p/mag/cannonaccera.webp","PASSIVE","<font color='#8e6aac'>Bullet Acceleration</font>","5",[3,10],[{id:5,lv:1}],[{
-		level:6,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases speed of Fortress bullet by 20%"
+		level:6,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มความเร็วของกระสุน Fortress 20%"
 	},{
-		level:9,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases speed of Fortress bullet by 40%"
+		level:9,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มความเร็วของกระสุน Fortress 40%"
 	},{
-		level:12,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases speed of Fortress bullet by 60%"
+		level:12,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มความเร็วของกระสุน Fortress 60%"
 	},{
-		level:15,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases speed of Fortress bullet by 80%"
+		level:15,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มความเร็วของกระสุน Fortress 80%"
 	},{
-		level:18,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases speed of Fortress bullet by 100%"
+		level:18,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มความเร็วของกระสุน Fortress 100%"
 	}]);
 
 	mage.skill[8] = new Skill("./img_p/mag/mppotionmax.webp","PASSIVE","<font color='#8e6aac'>MP Potion Maximization</font>","5",[8,0],[],[{
-		level:1,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase all MP recovery effect 10% by adding additional recovery. "
+		level:1,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มผลการฟื้นฟู MP ทั้งหมด 10% โดยเพิ่มการฟื้นฟูเพิ่มเติม"
 	},{
-		level:5,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase all MP recovery effect 15% by adding additional recovery. "
+		level:5,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มผลการฟื้นฟู MP ทั้งหมด 15% โดยเพิ่มการฟื้นฟูเพิ่มเติม"
 	},{
-		level:9,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase all MP recovery effect 20% by adding additional recovery. "
+		level:9,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มผลการฟื้นฟู MP ทั้งหมด 20% โดยเพิ่มการฟื้นฟูเพิ่มเติม"
 	},{
-		level:13,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase all MP recovery effect 25% by adding additional recovery. "
+		level:13,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มผลการฟื้นฟู MP ทั้งหมด 25% โดยเพิ่มการฟื้นฟูเพิ่มเติม"
 	},{
-		level:17,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increase all MP recovery effect 30% by adding additional recovery. "
+		level:17,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มผลการฟื้นฟู MP ทั้งหมด 30% โดยเพิ่มการฟื้นฟูเพิ่มเติม"
 	}]);
 
 	mage.skill[9] = new Skill("./img_p/mag/slowheal.webp","ACTIVE","<font color='#8e6aac'>Slow Heal</font>","10",[7,4],[{id:8,lv:1}],[{
-		level:3,sp:15,mp:20,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 1% of Max HP every 3 seconds. Can heal party members once skill level reaches 4." 
+		level:3,sp:15,mp:20,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 1% ทุกๆ 3 วินาที สามารถฮีลสมาชิกปาร์ตี้ได้เมื่อระดับสกิลถึง 4"
 	},{
-		level:6,sp:15,mp:30,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 2% of Max HP every 3 seconds. Can heal party members once skill level reaches 4." 
+		level:6,sp:15,mp:30,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 2% ทุกๆ 3 วินาที สามารถฮีลสมาชิกปาร์ตี้ได้เมื่อระดับสกิลถึง 4"
 	},{
-		level:9,sp:15,mp:40,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 3% of Max HP every 3 seconds. Can heal party members once skill level reaches 4." 
+		level:9,sp:15,mp:40,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 3% ทุกๆ 3 วินาที สามารถฮีลสมาชิกปาร์ตี้ได้เมื่อระดับสกิลถึง 4"
 	},{
-		level:12,sp:15,mp:50,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 4% Max HP of oneself and party members every 3 seconds." 
+		level:12,sp:15,mp:50,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 4% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	},{
-		level:15,sp:15,mp:60,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 5% Max HP of oneself and party members every 3 seconds." 
+		level:15,sp:15,mp:60,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 5% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	},{
-		level:"CARD",sp:15,mp:70,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 5.5% Max HP of oneself and party members every 3 seconds." 
+		level:"CARD",sp:15,mp:70,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 5.5% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	},{
-		level:"CARD",sp:15,mp:80,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 6% Max HP of oneself and party members every 3 seconds." 
+		level:"CARD",sp:15,mp:80,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 6% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	},{
-		level:"CARD",sp:15,mp:90,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 6.5% Max HP of oneself and party members every 3 seconds." 
+		level:"CARD",sp:15,mp:90,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 6.5% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	},{
-		level:"CARD",sp:15,mp:100,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 7% Max HP of oneself and party members every 3 seconds." 
+		level:"CARD",sp:15,mp:100,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 7% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	},{
-		level:"CARD",sp:15,mp:110,power:undefined,casttime:0.2,cooltime:5,duration:30, 
-	 	description:"During skill duration, restore 7.5% Max HP of oneself and party members every 3 seconds." 
+		level:"CARD",sp:15,mp:110,power:undefined,casttime:0.2,cooltime:5,duration:30,
+		description:"ในระหว่างที่สกิลทำงาน ฟื้นฟู HP สูงสุด 7.5% ของตนเองและสมาชิกปาร์ตี้ทุกๆ 3 วินาที"
 	}]);
 
 	mage.skill[10] = new Skill("./img_p/mag/selfheal.webp","ACTIVE","<font color='#8e6aac'>Self Heal</font>","10",[7,8],[{id:9,lv:1}],[{
-		level:5,sp:15,mp:"MAXMP 10%",power:"10.0%+60",casttime:0,cooltime:4,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:5,sp:15,mp:"MAXMP 10%",power:"10.0%+60",casttime:0,cooltime:4,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:8,sp:15,mp:"MAXMP 9%",power:"14.0%+80",casttime:0,cooltime:4,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:8,sp:15,mp:"MAXMP 9%",power:"14.0%+80",casttime:0,cooltime:4,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:11,sp:15,mp:"MAXMP 8%",power:"18.0%+100",casttime:0,cooltime:4,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:11,sp:15,mp:"MAXMP 8%",power:"18.0%+100",casttime:0,cooltime:4,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:14,sp:15,mp:"MAXMP 7%",power:"22.0%+120",casttime:0,cooltime:4,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:14,sp:15,mp:"MAXMP 7%",power:"22.0%+120",casttime:0,cooltime:4,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:17,sp:15,mp:"MAXMP 6%",power:"26.0%+140",casttime:0,cooltime:4,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:17,sp:15,mp:"MAXMP 6%",power:"26.0%+140",casttime:0,cooltime:4,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 5%",power:"30.0%+160",casttime:0,cooltime:6,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:"CARD",sp:15,mp:"MAXMP 5%",power:"30.0%+160",casttime:0,cooltime:6,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 5%",power:"33.0%+180",casttime:0,cooltime:8,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:"CARD",sp:15,mp:"MAXMP 5%",power:"33.0%+180",casttime:0,cooltime:8,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 4%",power:"36.0%+200",casttime:0,cooltime:10,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:"CARD",sp:15,mp:"MAXMP 4%",power:"36.0%+200",casttime:0,cooltime:10,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 4%",power:"39.0%+220",casttime:0,cooltime:12,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:"CARD",sp:15,mp:"MAXMP 4%",power:"39.0%+220",casttime:0,cooltime:12,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 3%",power:"42.0%+240",casttime:0,cooltime:14,duration:1, 
-	 	description:"By using 3% of mana, certain ratio of magin attack will convert to heal amount and applied to oneself."
+		level:"CARD",sp:15,mp:"MAXMP 3%",power:"42.0%+240",casttime:0,cooltime:14,duration:1,
+		description:"ใช้มานา 3% เพื่อแปลงพลังโจมตีเวทมนตร์จำนวนหนึ่งเป็นปริมาณการรักษาและนำไปใช้กับตนเอง"
 	}]);
 
 	mage.skill[11] = new Skill("./img_p/mag/magicenhance.webp","PASSIVE","<font color='#8e6aac'>Magic Enhancement</font>","10",[9,2],[{id:8,lv:1}],[{
-		level:2,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 20. "
+		level:2,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 20"
 	},{
-		level:6,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 40. "
+		level:6,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 40"
 	},{
-		level:10,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 60. "
+		level:10,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 60"
 	},{
-		level:14,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 80. "
+		level:14,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 80"
 	},{
-		level:18,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 100. "
+		level:18,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 100"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 120. "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 120"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 140. "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 140"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 160. "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 160"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 180. "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 180"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Permanently increases Magic Attack 200. "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มพลังโจมตีเวทมนตร์ถาวร 200"
 	}]);
 
 	mage.skill[12] = new Skill("./img_p/mag/concentration.webp","ACTIVE","<font color='#8e6aac'>Focus</font>","10",[9,4],[{id:11,lv:1}],[{
-		level:3,sp:15,mp:200,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT by 4 and Magic Attack by 8%"
+		level:3,sp:15,mp:200,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT 4 และพลังโจมตีเวทมนตร์ 8%"
 	},{
-		level:7,sp:15,mp:230,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT by 8 and Magic Attack by 12%"
+		level:7,sp:15,mp:230,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT 8 และพลังโจมตีเวทมนตร์ 12%"
 	},{
-		level:11,sp:15,mp:260,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT by 12 and Magic Attack by 16%"
+		level:11,sp:15,mp:260,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT 12 และพลังโจมตีเวทมนตร์ 16%"
 	},{
-		level:15,sp:15,mp:290,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT by 16 and Magic Attack by 20%"
+		level:15,sp:15,mp:290,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT 16 และพลังโจมตีเวทมนตร์ 20%"
 	},{
-		level:19,sp:15,mp:320,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT by 20 and Magic Attack by 24%"
+		level:19,sp:15,mp:320,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT 20 และพลังโจมตีเวทมนตร์ 24%"
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT and Magic Attack "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT และพลังโจมตีเวทมนตร์ 26%"
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT and Magic Attack "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT และพลังโจมตีเวทมนตร์ 28%"
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT and Magic Attack "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT และพลังโจมตีเวทมนตร์ 30%"
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT and Magic Attack "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT และพลังโจมตีเวทมนตร์ 32%"
 	},{
-		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900, 
-	 	description:"Turns your head into a cat's to increase INT and Magic Attack "
+		level:"CARD",sp:15,mp:undefined,power:undefined,casttime:0,cooltime:30,duration:900,
+		description:"เปลี่ยนหัวของคุณให้เป็นหัวแมวเพื่อเพิ่ม INT และพลังโจมตีเวทมนตร์ 34%"
 	}]);
 	
 	mage.skill[13] = new Skill("./img_p/mag/MagiciansWisdom.webp","ACTIVE","<font color='#8e6aac'>Magician's Wisdom</font>","1",[5,10],[],[{
 		level:7,sp:5,mp:30,power:undefined,casttime:0,cooltime:3,duration:600,
-		description:"Increases the whole party's MP Regeneration by 20% "
+		description:"เพิ่มการฟื้นฟู MP ของทั้งปาร์ตี้ 20%"
 	}]);
 	
 //Mage - Monk - Priest - Invoker
@@ -2024,337 +2024,337 @@
 	};
 
 	acolyte.skill[0] = new Skill("./img_p/mon/multilightning.webp","PASSIVE","<font color='#8e6aac'>Multi-Lightning</font>","1",[2,0],[{id:101,lv:3}],[{
-		level:20,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"	Increases number of bolts fired by Air Combo to 3. "
+		level:20,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มจำนวนสายฟ้าที่ยิงโดย Air Combo เป็น 3"
 	}]);
 
 	acolyte.skill[1] = new Skill("./img_p/mon/castingaccera.webp","ACTIVE","<font color='#8e6aac'>Casting Acceleration</font>","5",[2,6],[],[{
-		level:26,sp:20,mp:60,power:undefined,casttime:0.6,cooltime:200,duration:140, 
-	 	description:"Cast a buff on everyone around the caster that decreases casting time by 0.1 second."
+		level:26,sp:20,mp:60,power:undefined,casttime:0.6,cooltime:200,duration:140,
+		description:"ร่ายบัฟใส่ทุกคนรอบตัวผู้ร่ายที่ลดระยะเวลาร่ายลง 0.1 วินาที"
 	},{
-		level:29,sp:20,mp:75,power:undefined,casttime:0.6,cooltime:200,duration:150, 
-	 	description:"Cast a buff on everyone around the caster that decreases casting time by 0.2 second."
+		level:29,sp:20,mp:75,power:undefined,casttime:0.6,cooltime:200,duration:150,
+		description:"ร่ายบัฟใส่ทุกคนรอบตัวผู้ร่ายที่ลดระยะเวลาร่ายลง 0.2 วินาที"
 	},{
-		level:32,sp:20,mp:90,power:undefined,casttime:0.6,cooltime:200,duration:160, 
-	 	description:"Cast a buff on everyone around the caster that decreases casting time by 0.3 second."
+		level:32,sp:20,mp:90,power:undefined,casttime:0.6,cooltime:200,duration:160,
+		description:"ร่ายบัฟใส่ทุกคนรอบตัวผู้ร่ายที่ลดระยะเวลาร่ายลง 0.3 วินาที"
 	},{
-		level:35,sp:20,mp:105,power:undefined,casttime:0.6,cooltime:200,duration:170, 
-	 	description:"Cast a buff on everyone around the caster that decreases casting time by 0.4 second."
+		level:35,sp:20,mp:105,power:undefined,casttime:0.6,cooltime:200,duration:170,
+		description:"ร่ายบัฟใส่ทุกคนรอบตัวผู้ร่ายที่ลดระยะเวลาร่ายลง 0.4 วินาที"
 	},{
-		level:38,sp:20,mp:1200,power:undefined,casttime:0.6,cooltime:200,duration:180, 
-	 	description:"Cast a buff on everyone around the caster that decreases casting time by 0.5 second."
+		level:38,sp:20,mp:1200,power:undefined,casttime:0.6,cooltime:200,duration:180,
+		description:"ร่ายบัฟใส่ทุกคนรอบตัวผู้ร่ายที่ลดระยะเวลาร่ายลง 0.5 วินาที"
 	}]);
 
 	acolyte.skill[2] = new Skill("./img_p/mon/difusioncannon.webp","ACTIVE","<font color='#8e6aac'>Diffusion Cannon</font>","10",[4,0],[],[{
-		level:20,sp:20,mp:400,power:"70.0%+10",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 70% of magic attack + 10 magic attack. This skill can not be used with Double Shot."
+		level:20,sp:20,mp:400,power:"70.0%+10",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 70% + พลังโจมตีเวทมนตร์ 10 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:23,sp:20,mp:450,power:"72.0%+20",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 72% of magic attack + 20 magic attack. This skill can not be used with Double Shot."
+		level:23,sp:20,mp:450,power:"72.0%+20",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 72% + พลังโจมตีเวทมนตร์ 20 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:26,sp:20,mp:500,power:"74.0%+30",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 74% of magic attack + 30 magic attack. This skill can not be used with Double Shot."
+		level:26,sp:20,mp:500,power:"74.0%+30",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 74% + พลังโจมตีเวทมนตร์ 30 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:29,sp:20,mp:550,power:"76.0%+40",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 76% of magic attack + 40 magic attack. This skill can not be used with Double Shot."
+		level:29,sp:20,mp:550,power:"76.0%+40",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 76% + พลังโจมตีเวทมนตร์ 40 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:32,sp:20,mp:600,power:"78.0%+50",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 78% of magic attack + 50 magic attack. This skill can not be used with Double Shot."
+		level:32,sp:20,mp:600,power:"78.0%+50",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 78% + พลังโจมตีเวทมนตร์ 50 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:"CARD",sp:20,mp:650,power:"78.0%+60",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 78% of magic attack + 60 magic attack. This skill can not be used with Double Shot."
+		level:"CARD",sp:20,mp:650,power:"78.0%+60",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 78% + พลังโจมตีเวทมนตร์ 60 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:"CARD",sp:20,mp:700,power:"78.0%+70",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 78% of magic attack + 70 magic attack. This skill can not be used with Double Shot."
+		level:"CARD",sp:20,mp:700,power:"78.0%+70",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 78% + พลังโจมตีเวทมนตร์ 70 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:"CARD",sp:20,mp:750,power:"78.0%+80",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 78% of magic attack + 80 magic attack. This skill can not be used with Double Shot."
+		level:"CARD",sp:20,mp:750,power:"78.0%+80",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 78% + พลังโจมตีเวทมนตร์ 80 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:"CARD",sp:20,mp:800,power:"78.0%+90",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 78% of magic attack + 90 magic attack. This skill can not be used with Double Shot."
+		level:"CARD",sp:20,mp:800,power:"78.0%+90",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 78% + พลังโจมตีเวทมนตร์ 90 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	},{
-		level:"CARD",sp:20,mp:850,power:"78.0%+100",casttime:1,cooltime:10,duration:900, 
-	 	description:"During normal attack, it fires 3 magic ball with 78% of magic attack + 100 magic attack. This skill can not be used with Double Shot."
+		level:"CARD",sp:20,mp:850,power:"78.0%+100",casttime:1,cooltime:10,duration:900,
+		description:"ในระหว่างการโจมตีปกติ จะยิงลูกบอลเวทมนตร์ 3 ลูกด้วยพลังโจมตีเวทมนตร์ 78% + พลังโจมตีเวทมนตร์ 100 สกิลนี้ไม่สามารถใช้ร่วมกับ Double Shot ได้"
 	}]);
 
 	acolyte.skill[3] = new Skill("./img_p/mon/lightningstrike.webp","ACTIVE","<font color='#8e6aac'>Lightning Strike</font>","10",[4,4],[{id:2,lv:2}],[{
-		level:26,sp:15,mp:20,power:"75.0%+100",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:26,sp:15,mp:20,power:"75.0%+100",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:29,sp:15,mp:24,power:"90.0%+200",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:29,sp:15,mp:24,power:"90.0%+200",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:32,sp:15,mp:28,power:"105.0%+300",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:32,sp:15,mp:28,power:"105.0%+300",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:35,sp:15,mp:32,power:"125.0%+400",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:35,sp:15,mp:32,power:"125.0%+400",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:38,sp:15,mp:36,power:"140.0%+600",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:38,sp:15,mp:36,power:"140.0%+600",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:"CARD",sp:15,mp:50,power:"155.0%+800",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:"CARD",sp:15,mp:50,power:"155.0%+800",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:"CARD",sp:15,mp:55,power:"170.0%+1000",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:"CARD",sp:15,mp:55,power:"170.0%+1000",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:"CARD",sp:15,mp:60,power:"185.0%+1200",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:"CARD",sp:15,mp:60,power:"185.0%+1200",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:"CARD",sp:15,mp:65,power:"215.0%+1600 ",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:"CARD",sp:15,mp:65,power:"215.0%+1600 ",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	},{
-		level:"CARD",sp:15,mp:25,power:"260.0%+2200",casttime:0,cooltime:4,duration:undefined, 
-	 	description:"Charge and knock down enemies in front of you with a high voltage attack. "
+		level:"CARD",sp:15,mp:25,power:"260.0%+2200",casttime:0,cooltime:4,duration:undefined,
+		description:"พุ่งเข้าชาร์จและโจมตีศัตรูที่อยู่ข้างหน้าด้วยการโจมตีไฟฟ้าแรงสูงจนล้มลง"
 	}]);
 
 	acolyte.skill[4] = new Skill("./img_p/mon/rainoffire.webp","ACTIVE","<font color='#8e6aac'>Rain of Fire</font>","5",[4,6],[{id:3,lv:1}],[{
-		level:24,sp:15,mp:50,power:"180.0%+150",casttime:0,cooltime:10,duration:undefined, 
-	 	description:"Summon a rain of fire in front of you cause damage and a chance to burn. "
+		level:24,sp:15,mp:50,power:"180.0%+150",casttime:0,cooltime:10,duration:undefined,
+		description:"อัญเชิญฝนไฟเบื้องหน้าคุณ สร้างความเสียหายและมีโอกาสติดสถานะเผาไหม้"
 	},{
-		level:26,sp:15,mp:55,power:"200.0%+200",casttime:0,cooltime:9,duration:undefined, 
-	 	description:"Summon a rain of fire in front of you cause damage and a chance to burn. "
+		level:26,sp:15,mp:55,power:"200.0%+200",casttime:0,cooltime:9,duration:undefined,
+		description:"อัญเชิญฝนไฟเบื้องหน้าคุณ สร้างความเสียหายและมีโอกาสติดสถานะเผาไหม้"
 	},{
-		level:28,sp:15,mp:60,power:"220.0%+250",casttime:0,cooltime:8,duration:undefined, 
-	 	description:"Summon a rain of fire in front of you cause damage and a chance to burn. "
+		level:28,sp:15,mp:60,power:"220.0%+250",casttime:0,cooltime:8,duration:undefined,
+		description:"อัญเชิญฝนไฟเบื้องหน้าคุณ สร้างความเสียหายและมีโอกาสติดสถานะเผาไหม้"
 	},{
-		level:30,sp:15,mp:65,power:"240.0%+300",casttime:0,cooltime:7,duration:undefined, 
-	 	description:"Summon a rain of fire in front of you cause damage and a chance to burn. "
+		level:30,sp:15,mp:65,power:"240.0%+300",casttime:0,cooltime:7,duration:undefined,
+		description:"อัญเชิญฝนไฟเบื้องหน้าคุณ สร้างความเสียหายและมีโอกาสติดสถานะเผาไหม้"
 	},{
-		level:32,sp:15,mp:70,power:"260.0%+350",casttime:0,cooltime:6,duration:undefined, 
-	 	description:"Summon a rain of fire in front of you cause damage and a chance to burn. "
+		level:32,sp:15,mp:70,power:"260.0%+350",casttime:0,cooltime:6,duration:undefined,
+		description:"อัญเชิญฝนไฟเบื้องหน้าคุณ สร้างความเสียหายและมีโอกาสติดสถานะเผาไหม้"
 	}]);
 
 	acolyte.skill[5] = new Skill("./img_p/mon/meteorrush.webp","PASSIVE","<font color='#8e6aac'>Meteor Rush</font>","1",[6,0],[{id:102,lv:3}],[{
-		level:20,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Passive skill that increases projectile of Meteor Fall skill to 3 times more. Once skill is obtained, 3 meteors will strike upon enemy. Can be learned only when Meteor Fall skill level is Lv.3 or higher. "
+		level:20,sp:15,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"สกิลติดตัวที่เพิ่มจำนวนกระสุนของสกิล Meteor Fall เป็น 3 เท่า เมื่อได้รับสกิลแล้ว อุกกาบาต 3 ลูกจะโจมตีศัตรู สามารถเรียนรู้ได้เมื่อสกิล Meteor Fall มีเลเวล 3 ขึ้นไปเท่านั้น"
 	}]);
 
 	acolyte.skill[6] = new Skill("./img_p/mon/ditection_aco.webp","ACTIVE","<font color='#8e6aac'>Detection</font>","5",[6,2],[],[{
-		level:21,sp:5,mp:5,power:undefined,casttime:0,cooltime:5,duration:12, 
-	 	description:"Decrease magic defense of up to 5 enemies in the range by 20%. Affected enemies cannot use Hide skill for 12 seconds."
+		level:21,sp:5,mp:5,power:undefined,casttime:0,cooltime:5,duration:12,
+		description:"ลดพลังป้องกันเวทมนตร์ของศัตรูสูงสุด 5 ตัวในระยะ 20% ศัตรูที่ได้รับผลกระทบไม่สามารถใช้สกิลซ่อนตัวได้เป็นเวลา 12 วินาที"
 	},{
-		level:24,sp:5,mp:10,power:undefined,casttime:0,cooltime:5,duration:12, 
-	 	description:"Decrease magic defense of up to 5 enemies in the range by 40%. Affected enemies cannot use Hide skill for 12 seconds."
+		level:24,sp:5,mp:10,power:undefined,casttime:0,cooltime:5,duration:12,
+		description:"ลดพลังป้องกันเวทมนตร์ของศัตรูสูงสุด 5 ตัวในระยะ 40% ศัตรูที่ได้รับผลกระทบไม่สามารถใช้สกิลซ่อนตัวได้เป็นเวลา 12 วินาที"
 	},{
-		level:27,sp:5,mp:15,power:undefined,casttime:0,cooltime:5,duration:12, 
-	 	description:"Decrease magic defense of up to 5 enemies in the range by 60%. Affected enemies cannot use Hide skill for 12 seconds."
+		level:27,sp:5,mp:15,power:undefined,casttime:0,cooltime:5,duration:12,
+		description:"ลดพลังป้องกันเวทมนตร์ของศัตรูสูงสุด 5 ตัวในระยะ 60% ศัตรูที่ได้รับผลกระทบไม่สามารถใช้สกิลซ่อนตัวได้เป็นเวลา 12 วินาที"
 	},{
-		level:30,sp:5,mp:20,power:undefined,casttime:0,cooltime:5,duration:12, 
-	 	description:"Decrease magic defense of up to 5 enemies in the range by 80%. Affected enemies cannot use Hide skill for 12 seconds."
+		level:30,sp:5,mp:20,power:undefined,casttime:0,cooltime:5,duration:12,
+		description:"ลดพลังป้องกันเวทมนตร์ของศัตรูสูงสุด 5 ตัวในระยะ 80% ศัตรูที่ได้รับผลกระทบไม่สามารถใช้สกิลซ่อนตัวได้เป็นเวลา 12 วินาที"
 	},{
-		level:33,sp:5,mp:25,power:undefined,casttime:0,cooltime:5,duration:12, 
-	 	description:"Decrease magic defense of up to 5 enemies in the range by 100%. Affected enemies cannot use Hide skill for 12 seconds."
+		level:33,sp:5,mp:25,power:undefined,casttime:0,cooltime:5,duration:12,
+		description:"ลดพลังป้องกันเวทมนตร์ของศัตรูสูงสุด 5 ตัวในระยะ 100% ศัตรูที่ได้รับผลกระทบไม่สามารถใช้สกิลซ่อนตัวได้เป็นเวลา 12 วินาที"
 	}]);
 
 	acolyte.skill[7] = new Skill("./img_p/mon/barbarian.webp","ACTIVE","<font color='#8e6aac'>Barbarian</font>","10",[6,4],[{id:6,lv:1}],[{
-		level:22,sp:15,mp:20,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 15% chances."
+		level:22,sp:15,mp:20,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 15%"
 	},{
-		level:25,sp:15,mp:30,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 20% chances."
+		level:25,sp:15,mp:30,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 20%"
 	},{
-		level:28,sp:15,mp:40,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 25% chances."
+		level:28,sp:15,mp:40,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 25%"
 	},{
-		level:31,sp:15,mp:50,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 30% chances."
+		level:31,sp:15,mp:50,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 30%"
 	},{
-		level:34,sp:15,mp:60,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 35% chances."
+		level:34,sp:15,mp:60,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 35%"
 	},{
-		level:"CARD",sp:15,mp:70,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 40% chances."
+		level:"CARD",sp:15,mp:70,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 40%"
 	},{
-		level:"CARD",sp:15,mp:80,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 43% chances."
+		level:"CARD",sp:15,mp:80,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 43%"
 	},{
-		level:"CARD",sp:15,mp:90,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 46% chances."
+		level:"CARD",sp:15,mp:90,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 46%"
 	},{
-		level:"CARD",sp:15,mp:100,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 49% chances."
+		level:"CARD",sp:15,mp:100,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 49%"
 	},{
-		level:"CARD",sp:15,mp:110,power:undefined,casttime:0,cooltime:6,duration:4, 
-	 	description:"Instantly freeze up to 5 enemies for 4 seconds with 55% chances."
+		level:"CARD",sp:15,mp:110,power:undefined,casttime:0,cooltime:6,duration:4,
+		description:"ตรึงศัตรูสูงสุด 5 ตัวให้เป็นน้ำแข็งทันทีเป็นเวลา 4 วินาที ด้วยโอกาส 55%"
 	}]);
 
 	acolyte.skill[8] = new Skill("./img_p/mon/witchcurse.webp","ACTIVE","<font color='#8e6aac'>Witch's Curse</font>","5",[6,6],[{id:7,lv:2}],[{
-		level:27,sp:20,mp:30,power:undefined,casttime:0,cooltime:7,duration:4, 
-	 	description:"Turn up to 5 enemies into frogs for 4 seconds with 15% chances. Frogs can still move around but cannot use skill or attack. Frog effect breaks when attacked."
+		level:27,sp:20,mp:30,power:undefined,casttime:0,cooltime:7,duration:4,
+		description:"เปลี่ยนศัตรูสูงสุด 5 ตัวให้เป็นกบเป็นเวลา 4 วินาที ด้วยโอกาส 15% กบยังคงเคลื่อนที่ไปมาได้แต่ไม่สามารถใช้สกิลหรือโจมตีได้ ผลของกบจะสิ้นสุดลงเมื่อถูกโจมตี"
 	},{
-		level:30,sp:20,mp:33,power:undefined,casttime:0,cooltime:10,duration:7, 
-	 	description:"Turn up to 5 enemies into frogs for 7 seconds with 25% chances. Frogs can still move around but cannot use skill or attack. Frog effect breaks when attacked."
+		level:30,sp:20,mp:33,power:undefined,casttime:0,cooltime:10,duration:7,
+		description:"เปลี่ยนศัตรูสูงสุด 5 ตัวให้เป็นกบเป็นเวลา 7 วินาที ด้วยโอกาส 25% กบยังคงเคลื่อนที่ไปมาได้แต่ไม่สามารถใช้สกิลหรือโจมตีได้ ผลของกบจะสิ้นสุดลงเมื่อถูกโจมตี"
 	},{
-		level:33,sp:20,mp:36,power:undefined,casttime:0,cooltime:13,duration:10, 
-	 	description:"Turn up to 5 enemies into frogs for 10 seconds with 35% chances. Frogs can still move around but cannot use skill or attack. Frog effect breaks when attacked."
+		level:33,sp:20,mp:36,power:undefined,casttime:0,cooltime:13,duration:10,
+		description:"เปลี่ยนศัตรูสูงสุด 5 ตัวให้เป็นกบเป็นเวลา 10 วินาที ด้วยโอกาส 35% กบยังคงเคลื่อนที่ไปมาได้แต่ไม่สามารถใช้สกิลหรือโจมตีได้ ผลของกบจะสิ้นสุดลงเมื่อถูกโจมตี"
 	},{
-		level:36,sp:20,mp:39,power:undefined,casttime:0,cooltime:16,duration:13, 
-	 	description:"Turn up to 5 enemies into frogs for 13 seconds with 45% chances. Frogs can still move around but cannot use skill or attack. Frog effect breaks when attacked."
+		level:36,sp:20,mp:39,power:undefined,casttime:0,cooltime:16,duration:13,
+		description:"เปลี่ยนศัตรูสูงสุด 5 ตัวให้เป็นกบเป็นเวลา 13 วินาที ด้วยโอกาส 45% กบยังคงเคลื่อนที่ไปมาได้แต่ไม่สามารถใช้สกิลหรือโจมตีได้ ผลของกบจะสิ้นสุดลงเมื่อถูกโจมตี"
 	},{
-		level:39,sp:20,mp:42,power:undefined,casttime:0,cooltime:20,duration:16, 
-	 	description:"Turn up to 5 enemies into frogs for 16 seconds with 55% chances. Frogs can still move around but cannot use skill or attack. Frog effect breaks when attacked."
+		level:39,sp:20,mp:42,power:undefined,casttime:0,cooltime:20,duration:16,
+		description:"เปลี่ยนศัตรูสูงสุด 5 ตัวให้เป็นกบเป็นเวลา 16 วินาที ด้วยโอกาส 55% กบยังคงเคลื่อนที่ไปมาได้แต่ไม่สามารถใช้สกิลหรือโจมตีได้ ผลของกบจะสิ้นสุดลงเมื่อถูกโจมตี"
 	}]);
 
 	acolyte.skill[9] = new Skill("./img_p/mon/mpinc.webp","PASSIVE","<font color='#8e6aac'>HP Recovery Increase</font>","10",[8,0],[],[{
-		level:20,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 10 "
+		level:20,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 10"
 	},{
-		level:24,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 15 "
+		level:24,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 15"
 	},{
-		level:28,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 20 "
+		level:28,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 20"
 	},{
-		level:32,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 25 "
+		level:32,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 25"
 	},{
-		level:36,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 30 "
+		level:36,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 30"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 35 "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 35"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 40 "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 40"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 45 "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 45"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 50 "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 50"
 	},{
-		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined, 
-	 	description:"Increases MP Recovery rate by 55 "
+		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
+		description:"เพิ่มอัตราการฟื้นฟู MP 55"
 	}]);
 
 	acolyte.skill[10] = new Skill("./img_p/mon/wideheal.webp","ACTIVE","<font color='#8e6aac'>Wide Heal</font>","10",[8,2],[{id:9,lv:1}],[{
-		level:23,sp:15,mp:50,power:undefined,casttime:1.5,cooltime:6,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 50% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:23,sp:15,mp:50,power:undefined,casttime:1.5,cooltime:6,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 50% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:26,sp:15,mp:55,power:undefined,casttime:1.3,cooltime:12,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 55% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:26,sp:15,mp:55,power:undefined,casttime:1.3,cooltime:12,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 55% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:29,sp:15,mp:60,power:undefined,casttime:1.1,cooltime:18,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 60% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:29,sp:15,mp:60,power:undefined,casttime:1.1,cooltime:18,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 60% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:32,sp:15,mp:65,power:undefined,casttime:0.9,cooltime:24,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 65% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:32,sp:15,mp:65,power:undefined,casttime:0.9,cooltime:24,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 65% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:35,sp:15,mp:70,power:undefined,casttime:0.7,cooltime:30,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 70% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:35,sp:15,mp:70,power:undefined,casttime:0.7,cooltime:30,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 70% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:"CARD",sp:15,mp:75,power:undefined,casttime:0.7,cooltime:36,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 75% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:"CARD",sp:15,mp:75,power:undefined,casttime:0.7,cooltime:36,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 75% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:"CARD",sp:15,mp:80,power:undefined,casttime:0.7,cooltime:42,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 80% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:"CARD",sp:15,mp:80,power:undefined,casttime:0.7,cooltime:42,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 80% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:"CARD",sp:15,mp:85,power:undefined,casttime:0.7,cooltime:48,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 85% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:"CARD",sp:15,mp:85,power:undefined,casttime:0.7,cooltime:48,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 85% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:"CARD",sp:15,mp:90,power:undefined,casttime:0.7,cooltime:54,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 90% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:"CARD",sp:15,mp:90,power:undefined,casttime:0.7,cooltime:54,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 90% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	},{
-		level:"CARD",sp:15,mp:95,power:undefined,casttime:0.7,cooltime:60,duration:undefined, 
-	 	description:"Recover all party members in range with HP Heal amount of 95% of caster\'s Magical Attack Power. Recovery amount increased upon caster\'s Max. HP. The higher the skill level, the less the casting time."
+		level:"CARD",sp:15,mp:95,power:undefined,casttime:0.7,cooltime:60,duration:undefined,
+		description:"ฟื้นฟู HP ให้สมาชิกปาร์ตี้ทั้งหมดในระยะด้วยปริมาณการฮีลเท่ากับ 95% ของพลังโจมตีเวทมนตร์ของผู้ร่าย ปริมาณการฟื้นฟูเพิ่มขึ้นตาม HP สูงสุดของผู้ร่าย ยิ่งระดับสกิลสูง ระยะเวลาร่ายยิ่งลดลง"
 	}]);
 
 	acolyte.skill[11] = new Skill("./img_p/mon/sanctuary.webp","ACTIVE","<font color='#8e6aac'>Sanctuary</font>","10",[8,4],[{id:10,lv:1}],[{
-		level:25,sp:25,mp:60,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 200 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:25,sp:25,mp:60,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 200 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:28,sp:25,mp:80,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 400 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:28,sp:25,mp:80,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 400 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:31,sp:25,mp:100,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 600 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:31,sp:25,mp:100,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 600 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:34,sp:25,mp:120,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 800 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:34,sp:25,mp:120,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 800 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:37,sp:25,mp:140,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 1000 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:37,sp:25,mp:140,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 1000 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:"CARD",sp:25,mp:160,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 1200 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:"CARD",sp:25,mp:160,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 1200 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:"CARD",sp:25,mp:180,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 1400 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:"CARD",sp:25,mp:180,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 1400 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:"CARD",sp:25,mp:200,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 1600 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:"CARD",sp:25,mp:200,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 1600 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:"CARD",sp:25,mp:220,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 1800 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:"CARD",sp:25,mp:220,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 1800 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	},{
-		level:"CARD",sp:25,mp:240,power:undefined,casttime:1,cooltime:60,duration:undefined, 
-	 	description:"Set up a regeneration pool that heals all party members within the range, including its caster, 2000 HP for every  2 seconds. The Pool stays up to 40 seconds but it will disappear after healing 10 times."
+		level:"CARD",sp:25,mp:240,power:undefined,casttime:1,cooltime:60,duration:undefined,
+		description:"สร้างบ่อน้ำแห่งการฟื้นฟูที่รักษา HP ให้กับสมาชิกปาร์ตี้ทั้งหมดในระยะ รวมถึงผู้ร่ายด้วย 2000 HP ทุกๆ 2 วินาที บ่อน้ำจะคงอยู่ได้นานถึง 40 วินาที แต่จะหายไปหลังจากฮีลครบ 10 ครั้ง"
 	}]);
 
 	acolyte.skill[12] = new Skill("./img_p/mon/instantheal.webp","ACTIVE","<font color='#8e6aac'>Instant Heal</font>","10",[9,6],[{id:10,lv:1}],[{
-		level:26,sp:20,mp:60,power:undefined,casttime:0,cooltime:6,duration:undefined, 
-	 	description:"Instantly heal 30% max HP to self and party members within range. "
+		level:26,sp:20,mp:60,power:undefined,casttime:0,cooltime:6,duration:undefined,
+		description:"ฮีล HP สูงสุด 30% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:29,sp:20,mp:70,power:undefined,casttime:0,cooltime:12,duration:undefined, 
-	 	description:"Instantly heal 35% max HP to self and party members within range. "
+		level:29,sp:20,mp:70,power:undefined,casttime:0,cooltime:12,duration:undefined,
+		description:"ฮีล HP สูงสุด 35% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:32,sp:20,mp:80,power:undefined,casttime:0,cooltime:18,duration:undefined, 
-	 	description:"Instantly heal 40% max HP to self and party members within range. "
+		level:32,sp:20,mp:80,power:undefined,casttime:0,cooltime:18,duration:undefined,
+		description:"ฮีล HP สูงสุด 40% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:35,sp:20,mp:90,power:undefined,casttime:0,cooltime:24,duration:undefined, 
-	 	description:"Instantly heal 45% max HP to self and party members within range. "
+		level:35,sp:20,mp:90,power:undefined,casttime:0,cooltime:24,duration:undefined,
+		description:"ฮีล HP สูงสุด 45% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:38,sp:20,mp:100,power:undefined,casttime:0,cooltime:30,duration:undefined, 
-	 	description:"Instantly heal 50% max HP to self and party members within range. "
+		level:38,sp:20,mp:100,power:undefined,casttime:0,cooltime:30,duration:undefined,
+		description:"ฮีล HP สูงสุด 50% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:"CARD",sp:20,mp:110,power:undefined,casttime:0,cooltime:36,duration:undefined, 
-	 	description:"Instantly heal 55% max HP to self and party members within range. "
+		level:"CARD",sp:20,mp:110,power:undefined,casttime:0,cooltime:36,duration:undefined,
+		description:"ฮีล HP สูงสุด 55% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:"CARD",sp:20,mp:120,power:undefined,casttime:0,cooltime:42,duration:undefined, 
-	 	description:"Instantly heal 60% max HP to self and party members within range. "
+		level:"CARD",sp:20,mp:120,power:undefined,casttime:0,cooltime:42,duration:undefined,
+		description:"ฮีล HP สูงสุด 60% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:"CARD",sp:20,mp:130,power:undefined,casttime:0,cooltime:48,duration:undefined, 
-	 	description:"Instantly heal 65% max HP to self and party members within range. "
+		level:"CARD",sp:20,mp:130,power:undefined,casttime:0,cooltime:48,duration:undefined,
+		description:"ฮีล HP สูงสุด 65% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:"CARD",sp:20,mp:140,power:undefined,casttime:0,cooltime:54,duration:undefined, 
-	 	description:"Instantly heal 70% max HP to self and party members within range. "
+		level:"CARD",sp:20,mp:140,power:undefined,casttime:0,cooltime:54,duration:undefined,
+		description:"ฮีล HP สูงสุด 70% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	},{
-		level:"CARD",sp:20,mp:150,power:undefined,casttime:0,cooltime:60,duration:undefined, 
-	 	description:"Instantly heal 75% max HP to self and party members within range. "
+		level:"CARD",sp:20,mp:150,power:undefined,casttime:0,cooltime:60,duration:undefined,
+		description:"ฮีล HP สูงสุด 75% ให้กับตัวเองและสมาชิกปาร์ตี้ในระยะทันที"
 	}]);
 
 	acolyte.skill[13] = new Skill("./img_p/mon/resurrection.webp","ACTIVE","<font color='#8e6aac'>Resurrection</font>","10",[8,8],[{id:11,lv:1},{id:12,lv:1}],[{
-		level:28,sp:15,mp:"MAXMP 60%",power:undefined,casttime:1.5,cooltime:90,duration:undefined, 
-	 	description:"Revive 1 character died nearby the caster with 10% of HP and MP. If more than 10% of MP were remaining, the character is revived with the remaining stat. The higher the skill level, lessen the casting time and mana. "
+		level:28,sp:15,mp:"MAXMP 60%",power:undefined,casttime:1.5,cooltime:90,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 1 ตัวด้วย HP และ MP 10% หากมี MP เหลือมากกว่า 10% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่ ยิ่งระดับสกิลสูง ระยะเวลาร่ายและมานาที่ใช้ยิ่งน้อยลง"
 	},{
-		level:31,sp:15,mp:"MAXMP 50%",power:undefined,casttime:1.2,cooltime:75,duration:undefined, 
-	 	description:"Revive 2 characters died nearby the caster with 20% of HP and MP. If more than 20% of MP were remaining, the character is revived with the remaining stat. The higher the skill level, the less the casting is and less mana. "
+		level:31,sp:15,mp:"MAXMP 50%",power:undefined,casttime:1.2,cooltime:75,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 2 ตัวด้วย HP และ MP 20% หากมี MP เหลือมากกว่า 20% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่ ยิ่งระดับสกิลสูง ระยะเวลาร่ายและมานาที่ใช้ยิ่งน้อยลง"
 	},{
-		level:34,sp:15,mp:"MAXMP 40%",power:undefined,casttime:0.9,cooltime:60,duration:undefined, 
-	 	description:"Revive 2 characters died nearby the caster with 20% of HP and MP. If more than 20% of MP were remaining, the character is revived with the remaining stat. The higher the skill level, the less the casting is and less mana. "
+		level:34,sp:15,mp:"MAXMP 40%",power:undefined,casttime:0.9,cooltime:60,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 2 ตัวด้วย HP และ MP 20% หากมี MP เหลือมากกว่า 20% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่ ยิ่งระดับสกิลสูง ระยะเวลาร่ายและมานาที่ใช้ยิ่งน้อยลง"
 	},{
-		level:37,sp:15,mp:"MAXMP 30%",power:undefined,casttime:0.6,cooltime:45,duration:undefined, 
-	 	description:"Revive 2 characters died nearby the caster with 20% of HP and MP. If more than 20% of MP were remaining, the character is revived with the remaining stat. The higher the skill level, the less the casting is and less mana. "
+		level:37,sp:15,mp:"MAXMP 30%",power:undefined,casttime:0.6,cooltime:45,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 2 ตัวด้วย HP และ MP 20% หากมี MP เหลือมากกว่า 20% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่ ยิ่งระดับสกิลสูง ระยะเวลาร่ายและมานาที่ใช้ยิ่งน้อยลง"
 	},{
-		level:40,sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined, 
-	 	description:"Revive 5 characters died nearby the caster with 50% of HP and MP. If more than 50% of MP were remaining, the character is revived with the remaining stat. "
+		level:40,sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 5 ตัวด้วย HP และ MP 50% หากมี MP เหลือมากกว่า 50% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined, 
-	 	description:"Revive 5 characters died nearby the caster with 55% of HP and MP. If more than 55% of MP were remaining, the character is revived with the remaining stat. "
+		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 5 ตัวด้วย HP และ MP 55% หากมี MP เหลือมากกว่า 55% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined, 
-	 	description:"Revive 5 characters died nearby the caster with 60% of HP and MP. If more than 60% of MP were remaining, the character is revived with the remaining stat. "
+		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 5 ตัวด้วย HP และ MP 60% หากมี MP เหลือมากกว่า 60% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined, 
-	 	description:"Revive 5 characters died nearby the caster with 65% of HP and MP. If more than 65% of MP were remaining, the character is revived with the remaining stat. "
+		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 5 ตัวด้วย HP และ MP 65% หากมี MP เหลือมากกว่า 65% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined, 
-	 	description:"Revive 5 characters died nearby the caster with 70% of HP and MP. If more than 70% of MP were remaining, the character is revived with the remaining stat. "
+		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 5 ตัวด้วย HP และ MP 70% หากมี MP เหลือมากกว่า 70% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่"
 	},{
-		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined, 
-	 	description:"Revive 5 characters died nearby the caster with 75% of HP and MP. If more than 75% of MP were remaining, the character is revived with the remaining stat. "
+		level:"CARD",sp:15,mp:"MAXMP 20%",power:undefined,casttime:0.3,cooltime:40,duration:undefined,
+		description:"ชุบชีวิตตัวละครที่เสียชีวิตในบริเวณใกล้เคียง 5 ตัวด้วย HP และ MP 75% หากมี MP เหลือมากกว่า 75% ตัวละครจะถูกชุบชีวิตด้วยค่าสถานะที่เหลืออยู่"
 	}]);
 	
 //Mage - Monk - Priest - Invoker
